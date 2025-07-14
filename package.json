@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@google-analytics/data": "^5.2.0",
     "astro": "^5.11.1"
   }
 }
