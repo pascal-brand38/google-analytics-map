@@ -1,5 +1,7 @@
 import fs from 'fs'
 import geo from '../src/data/geo.json' with { type: 'json' };
+import countries from '../src/data/countries.json' with { type: 'json' };
+
 const propertyId = '1234';
 
 // Imports the Google Analytics Data API client library.
@@ -10,7 +12,7 @@ import {BetaAnalyticsDataClient} from '@google-analytics/data'
 const analyticsDataClient = new BetaAnalyticsDataClient();
 
 async function getLongLat(name) {
-  if (geo[name] && geo[name]!==0 && geo[name]!==0) {
+  if (geo[name] && geo[name].lat && geo[name].lat!==0 && geo[name].lon && geo[name].lon!==0) {
     return geo[name]
   }
 
@@ -46,7 +48,7 @@ async function runReport() {
     dateRanges: [
       {
         startDate: '2025-1-1',
-        // xstartDate: 'today',
+        // startDate: 'today',
         endDate: 'today',
       },
     ],
@@ -102,6 +104,19 @@ async function runReport() {
     data[keys[i]].lon = geo.lon
     sleep(1000)
   }
+
+  // update countries location
+  // const countriesKeys = Object.keys(countries)
+  // for (let i=0; i<countriesKeys.length; i++) {
+  //   //if (!countries[countriesKeys[i]].lat || countries[countriesKeys[i]].lat===0 || !countries[countriesKeys[i]].lon || countries[countriesKeys[i]].lon===0) {
+  //     const geo = await getLongLat(countriesKeys[i])
+  //     countries[countriesKeys[i]].lat = geo.lat
+  //     countries[countriesKeys[i]].lon = geo.lon
+  //     sleep(1000)
+  //   //}
+  // }
+  // console.log(`Writing src/data/countries.json`)
+  // fs.writeFileSync("src/data/countries.json", JSON.stringify(countries, null, 2))
 
   console.log(`Writing src/data/data.json`)
   fs.writeFileSync("src/data/data.json", JSON.stringify(data, null, 2))
