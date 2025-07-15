@@ -1,12 +1,13 @@
 ---
 import LeafLet from '../components/LeafLet.astro';
+import type {AstroLeafLetMarkerType}  from '../components/index';
 import Layout from '../layouts/Layout.astro';
 
 import data from '../data/data.json'
 
-const markers = []
+const markers: AstroLeafLetMarkerType[] = []
 Object.keys(data).forEach(key => {
-	markers.push( {lat: data[key].lat, lon: data[key].lon, title: key} )
+	markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
 })
 
 const options = {
@@ -17,9 +18,6 @@ const options = {
 <Layout>
 		<LeafLet
 			container="leafletmap"
-			latitude={30}
-			longitude={7}
-			zoom={2}
 			tileLayer="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 			attribution="&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
 			containerstyle="width: 100vw; height: 100vh"
