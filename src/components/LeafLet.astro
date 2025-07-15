@@ -1,5 +1,5 @@
 ---
-import type { number } from 'astro:schema'
+import type { number, string } from 'astro:schema'
 
 // Copyright (c) Pascal Brand
 // MIT License
@@ -19,6 +19,7 @@ export interface Props {
     markers: {
       lat: number,
       lon: number,
+      title?: string,
     }[]
   }
 }
@@ -38,7 +39,7 @@ const { options={}, latitude, longitude, zoom, container, tileLayer, attribution
 >
 <div id={container} style={containerstyle}></div>
 <script>
-  import L from "leaflet/dist/leaflet"
+  import L, { marker } from "leaflet"
   import "leaflet/dist/leaflet.css"
 
   class LeafletMap extends HTMLElement {
@@ -54,7 +55,7 @@ const { options={}, latitude, longitude, zoom, container, tileLayer, attribution
         ).addTo(map)
 
       if (options && options.markers) {
-        options.markers.forEach(marker => L.marker([marker.lat, marker.lon]).addTo(map))
+        options.markers.forEach(marker => L.marker([marker.lat, marker.lon], {title: (marker.title?'':'')}).addTo(map))
       }
 
     }
