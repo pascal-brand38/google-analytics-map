@@ -2,56 +2,45 @@
 // Copyright (c) Pascal Brand
 // MIT License
 
-import type { LatLngExpression, MarkerOptions } from 'leaflet'
-import type { AstroLeafLetMarkerType, AstroLeafLetOptionsType, AstroLeafLetType, } from './index'
+import { setDefaultProps } from './index'
+import type { AstroLeafLetType } from './index'
 
 type Props = AstroLeafLetType
 
+const enrichedProps = Astro.props
+setDefaultProps(enrichedProps)
 const {
-  options= {},
-  container,
-  tileLayer,
-  attribution,
-  containerstyle = "height: 61.8vh"
-} = Astro.props
+  options,
+  id: providedId,
+  ...props
+} = enrichedProps
 
-if (!options.center) {
-  options.center = [30, 7]
-}
-if (!options.markers) {
-  options.markers = []
-}
-if (!options.zoom) {
-  options.zoom = 2
-}
-
-
+const containerId = 'astro-leaflet-' + Math.random().toString(36).slice(2, 11)
+const id = providedId ? (`${providedId} ${containerId}`) : containerId
 ---
 
 <leaflet-map
-  data-container={container}
-  data-tiles={tileLayer}
-  data-attribution={attribution}
-  data-containerstyle={containerstyle}
+  data-container-id={containerId}
   data-options={JSON.stringify(options)}
 >
-<div id={container} style={containerstyle}></div>
+<div id={id}  {...props}></div>
 </leaflet-map>
 
 <script>
   import L from "leaflet"
   import "leaflet/dist/leaflet.css"
+  import type { AstroLeafLetOptionsType, AstroLeafLetMarkerType } from './index'
 
   class LeafletMap extends HTMLElement {
     constructor() {
       super()
-      const options = JSON.parse(this.dataset.options!)
+      const options: AstroLeafLetOptionsType = JSON.parse(this.dataset.options!)
 
-      var map = L.map(this.dataset.container).setView(options.center, options.zoom)
-      L.tileLayer(
-        this.dataset.tiles,
-        {attribution: this.dataset.attribution}
-        ).addTo(map)
+      console.log(this.dataset.containerId)
+
+      var map = L.map(this.dataset.containerId!)
+      map.setView(options.center!, options.zoom)
+      L.tileLayer(options.tileLayer!, {attribution: options.attribution}).addTo(map)
 
       if (options && options.markers) {
         options.markers.forEach((marker:AstroLeafLetMarkerType) => L.marker(marker.latlng, marker.options).addTo(map))

@@ -2,6 +2,7 @@
 // MIT License
 
 import type { LatLngExpression, MarkerOptions } from 'leaflet'
+import type { HTMLAttributes } from 'astro/types'
 
 export interface AstroLeafLetMarkerType {
   latlng: LatLngExpression,
@@ -11,17 +12,22 @@ export interface AstroLeafLetMarkerType {
 export interface AstroLeafLetOptionsType {
   center?: LatLngExpression,
   zoom?: number,
+  tileLayer?: string
+  /** Most tile servers require attribution. */
+  attribution?: string
   markers?: AstroLeafLetMarkerType[]
 }
 
-export interface AstroLeafLetType {
-  /** the DOM ID of a <div> element */
-  container: string
-  /** https://leafletjs.com/reference.html#tilelayer */
-  tileLayer: string
-  /** Most tile servers require attribution. */
-  attribution: string
-  containerstyle?: string
-
+export interface AstroLeafLetType extends HTMLAttributes<"div"> {
   options?: AstroLeafLetOptionsType
+}
+
+export function setDefaultProps(props: AstroLeafLetType) {
+  props.options = props.options || {}
+  props.options.center = props.options.center || [ 30, 7 ]
+  props.options.zoom = props.options.zoom || 2
+  props.options.tileLayer = props.options.tileLayer || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  props.options.attribution = props.options.attribution || "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
+
+  props.options.markers = props.options.markers || []
 }
