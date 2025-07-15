@@ -1,16 +1,6 @@
 import fs from 'fs'
-import analytics from './data/analytics.json' with { type: 'json' };
+import geo from '../src/data/geo.json' with { type: 'json' };
 const propertyId = '1234';
-console.log(analytics)
-
-const day = new Date(analytics.nextDate);
-console.log(day); // Apr 30 2000
-
-var nextDay = new Date(day);
-nextDay.setDate(day.getDate() + 1);
-console.log(`${day.getFullYear()}-${day.getMonth()}-${day.getDate()}`); // May 01 2000
-
-
 
 // Imports the Google Analytics Data API client library.
 import {BetaAnalyticsDataClient} from '@google-analytics/data'
@@ -20,19 +10,24 @@ import {BetaAnalyticsDataClient} from '@google-analytics/data'
 const analyticsDataClient = new BetaAnalyticsDataClient();
 
 async function getLongLat(name) {
+  if (geo[name] && geo[name]!==0 && geo[name]!==0) {
+    return geo[name]
+  }
+
   const url = `https://nominatim.openstreetmap.org/search?q=${name},&format=json`
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      console.log(`Don't know ${name}`)
+      console.log(`Can't find location of ${name}`)
       return { lat: 0, lon: 0 }
     }
 
     const json = await response.json();
-    console.log(`All right ${name}`)
-    return { lat: json[0].lat, lon: json[0].lon }
+    console.log(`${name} ==> ${json[0].lat} ${json[0].lon}`)
+    geo[name] = { lat: json[0].lat, lon: json[0].lon }
+    return geo[name]
   } catch (error) {
-    console.log(`THROW because of ${name}`)
+    console.log(`Throw an error while searching for location of ${name}`)
     return { lat: 0, lon: 0 }
   }
 }
@@ -51,6 +46,7 @@ async function runReport() {
     dateRanges: [
       {
         startDate: '2025-1-1',
+        // xstartDate: 'today',
         endDate: 'today',
       },
     ],
@@ -102,12 +98,6 @@ async function runReport() {
     }
   });
 
-  // add lat and long
-  // await Promise.all(Object.keys(data).map(async (key) => {
-  //   const geo = await getLongLat(key)
-  //   data[key].lat = geo.lat
-  //   data[key].lon = geo.lon
-  // }))
   const keys = Object.keys(data)
   for (let i=0; i<keys.length; i++) {
     const geo = await getLongLat(keys[i])
@@ -116,8 +106,13 @@ async function runReport() {
     sleep(1000)
   }
 
-  fs.writeFileSync("data.json", JSON.stringify(data, null, 2))
-
+  console.log(`Writing src/data/data.json`)
+  fs.writeFileSync("src/data/data.json", JSON.stringify(data, null, 2))
+  console.log(`Writing src/data/geo.json`)
+  fs.writeFileSync("src/data/geo.json", JSON.stringify(geo, null, 2))
+  console.log('written completed')
 }
 
-runReport();
+await runReport();
+console.log('DONE')
+process.exit(0)
