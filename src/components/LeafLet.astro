@@ -1,4 +1,6 @@
 ---
+import type { number } from 'astro:schema'
+
 // Copyright (c) Pascal Brand
 // MIT License
 
@@ -13,9 +15,15 @@ export interface Props {
   /** Most tile servers require attribution. */
   attribution: string
   containerstyle?: string
+  options: {
+    markers: {
+      lat: number,
+      lon: number,
+    }[]
+  }
 }
 
-const { latitude, longitude, zoom, container, tileLayer, attribution, containerstyle = "height: 61.8vh" } = Astro.props
+const { options={}, latitude, longitude, zoom, container, tileLayer, attribution, containerstyle = "height: 61.8vh" } = Astro.props
 ---
 
 <leaflet-map
@@ -26,6 +34,7 @@ const { latitude, longitude, zoom, container, tileLayer, attribution, containers
   data-tiles={tileLayer}
   data-attribution={attribution}
   data-containerstyle={containerstyle}
+  data-options={JSON.stringify(options)}
 >
 <div id={container} style={containerstyle}></div>
 <script>
@@ -35,7 +44,7 @@ const { latitude, longitude, zoom, container, tileLayer, attribution, containers
   class LeafletMap extends HTMLElement {
     constructor() {
       super()
-
+      const options = JSON.parse(this.dataset.options!)
       const latlng = [Number(this.dataset.latitude), Number(this.dataset.longitude)]
 
       var map = L.map(this.dataset.container).setView(latlng, Number(this.dataset.zoom))
@@ -43,7 +52,11 @@ const { latitude, longitude, zoom, container, tileLayer, attribution, containers
         this.dataset.tiles,
         {attribution: this.dataset.attribution}
         ).addTo(map)
-      L.marker([0,0]).addTo(map)
+
+      if (options && options.markers) {
+        options.markers.forEach(marker => L.marker([marker.lat, marker.lon]).addTo(map))
+      }
+
     }
   }
 

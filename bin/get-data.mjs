@@ -19,6 +19,31 @@ import {BetaAnalyticsDataClient} from '@google-analytics/data'
 // specified in GOOGLE_APPLICATION_CREDENTIALS environment variable.
 const analyticsDataClient = new BetaAnalyticsDataClient();
 
+async function getLongLat(name) {
+  const url = `https://nominatim.openstreetmap.org/search?q=${name},&format=json`
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.log(`Don't know ${name}`)
+      return { lat: 0, lon: 0 }
+    }
+
+    const json = await response.json();
+    console.log(`All right ${name}`)
+    return { lat: json[0].lat, lon: json[0].lon }
+  } catch (error) {
+    console.log(`THROW because of ${name}`)
+    return { lat: 0, lon: 0 }
+  }
+}
+
+// await getLongLat()
+// throw('STOP')
+
+async function sleep(s) {
+  return new Promise(r => setTimeout(r, s * 1000))
+}
+
 // Runs a simple report.
 async function runReport() {
   const [response] = await analyticsDataClient.runReport({
@@ -39,6 +64,9 @@ async function runReport() {
             concatenate: {
                 // cf. dimensions from https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema?hl=fr
                 "dimensionNames": [ 'city', 'country' ],
+                    // ids list:
+                    //    https://developers.google.com/google-ads/api/data/geotargets
+                    //    https://developers.google.com/google-ads/api/fields/v20/geo_target_constant
                 "delimiter": ', '
               }
             }
@@ -67,10 +95,26 @@ async function runReport() {
     }
     if (key !== '') {
       const value = parseInt(row.metricValues[0].value)
-      let init = (data[key] === undefined) ? 0 : data[key]
-      data[key] = init + value
+      if (data[key] === undefined) {
+        data[key] = { value: 0}
+      }
+      data[key].value = data[key].value + value
     }
   });
+
+  // add lat and long
+  // await Promise.all(Object.keys(data).map(async (key) => {
+  //   const geo = await getLongLat(key)
+  //   data[key].lat = geo.lat
+  //   data[key].lon = geo.lon
+  // }))
+  const keys = Object.keys(data)
+  for (let i=0; i<keys.length; i++) {
+    const geo = await getLongLat(keys[i])
+    data[keys[i]].lat = geo.lat
+    data[keys[i]].lon = geo.lon
+    sleep(1000)
+  }
 
   fs.writeFileSync("data.json", JSON.stringify(data, null, 2))
 
