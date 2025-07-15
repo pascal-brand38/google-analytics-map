@@ -83,12 +83,9 @@ async function runReport() {
   const data = {}
   response.rows.forEach(row => {
     let key = row.dimensionValues[0].value
-    key = key.replace(/.*, France/g, 'France')
+    key = key.replace(/.*, France/g, 'France')    // obfuscate position in France
     key = key.replace(/\(not set\)/g, '')
     key = key.replace(/^, /g, '')
-    if (key !== row.dimensionValues[0].value) {
-      console.log(`key replacement: ${row.dimensionValues[0].value} ==> ${key}`)
-    }
     if (key !== '') {
       const value = parseInt(row.metricValues[0].value)
       if (data[key] === undefined) {

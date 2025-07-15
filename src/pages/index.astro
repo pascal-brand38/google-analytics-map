@@ -1,16 +1,19 @@
 ---
 import LeafLet from '../components/LeafLet.astro';
-import type {AstroLeafLetMarkerType}  from '../components/index';
+import type {AstroLeafLetMarkerType, AstroLeafLetOptionsType}  from '../components/index';
 import Layout from '../layouts/Layout.astro';
 
 import data from '../data/data.json'
+import { tileLayer } from 'leaflet';
 
 const markers: AstroLeafLetMarkerType[] = []
 Object.keys(data).forEach(key => {
 	markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
 })
 
-const options = {
+const options: AstroLeafLetOptionsType = {
+	tileLayer: 'https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+	attribution: 'Map data &copy; Google',
 	markers: markers,
 }
 ---
