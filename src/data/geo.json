@@ -1774,5 +1774,93 @@
   "Zimbabwe": {
     "lat": "-18.4554963",
     "lon": "29.7468414"
+  },
+  "Ahmedabad, India": {
+    "lat": "23.0215374",
+    "lon": "72.5800568"
+  },
+  "Arcadia, United States": {
+    "lat": "34.1362075",
+    "lon": "-118.0401497"
+  },
+  "Bandar Lampung, Indonesia": {
+    "lat": "-5.4460713",
+    "lon": "105.2643742"
+  },
+  "Barranquilla, Colombia": {
+    "lat": "11.0101922",
+    "lon": "-74.8231794"
+  },
+  "Beaconsfield, United Kingdom": {
+    "lat": "51.6082881",
+    "lon": "-0.6571233"
+  },
+  "Buenos Aires, Argentina": {
+    "lat": "-34.6083696",
+    "lon": "-58.4440583"
+  },
+  "Canberra, Australia": {
+    "lat": "-35.2975906",
+    "lon": "149.1012676"
+  },
+  "Castelar, Argentina": {
+    "lat": "-34.6555638",
+    "lon": "-58.6425128"
+  },
+  "Coeur d'Alene, United States": {
+    "lat": "47.6742994",
+    "lon": "-116.7811531"
+  },
+  "Corato, Italy": {
+    "lat": "41.1527614",
+    "lon": "16.4114643"
+  },
+  "Cuiaba, Brazil": {
+    "lat": "-15.5986686",
+    "lon": "-56.0991301"
+  },
+  "Fishers, United States": {
+    "lat": "39.9555928",
+    "lon": "-86.0138729"
+  },
+  "Ilion, United States": {
+    "lat": "43.0150703",
+    "lon": "-75.0354347"
+  },
+  "Khimki, Russia": {
+    "lat": "55.8917293",
+    "lon": "37.4396994"
+  },
+  "Libreville, Gabon": {
+    "lat": "0.4086518",
+    "lon": "9.4418849"
+  },
+  "Maynooth, Ireland": {
+    "lat": "53.3830239",
+    "lon": "-6.5922806"
+  },
+  "Mount Joy, United States": {
+    "lat": "40.1098561",
+    "lon": "-76.5033406"
+  },
+  "Padua, Italy": {
+    "lat": "45.4077172",
+    "lon": "11.8734455"
+  },
+  "San Miguel de Tucuman, Argentina": {
+    "lat": "-26.8303703",
+    "lon": "-65.2038133"
+  },
+  "Syracuse, United States": {
+    "lat": "43.0481221",
+    "lon": "-76.1474244"
+  },
+  "Thika, Kenya": {
+    "lat": "-1.0366480",
+    "lon": "37.0775230"
+  },
+  "Torun, Poland": {
+    "lat": "53.0102721",
+    "lon": "18.6048094"
   }
 }
