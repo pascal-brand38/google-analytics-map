@@ -10,30 +10,30 @@ Object.keys(data).forEach(key => {
 	markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
 })
 
+import CreateLeafLetDivIcon from '../components/CreateLeafLetDivIcon.astro';
+import countries from '../data/countries.json'
+Object.keys(countries).forEach(key => {
+	markers.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'NAME'} )
+})
+
+
 const options: AstroLeafLetOptionsType = {
 	tileLayer: 'https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
 	attribution: 'Map data &copy; Google',
 	markers: markers,
 }
+
+
 ---
 
 <Layout>
+	<CreateLeafLetDivIcon name='NAME' class="leaflet-div-icon2"/>
 	<LeafLet
 		style="width: 100vw; height: 100vh"
 		id="leafletid"
 		options={options}
 	/>
 </Layout>
-
-<script>
-	import L from "leaflet"
-  import { useMap } from '../components/index'
-
-	import countries from '../data/countries.json'
-	let myIcon = L.divIcon({className: 'leaflet-div-icon2'});
-	const countryKeys = Object.keys(countries)
-	countryKeys.forEach(name => L.marker([ countries[name].lat, countries[name].lon ], {icon: myIcon, title: name}).addTo(useMap['leafletid']))
-</script>
 
 <style is:global>
 	/* https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-archive/contrib-modules-for-building-the-site-functionality/geographical-data-and-mapping/leaflet/creating-custom-styles-leaflet-icons-with */

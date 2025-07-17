@@ -4,6 +4,7 @@
 
 import { setDefaultProps } from './index'
 import type { AstroLeafLetType } from './index'
+import "leaflet/dist/leaflet.css"
 
 type Props = AstroLeafLetType
 
@@ -26,8 +27,7 @@ const {
 
 <script>
   import L from "leaflet"
-  import "leaflet/dist/leaflet.css"
-  import { useMap } from './index'
+  import { useMap, useIcon } from './index'
   import type { AstroLeafLetOptionsType, AstroLeafLetMarkerType } from './index'
 
   class LeafletMap extends HTMLElement {
@@ -41,7 +41,17 @@ const {
       L.tileLayer(options.tileLayer!, {attribution: options.attribution}).addTo(map)
 
       if (options && options.markers) {
-        options.markers.forEach((marker:AstroLeafLetMarkerType) => L.marker(marker.latlng, marker.options).addTo(map))
+        options.markers.forEach((marker:AstroLeafLetMarkerType) => {
+          if (marker.astroIconName) {
+            if (!marker.options) {
+              marker.options = {}
+            }
+            marker.options.icon = useIcon[marker.astroIconName]
+            console.log(marker.options)
+          }
+
+          L.marker(marker.latlng, marker.options).addTo(map)
+        })
       }
     }
   }
