@@ -1,7 +1,7 @@
 // Copyright (c) Pascal Brand
 // MIT License
 
-import type { LatLngExpression, MarkerOptions } from 'leaflet'
+import type { LatLngExpression, MarkerOptions, Map } from 'leaflet'
 import type { HTMLAttributes } from 'astro/types'
 
 export interface AstroLeafLetMarkerType {
@@ -31,3 +31,6 @@ export function setDefaultProps(props: AstroLeafLetType) {
 
   props.options.markers = props.options.markers || []
 }
+
+/** contains the swiper json object once created, for each uniqueClass */
+export const useMap: { [id: string] : Map; } = {};

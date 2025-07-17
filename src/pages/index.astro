@@ -4,7 +4,6 @@ import type {AstroLeafLetMarkerType, AstroLeafLetOptionsType}  from '../componen
 import Layout from '../layouts/Layout.astro';
 
 import data from '../data/data.json'
-import { tileLayer } from 'leaflet';
 
 const markers: AstroLeafLetMarkerType[] = []
 Object.keys(data).forEach(key => {
@@ -21,7 +20,16 @@ const options: AstroLeafLetOptionsType = {
 <Layout>
 	<LeafLet
 		style="width: 100vw; height: 100vh"
-
+		id="TODO"
 		options={options}
 	/>
 </Layout>
+
+<script>
+	import L from "leaflet"
+  import { useMap } from '../components/index'
+
+	import countries from '../data/countries.json'
+	const countryKeys = Object.keys(countries)
+	countryKeys.forEach(name => L.marker([ countries[name].lat, countries[name].lon ], {title: name}).addTo(useMap['TODO']))
+</script>

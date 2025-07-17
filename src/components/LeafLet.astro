@@ -11,16 +11,14 @@ const enrichedProps = Astro.props
 setDefaultProps(enrichedProps)
 const {
   options,
-  id: providedId,
+  id= 'astro-leaflet-' + Math.random().toString(36).slice(2, 11),
   ...props
 } = enrichedProps
 
-const containerId = 'astro-leaflet-' + Math.random().toString(36).slice(2, 11)
-const id = providedId ? (`${providedId} ${containerId}`) : containerId
 ---
 
 <leaflet-map
-  data-container-id={containerId}
+  data-id={id}
   data-options={JSON.stringify(options)}
 >
 <div id={id}  {...props}></div>
@@ -29,6 +27,7 @@ const id = providedId ? (`${providedId} ${containerId}`) : containerId
 <script>
   import L from "leaflet"
   import "leaflet/dist/leaflet.css"
+  import { useMap } from './index'
   import type { AstroLeafLetOptionsType, AstroLeafLetMarkerType } from './index'
 
   class LeafletMap extends HTMLElement {
@@ -36,9 +35,8 @@ const id = providedId ? (`${providedId} ${containerId}`) : containerId
       super()
       const options: AstroLeafLetOptionsType = JSON.parse(this.dataset.options!)
 
-      console.log(this.dataset.containerId)
-
-      var map = L.map(this.dataset.containerId!)
+      let map = L.map(this.dataset.id!)
+      useMap[this.dataset.id!] = map
       map.setView(options.center!, options.zoom)
       L.tileLayer(options.tileLayer!, {attribution: options.attribution}).addTo(map)
 
