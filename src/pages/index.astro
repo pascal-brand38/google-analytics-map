@@ -20,7 +20,7 @@ const options: AstroLeafLetOptionsType = {
 <Layout>
 	<LeafLet
 		style="width: 100vw; height: 100vh"
-		id="TODO"
+		id="leafletid"
 		options={options}
 	/>
 </Layout>
@@ -30,6 +30,20 @@ const options: AstroLeafLetOptionsType = {
   import { useMap } from '../components/index'
 
 	import countries from '../data/countries.json'
+	let myIcon = L.divIcon({className: 'leaflet-div-icon2'});
 	const countryKeys = Object.keys(countries)
-	countryKeys.forEach(name => L.marker([ countries[name].lat, countries[name].lon ], {title: name}).addTo(useMap['TODO']))
+	countryKeys.forEach(name => L.marker([ countries[name].lat, countries[name].lon ], {icon: myIcon, title: name}).addTo(useMap['leafletid']))
 </script>
+
+<style is:global>
+	/* https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-archive/contrib-modules-for-building-the-site-functionality/geographical-data-and-mapping/leaflet/creating-custom-styles-leaflet-icons-with */
+	.leaflet-div-icon2 {
+		background:red;
+		border:5px solid rgba(255,255,255,0.5);
+		color:blue;
+		font-weight:bold;
+		text-align:center;
+		border-radius:50%;
+		line-height:30px;
+	}
+</style>
