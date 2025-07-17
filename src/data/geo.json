@@ -1862,5 +1862,153 @@
   "Torun, Poland": {
     "lat": "53.0102721",
     "lon": "18.6048094"
+  },
+  "97837, Germany": {
+    "lat": "49.8237427",
+    "lon": "9.6371952"
+  },
+  "Alicante, Spain": {
+    "lat": "38.3436365",
+    "lon": "-0.4881708"
+  },
+  "Frankfurt am Main, Germany": {
+    "lat": "50.1106444",
+    "lon": "8.6820917"
+  },
+  "Meadowview, United States": {
+    "lat": "36.7632845",
+    "lon": "-81.8744385"
+  },
+  "Melbourne, Australia": {
+    "lat": "-37.8142454",
+    "lon": "144.9631732"
+  },
+  "Nairobi, Kenya": {
+    "lat": "-1.3026148",
+    "lon": "36.8288420"
+  },
+  "Osnabruck, Germany": {
+    "lat": "52.2719595",
+    "lon": "8.0476350"
+  },
+  "Piracicaba, Brazil": {
+    "lat": "-22.7251650",
+    "lon": "-47.6493269"
+  },
+  "Porto, Portugal": {
+    "lat": "41.1502195",
+    "lon": "-8.6103497"
+  },
+  "Sassari, Italy": {
+    "lat": "40.7234746",
+    "lon": "8.5612674"
+  },
+  "Taganrog, Russia": {
+    "lat": "47.2153657",
+    "lon": "38.9285216"
+  },
+  "Taito City, Japan": {
+    "lat": "35.7126306",
+    "lon": "139.7797736"
+  },
+  "Tangerang, Indonesia": {
+    "lat": "-6.1761924",
+    "lon": "106.6382161"
+  },
+  "Denpasar, Indonesia": {
+    "lat": "-8.6524973",
+    "lon": "115.2191175"
+  },
+  "Hradec Kralove, Czechia": {
+    "lat": "50.2092113",
+    "lon": "15.8327512"
+  },
+  "Ulverston, United Kingdom": {
+    "lat": "54.1904260",
+    "lon": "-3.0838997"
+  },
+  "Czechia": {
+    "lat": "49.7439047",
+    "lon": "15.3381061"
+  },
+  "Bosnia & Herzegovina": {
+    "lat": "44.3053476",
+    "lon": "17.5961467"
+  },
+  "Bergen, Norway": {
+    "lat": "60.3943055",
+    "lon": "5.3259192"
+  },
+  "Boston, United States": {
+    "lat": "42.3554334",
+    "lon": "-71.0605110"
+  },
+  "Calw, Germany": {
+    "lat": "48.7142691",
+    "lon": "8.7397624"
+  },
+  "Edinburgh, United Kingdom": {
+    "lat": "55.9533456",
+    "lon": "-3.1883749"
+  },
+  "Gatineau, Canada": {
+    "lat": "45.4277659",
+    "lon": "-75.7109760"
+  },
+  "Gibsonton, United States": {
+    "lat": "27.8282600",
+    "lon": "-82.3718786"
+  },
+  "Hyderabad, India": {
+    "lat": "17.3605890",
+    "lon": "78.4740613"
+  },
+  "Izmir, Türkiye": {
+    "lat": "38.2316600",
+    "lon": "27.0299700"
+  },
+  "Lublin, Poland": {
+    "lat": "51.2181945",
+    "lon": "22.5546776"
+  },
+  "New Franklin, United States": {
+    "lat": "40.9526931",
+    "lon": "-81.5659370"
+  },
+  "Oslo, Norway": {
+    "lat": "59.9133301",
+    "lon": "10.7389701"
+  },
+  "Pinerolo, Italy": {
+    "lat": "44.8873086",
+    "lon": "7.3319454"
+  },
+  "Rangpur, Bangladesh": {
+    "lat": "25.6376135",
+    "lon": "89.0826381"
+  },
+  "Salt Lake City, United States": {
+    "lat": "40.7596198",
+    "lon": "-111.8867970"
+  },
+  "Sarajevo, Bosnia and Herzegovina": {
+    "lat": "43.8570713",
+    "lon": "18.4126147"
+  },
+  "Shimla, India": {
+    "lat": "31.1041526",
+    "lon": "77.1709729"
+  },
+  "Tesanj, Bosnia and Herzegovina": {
+    "lat": "44.6129188",
+    "lon": "17.9858051"
+  },
+  "The Woodlands, United States": {
+    "lat": "30.1734194",
+    "lon": "-95.5046860"
+  },
+  "Valdemoro, Spain": {
+    "lat": "40.1888604",
+    "lon": "-3.6714300"
   }
 }

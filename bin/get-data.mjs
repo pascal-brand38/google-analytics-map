@@ -47,7 +47,7 @@ async function runReport() {
     property: `properties/${propertyId}`,
     dateRanges: [
       {
-        startDate: '2025-1-1',
+        startDate: '2024-1-1',
         // startDate: 'today',
         endDate: 'today',
       },
@@ -83,17 +83,27 @@ async function runReport() {
   });
 
   const data = {}
+  const visitedCountries = {}
   response.rows.forEach(row => {
     let key = row.dimensionValues[0].value
     key = key.replace(/.*, France/g, 'France')    // obfuscate position in France
     key = key.replace(/\(not set\)/g, '')
     key = key.replace(/^, /g, '')
+    key = key.replace(/&/g, 'and')
+    key = key.replace(/ Municipality/g, '')
     if (key !== '') {
       const value = parseInt(row.metricValues[0].value)
       if (data[key] === undefined) {
         data[key] = { value: 0}
       }
       data[key].value = data[key].value + value
+
+      const thisCountry = key.replace(/.*, /g, '')  // extract the country
+      console.log(`thisCountry = ${thisCountry}`)
+      if (visitedCountries[thisCountry] === undefined) {
+        visitedCountries[thisCountry] = { value: 0}
+      }
+      visitedCountries[thisCountry].value += value
     }
   });
 
@@ -104,6 +114,16 @@ async function runReport() {
     data[keys[i]].lon = geo.lon
     sleep(1000)
   }
+
+  const countryNames = Object.keys(visitedCountries)
+  for (let i=0; i<countryNames.length; i++) {
+    const geo = await getLongLat(countryNames[i])
+    visitedCountries[countryNames[i]].lat = geo.lat
+    visitedCountries[countryNames[i]].lon = geo.lon
+    sleep(1000)
+  }
+  console.log(`Writing src/data/visited-countries.json`)
+  fs.writeFileSync("src/data/visited-countries.json", JSON.stringify(visitedCountries, null, 2))
 
   // update countries location
   // const countriesKeys = Object.keys(countries)
@@ -122,6 +142,7 @@ async function runReport() {
   fs.writeFileSync("src/data/data.json", JSON.stringify(data, null, 2))
   console.log(`Writing src/data/geo.json`)
   fs.writeFileSync("src/data/geo.json", JSON.stringify(geo, null, 2))
+
   console.log('written completed')
 }
 
