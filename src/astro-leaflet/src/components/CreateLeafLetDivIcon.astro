@@ -10,7 +10,7 @@ type Props = { name: string, class: string}
 
 <script>
   import L from "leaflet"
-  import { useIcon } from './index'
+  import { useIcon } from '../index'
 
   class CreateLeafletDivIcon extends HTMLElement {
     constructor() {
@@ -20,5 +20,5 @@ type Props = { name: string, class: string}
     }
   }
 
-  window.customElements.define("create-leaflet-divicon", CreateLeafletDivIcon);
+  customElements.get('create-leaflet-divicon') || customElements.define("create-leaflet-divicon", CreateLeafletDivIcon);
 </script>

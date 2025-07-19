@@ -33,6 +33,9 @@ export function setDefaultProps(props: AstroLeafLetType) {
   props.options.markers = props.options.markers || []
 }
 
+export { default as LeafLet } from './components/LeafLet.astro'
+export { default as CreateLeafLetDivIcon } from './components/CreateLeafLetDivIcon.astro'
+
 /** contains the map once created, for each id */
 export const useMap: { [id: string] : Map; } = {};
 

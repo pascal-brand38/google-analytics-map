@@ -2010,5 +2010,117 @@
   "Valdemoro, Spain": {
     "lat": "40.1888604",
     "lon": "-3.6714300"
+  },
+  "Ba Ria, Vietnam": {
+    "lat": "10.4944528",
+    "lon": "107.1843016"
+  },
+  "Banqiao District, Taiwan": {
+    "lat": "25.0096703",
+    "lon": "121.4590989"
+  },
+  "Capilla del Senor, Argentina": {
+    "lat": "-34.2869463",
+    "lon": "-59.1017427"
+  },
+  "Champaign, United States": {
+    "lat": "40.1164841",
+    "lon": "-88.2430932"
+  },
+  "Concepcion, Chile": {
+    "lat": "-36.8270698",
+    "lon": "-73.0502064"
+  },
+  "Heraklion, Greece": {
+    "lat": "35.3390800",
+    "lon": "25.1332843"
+  },
+  "Lilburn, United States": {
+    "lat": "33.8901036",
+    "lon": "-84.1429719"
+  },
+  "Metro, Indonesia": {
+    "lat": "-5.1078839",
+    "lon": "105.3078642"
+  },
+  "Nala Sopara, India": {
+    "lat": "19.4203577",
+    "lon": "72.8194857"
+  },
+  "Saint-Philippe, Canada": {
+    "lat": "45.3583776",
+    "lon": "-73.4783036"
+  },
+  "San Pablo City, Philippines": {
+    "lat": "14.0747764",
+    "lon": "121.3260381"
+  },
+  "Sangli Miraj Kupwad, India": {
+    "lat": "16.8502534",
+    "lon": "74.5948885"
+  },
+  "Sapporo, Japan": {
+    "lat": "43.0619360",
+    "lon": "141.3542924"
+  },
+  "Skopje, North Macedonia": {
+    "lat": "41.9961816",
+    "lon": "21.4319213"
+  },
+  "Winnipeg, Canada": {
+    "lat": "49.8955367",
+    "lon": "-97.1384584"
+  },
+  "Bountiful, United States": {
+    "lat": "40.8894611",
+    "lon": "-111.8804817"
+  },
+  "Crossville, United States": {
+    "lat": "35.9496840",
+    "lon": "-85.0274835"
+  },
+  "Da Nang, Vietnam": {
+    "lat": "16.0680000",
+    "lon": "108.2120000"
+  },
+  "Howard City, United States": {
+    "lat": "43.3955830",
+    "lon": "-85.4678150"
+  },
+  "Mississauga, Canada": {
+    "lat": "43.5896231",
+    "lon": "-79.6443879"
+  },
+  "Mumbai, India": {
+    "lat": "19.0549990",
+    "lon": "72.8692035"
+  },
+  "Port-Gentil, Gabon": {
+    "lat": "-0.7151966",
+    "lon": "8.7787919"
+  },
+  "Portland, United States": {
+    "lat": "45.5202471",
+    "lon": "-122.6741940"
+  },
+  "Radyr, United Kingdom": {
+    "lat": "51.5204641",
+    "lon": "-3.2622312"
+  },
+  "Semarang, Indonesia": {
+    "lat": "-6.9903988",
+    "lon": "110.4229104"
+  },
+  "Turin, Italy": {
+    "lat": "45.0677551",
+    "lon": "7.6824892"
+  },
+  "Vadodara, India": {
+    "lat": "22.2973142",
+    "lon": "73.1942567"
+  },
+  "Votorantim, Brazil": {
+    "lat": "-23.5383101",
+    "lon": "-47.4422496"
   }
 }
