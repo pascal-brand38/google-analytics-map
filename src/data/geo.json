@@ -2122,5 +2122,105 @@
   "Votorantim, Brazil": {
     "lat": "-23.5383101",
     "lon": "-47.4422496"
+  },
+  "Brisbane, Australia": {
+    "lat": "-27.4689623",
+    "lon": "153.0235009"
+  },
+  "Dallas, United States": {
+    "lat": "32.7762719",
+    "lon": "-96.7968559"
+  },
+  "Neusass, Germany": {
+    "lat": "48.3928722",
+    "lon": "10.8354535"
+  },
+  "Ashburn, United States": {
+    "lat": "39.0297840",
+    "lon": "-77.4744148"
+  },
+  "Atlanta, United States": {
+    "lat": "33.7544657",
+    "lon": "-84.3898151"
+  },
+  "Forest Hills, United States": {
+    "lat": "40.7231009",
+    "lon": "-73.8466125"
+  },
+  "Fort Collins, United States": {
+    "lat": "40.5871782",
+    "lon": "-105.0770113"
+  },
+  "Galatina, Italy": {
+    "lat": "40.1742781",
+    "lon": "18.1678388"
+  },
+  "Hassleholm, Sweden": {
+    "lat": "56.2166670",
+    "lon": "13.7333330"
+  },
+  "Heuchelheim, Germany": {
+    "lat": "50.3674478",
+    "lon": "8.8667269"
+  },
+  "Lahore, Pakistan": {
+    "lat": "31.5656822",
+    "lon": "74.3141829"
+  },
+  "Mirandopolis, Brazil": {
+    "lat": "-21.1328313",
+    "lon": "-51.1029422"
+  },
+  "Petaling Jaya, Malaysia": {
+    "lat": "3.0988792",
+    "lon": "101.6454202"
+  },
+  "Pleasanton, United States": {
+    "lat": "37.6624312",
+    "lon": "-121.8746789"
+  },
+  "Poing, Germany": {
+    "lat": "48.1667467",
+    "lon": "11.8037130"
+  },
+  "Southend-on-Sea, United Kingdom": {
+    "lat": "51.5388241",
+    "lon": "0.7128137"
+  },
+  "Tehran, Iran": {
+    "lat": "35.6892523",
+    "lon": "51.3896004"
+  },
+  "Auckland, New Zealand": {
+    "lat": "-36.8520950",
+    "lon": "174.7631803"
+  },
+  "Cachoeirinha, Brazil": {
+    "lat": "-29.9493353",
+    "lon": "-51.0898927"
+  },
+  "Leeds, United Kingdom": {
+    "lat": "53.7974185",
+    "lon": "-1.5437941"
+  },
+  "Leiria, Portugal": {
+    "lat": "39.7437902",
+    "lon": "-8.8071119"
+  },
+  "Praia Grande, Brazil": {
+    "lat": "-24.0089790",
+    "lon": "-46.4144939"
+  },
+  "Regina, Canada": {
+    "lat": "50.4479733",
+    "lon": "-104.6158764"
+  },
+  "Samarinda, Indonesia": {
+    "lat": "-0.5017804",
+    "lon": "117.1393089"
+  },
+  "Schwangau, Germany": {
+    "lat": "47.5768030",
+    "lon": "10.7373475"
   }
 }

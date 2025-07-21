@@ -4,18 +4,20 @@ import type {AstroLeafLetMarkerType, AstroLeafLetOptionsType}  from 'astro-leafl
 import Layout from '../layouts/Layout.astro';
 
 import data from '../data/data.json'
-
-
 import countries from '../data/countries.json'
 import visitedCountries from '../data/visited-countries.json'
 
 const markers: AstroLeafLetMarkerType[] = []
-Object.keys(data).forEach(key => {
-	markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
-})
-// Object.keys(visitedCountries).forEach(key => {
-// 	markers.push( {latlng: [visitedCountries[key].lat, visitedCountries[key].lon], options: {title: key}} )
-// })
+if (false) {
+	Object.keys(data).forEach(key => {
+		markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
+	})
+} else {
+	Object.keys(visitedCountries).forEach(key => {
+		markers.push( {latlng: [visitedCountries[key].lat, visitedCountries[key].lon], options: {title: key}} )
+	})
+}
+
 Object.keys(countries).forEach(key => {
 	if (visitedCountries[key] === undefined) {
 		markers.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'icon-missingcountries'} )
@@ -34,10 +36,11 @@ const options: AstroLeafLetOptionsType = {
 ---
 
 <Layout>
-		<CreateLeafLetDivIcon name='icon-missingcountries' class="leaflet-icon-missingcountries"/>
+	<CreateLeafLetDivIcon name='icon-missingcountries' class="leaflet-icon-missingcountries"/>
 	<LeafLet
 		style="width: 100vw; height: 100vh"
 		options={options}
+		id="TODO"
 	>
 	</LeafLet>
 </Layout>
@@ -56,3 +59,32 @@ const options: AstroLeafLetOptionsType = {
 		line-height:30px;
 	}
 </style>
+
+<script>
+  import L from "leaflet"
+	import { getMap } from "astro-leaflet"
+	console.log('IN SCRIPT')
+	window.onload = function() {
+		var gTerrain = L.tileLayer('http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+		{
+		  opacity: 0.5,
+		}
+		// ,
+		// {
+		//       maxZoom: 20,
+		//       subdomains:['mt0','mt1','mt2','mt3']
+		//   }
+		);
+		// let el = document.getElementById('TODOMAP');
+		// el.getMap().addLayer(gTerrain);
+
+		// let el = document.getElementById('TODO');
+		// el.map.addLayer(gTerrain);
+
+		// console.log('el = ', el)
+		// console.log('MAP = ', el.getMap())
+		// console.log('getMap: ', getMap)
+		console.log('getMap(TODO): ', getMap('TODO'))
+		getMap('TODO').addLayer(gTerrain)
+	}
+</script>
