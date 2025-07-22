@@ -2222,5 +2222,53 @@
   "Schwangau, Germany": {
     "lat": "47.5768030",
     "lon": "10.7373475"
+  },
+  "Birkenhead, United Kingdom": {
+    "lat": "53.3895177",
+    "lon": "-3.0248007"
+  },
+  "Blieskastel, Germany": {
+    "lat": "49.2370918",
+    "lon": "7.2599036"
+  },
+  "Bridgend, United Kingdom": {
+    "lat": "51.5049859",
+    "lon": "-3.5756674"
+  },
+  "Campinas, Brazil": {
+    "lat": "-22.9056391",
+    "lon": "-47.0595640"
+  },
+  "Dusseldorf, Germany": {
+    "lat": "51.2254018",
+    "lon": "6.7763137"
+  },
+  "Johannesburg, South Africa": {
+    "lat": "-26.2050000",
+    "lon": "28.0497220"
+  },
+  "Kitchener, Canada": {
+    "lat": "43.4512910",
+    "lon": "-80.4927815"
+  },
+  "Lausanne, Switzerland": {
+    "lat": "46.5218269",
+    "lon": "6.6327025"
+  },
+  "Mielec, Poland": {
+    "lat": "50.2895407",
+    "lon": "21.4229453"
+  },
+  "Pula, Croatia": {
+    "lat": "44.8702281",
+    "lon": "13.8455311"
+  },
+  "Salaspils, Latvia": {
+    "lat": "56.8634541",
+    "lon": "24.3545214"
+  },
+  "Sofiivska Borschahivka, Ukraine": {
+    "lat": "50.4045888",
+    "lon": "30.3954586"
   }
 }
