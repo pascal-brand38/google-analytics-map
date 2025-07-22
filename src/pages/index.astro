@@ -62,9 +62,10 @@ const options: AstroLeafLetOptionsType = {
 
 <script>
   import L from "leaflet"
-	import { getMap } from "astro-leaflet"
+	import { getMap, astroLeafletMaps } from "astro-leaflet"
 	console.log('IN SCRIPT')
 	window.onload = function() {
+		console.log('astroLeafletMaps: ', astroLeafletMaps)
 		var gTerrain = L.tileLayer('http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
 		{
 		  opacity: 0.5,
@@ -78,13 +79,16 @@ const options: AstroLeafLetOptionsType = {
 		// let el = document.getElementById('TODOMAP');
 		// el.getMap().addLayer(gTerrain);
 
-		// let el = document.getElementById('TODO');
-		// el.map.addLayer(gTerrain);
+		// let el = document.getElementById('TODOMAP');
+		// el.parentElement.map.addLayer(gTerrain);
 
 		// console.log('el = ', el)
 		// console.log('MAP = ', el.getMap())
 		// console.log('getMap: ', getMap)
-		console.log('getMap(TODO): ', getMap('TODO'))
-		getMap('TODO').addLayer(gTerrain)
+
+		console.log('getMap(TODOMAP): ', getMap('TODOMAP'))
+		getMap('TODOMAP').addLayer(gTerrain)
+
+
 	}
 </script>
