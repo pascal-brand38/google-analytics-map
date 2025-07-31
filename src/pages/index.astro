@@ -1,13 +1,13 @@
 ---
-import { LeafLet, CreateLeafLetDivIcon } from 'astro-leaflet';
-import type {AstroLeafLetMarkerType, AstroLeafLetOptionsType}  from 'astro-leaflet';
+import { Leaflet, CreateLeafletIcon } from 'astro-leaflet';
+import type {AstroLeafletMarkerType, AstroLeafletOptionsType}  from 'astro-leaflet';
 import Layout from '../layouts/Layout.astro';
 
 import data from '../data/data.json'
 import countries from '../data/countries.json'
 import visitedCountries from '../data/visited-countries.json'
 
-const markers: AstroLeafLetMarkerType[] = []
+const markers: AstroLeafletMarkerType[] = []
 if (false) {
 	Object.keys(data).forEach(key => {
 		markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
@@ -25,9 +25,12 @@ Object.keys(countries).forEach(key => {
 })
 
 
-const options: AstroLeafLetOptionsType = {
-	tileLayer: 'https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
-	attribution: 'Map data &copy; Google',
+const options: AstroLeafletOptionsType = {
+	tileLayer: 'https://{s}.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}',
+	tileLayerOptions: {
+		subdomains: [ 'mt0', 'mt1', 'mt2', 'mt3' ],
+		attribution: 'Map data &copy; Google',
+	},
 	markers: markers,
 }
 
@@ -36,13 +39,13 @@ const options: AstroLeafLetOptionsType = {
 ---
 
 <Layout>
-	<CreateLeafLetDivIcon name='icon-missingcountries' class="leaflet-icon-missingcountries"/>
-	<LeafLet
+	<CreateLeafletIcon name='icon-missingcountries' options={{className: "leaflet-icon-missingcountries"}}/>
+	<Leaflet
 		style="width: 100vw; height: 100vh"
 		options={options}
 		id="TODO"
 	>
-	</LeafLet>
+	</Leaflet>
 </Layout>
 
 <style is:global>
@@ -61,22 +64,15 @@ const options: AstroLeafLetOptionsType = {
 </style>
 
 <script>
-  import L from "leaflet"
-	import { getMap, astroLeafletMaps } from "astro-leaflet"
-	console.log('IN SCRIPT')
+  import { tileLayer } from "leaflet"
+	import { getMap } from "astro-leaflet"
 	window.onload = function() {
-		console.log('astroLeafletMaps: ', astroLeafletMaps)
-		var gTerrain = L.tileLayer('http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
-		{
+		var gTerrain = tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',	{
 		  opacity: 0.5,
-		}
-		// ,
-		// {
-		//       maxZoom: 20,
-		//       subdomains:['mt0','mt1','mt2','mt3']
-		//   }
-		);
+			maxZoom: 20,
+			subdomains:['mt0','mt1','mt2','mt3']
+		});
 
-		getMap('TODOMAP').addLayer(gTerrain)
+		// getMap('TODOMAP').addLayer(gTerrain)
 	}
 </script>

@@ -13,7 +13,7 @@
     "@google-analytics/data": "^5.2.0",
     "@types/leaflet": "^1.9.20",
     "astro": "^5.11.1",
-    "astro-leaflet": "^0.0.1",
+    "astro-leaflet": "^1.1.0",
     "leaflet": "^1.9.4"
   }
 }

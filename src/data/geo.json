@@ -2270,5 +2270,369 @@
   "Sofiivska Borschahivka, Ukraine": {
     "lat": "50.4045888",
     "lon": "30.3954586"
+  },
+  "Augsburg, Germany": {
+    "lat": "48.3690341",
+    "lon": "10.8979522"
+  },
+  "Bekasi, Indonesia": {
+    "lat": "-6.2349858",
+    "lon": "106.9945444"
+  },
+  "Dhaka, Bangladesh": {
+    "lat": "23.7643863",
+    "lon": "90.3890144"
+  },
+  "Erfurt, Germany": {
+    "lat": "50.9777974",
+    "lon": "11.0287364"
+  },
+  "Green Bay, United States": {
+    "lat": "44.5126379",
+    "lon": "-88.0125794"
+  },
+  "Imphal, India": {
+    "lat": "24.7991162",
+    "lon": "93.9364419"
+  },
+  "Milan, Italy": {
+    "lat": "45.4641943",
+    "lon": "9.1896346"
+  },
+  "Nantucket, United States": {
+    "lat": "41.2844408",
+    "lon": "-70.0984200"
+  },
+  "Novosibirsk, Russia": {
+    "lat": "55.0288307",
+    "lon": "82.9226887"
+  },
+  "Oryol, Russia": {
+    "lat": "52.9680171",
+    "lon": "36.0994994"
+  },
+  "Pamplona, Spain": {
+    "lat": "42.8156860",
+    "lon": "-1.6522353"
+  },
+  "Pfronten, Germany": {
+    "lat": "47.5732762",
+    "lon": "10.5320629"
+  },
+  "Schwaz, Austria": {
+    "lat": "47.3449529",
+    "lon": "11.7084253"
+  },
+  "Seoul, South Korea": {
+    "lat": "37.5666791",
+    "lon": "126.9782914"
+  },
+  "Shinagawa City, Japan": {
+    "lat": "35.6092112",
+    "lon": "139.7301980"
+  },
+  "Stockholm, Sweden": {
+    "lat": "59.3251172",
+    "lon": "18.0710935"
+  },
+  "Tempe, United States": {
+    "lat": "33.4255117",
+    "lon": "-111.9400160"
+  },
+  "Ulaanbaatar, Mongolia": {
+    "lat": "47.9184676",
+    "lon": "106.9177016"
+  },
+  "Antwerp, Belgium": {
+    "lat": "51.2211097",
+    "lon": "4.3997081"
+  },
+  "Arjona, Colombia": {
+    "lat": "10.2534632",
+    "lon": "-75.3427213"
+  },
+  "Cotonou, Benin": {
+    "lat": "6.3676953",
+    "lon": "2.4252507"
+  },
+  "Cunduacan, Mexico": {
+    "lat": "18.0872903",
+    "lon": "-93.2321356"
+  },
+  "Indramayu, Indonesia": {
+    "lat": "-6.4418537",
+    "lon": "108.1765472"
+  },
+  "Kiryat Malakhi, Israel": {
+    "lat": "31.7316015",
+    "lon": "34.7446145"
+  },
+  "Municipality of Kumanovo, North Macedonia": {
+    "lat": "42.1143170",
+    "lon": "21.7940366"
+  },
+  "Paranagua, Brazil": {
+    "lat": "-25.5148822",
+    "lon": "-48.5226695"
+  },
+  "Rancaekek, Indonesia": {
+    "lat": "-6.9648801",
+    "lon": "107.7559578"
+  },
+  "Tallahassee, United States": {
+    "lat": "30.4380832",
+    "lon": "-84.2809332"
+  },
+  "Barcelona, Spain": {
+    "lat": "41.3825802",
+    "lon": "2.1770730"
+  },
+  "Birmingham, United Kingdom": {
+    "lat": "52.4796992",
+    "lon": "-1.9026911"
+  },
+  "Dubai, United Arab Emirates": {
+    "lat": "25.0742823",
+    "lon": "55.1885387"
+  },
+  "Pekanbaru, Indonesia": {
+    "lat": "0.5262455",
+    "lon": "101.4515727"
+  },
+  "Sidoarjo, Indonesia": {
+    "lat": "-7.4559741",
+    "lon": "112.6608877"
+  },
+  "Uzyn, Ukraine": {
+    "lat": "49.8284745",
+    "lon": "30.4197205"
+  },
+  "Andrychow, Poland": {
+    "lat": "49.8555791",
+    "lon": "19.3436756"
+  },
+  "Bandung, Indonesia": {
+    "lat": "-6.9218457",
+    "lon": "107.6070833"
+  },
+  "Baniocha, Poland": {
+    "lat": "52.0217251",
+    "lon": "21.1301595"
+  },
+  "Dublin, Ireland": {
+    "lat": "53.3493795",
+    "lon": "-6.2605593"
+  },
+  "Homiel, Belarus": {
+    "lat": "52.4238936",
+    "lon": "31.0131698"
+  },
+  "Kauhava, Finland": {
+    "lat": "63.0993728",
+    "lon": "23.0569547"
+  },
+  "Lapu-lapu City, Philippines": {
+    "lat": "13.1516159",
+    "lon": "123.7527758"
+  },
+  "Lisburn, United Kingdom": {
+    "lat": "54.5112856",
+    "lon": "-6.0467170"
+  },
+  "Nahariyya, Israel": {
+    "lat": "33.0167622",
+    "lon": "35.1017820"
+  },
+  "Puli Township, Taiwan": {
+    "lat": "23.9666667",
+    "lon": "120.9691462"
+  },
+  "Resistencia, Argentina": {
+    "lat": "-27.6048829",
+    "lon": "-59.1932003"
+  },
+  "Surakarta, Indonesia": {
+    "lat": "-7.5692489",
+    "lon": "110.8284480"
+  },
+  "Swindon, United Kingdom": {
+    "lat": "51.5615327",
+    "lon": "-1.7854322"
+  },
+  "The Hague, Netherlands": {
+    "lat": "52.0749456",
+    "lon": "4.2696802"
+  },
+  "Utrecht, Netherlands": {
+    "lat": "52.0907006",
+    "lon": "5.1215634"
+  },
+  "Zagreb, Croatia": {
+    "lat": "45.8130967",
+    "lon": "15.9772795"
+  },
+  "Beaverton, United States": {
+    "lat": "45.4871723",
+    "lon": "-122.8037800"
+  },
+  "Bilthoven, Netherlands": {
+    "lat": "52.1289693",
+    "lon": "5.2046134"
+  },
+  "Chandrapur, India": {
+    "lat": "20.0967555",
+    "lon": "79.5045475"
+  },
+  "City Of Manila, Philippines": {
+    "lat": "14.5904492",
+    "lon": "120.9803621"
+  },
+  "Galax, United States": {
+    "lat": "36.6612387",
+    "lon": "-80.9239671"
+  },
+  "Madinah, Saudi Arabia": {
+    "lat": "24.4711530",
+    "lon": "39.6111216"
+  },
+  "Mason, United States": {
+    "lat": "30.7050290",
+    "lon": "-99.2233284"
+  },
+  "Porirua, New Zealand": {
+    "lat": "-41.1354217",
+    "lon": "174.8397824"
+  },
+  "Setagaya City, Japan": {
+    "lat": "35.6465296",
+    "lon": "139.6532504"
+  },
+  "Singen, Germany": {
+    "lat": "47.7617515",
+    "lon": "8.8348709"
+  },
+  "Taguig City, Philippines": {
+    "lat": "14.5315459",
+    "lon": "121.0665256"
+  },
+  "Waxhaw, United States": {
+    "lat": "34.9248125",
+    "lon": "-80.7440174"
+  },
+  "Yangon, Myanmar (Burma)": {
+    "lat": "16.7967129",
+    "lon": "96.1609916"
+  },
+  "Myanmar (Burma)": {
+    "lat": "17.1750495",
+    "lon": "95.9999652"
+  },
+  "Abidjan, Côte d’Ivoire": {
+    "lat": "5.3203570",
+    "lon": "-4.0161070"
+  },
+  "Bad Oldesloe, Germany": {
+    "lat": "53.8096562",
+    "lon": "10.3733692"
+  },
+  "Bahawalpur, Pakistan": {
+    "lat": "29.3946440",
+    "lon": "71.6638747"
+  },
+  "Donostia-San Sebastian, Spain": {
+    "lat": "43.3224219",
+    "lon": "-1.9838889"
+  },
+  "Haarlem, Netherlands": {
+    "lat": "52.3837058",
+    "lon": "4.6435597"
+  },
+  "Jashore, Bangladesh": {
+    "lat": "23.1665256",
+    "lon": "89.2094419"
+  },
+  "Memphis, United States": {
+    "lat": "35.1460249",
+    "lon": "-90.0517638"
+  },
+  "Munster, Germany": {
+    "lat": "51.9625101",
+    "lon": "7.6251879"
+  },
+  "Nootdorp, Netherlands": {
+    "lat": "52.0426094",
+    "lon": "4.3930456"
+  },
+  "Pimpri-Chinchwad, India": {
+    "lat": "18.6279288",
+    "lon": "73.8009829"
+  },
+  "Sochi, Russia": {
+    "lat": "43.5854823",
+    "lon": "39.7231090"
+  },
+  "Spartanburg, United States": {
+    "lat": "34.9498007",
+    "lon": "-81.9320157"
+  },
+  "Tauranga, New Zealand": {
+    "lat": "-37.6859006",
+    "lon": "176.1675050"
+  },
+  "Wildwood, United States": {
+    "lat": "38.5806948",
+    "lon": "-90.6314374"
+  },
+  "Yaroslavl, Russia": {
+    "lat": "57.6508432",
+    "lon": "39.8718634"
+  },
+  "Zhubei City, Taiwan": {
+    "lat": "24.8396820",
+    "lon": "121.0040779"
+  },
+  "Côte d’Ivoire": {
+    "lat": "7.9897371",
+    "lon": "-5.5679458"
+  },
+  "Albany, United States": {
+    "lat": "42.6511674",
+    "lon": "-73.7549680"
+  },
+  "Amberley, United States": {
+    "lat": "39.2047809",
+    "lon": "-84.4279970"
+  },
+  "Budapest, Hungary": {
+    "lat": "47.4813896",
+    "lon": "19.1460941"
+  },
+  "Galati, Romania": {
+    "lat": "45.4338215",
+    "lon": "28.0549395"
+  },
+  "Kawartha Lakes, Canada": {
+    "lat": "44.3596825",
+    "lon": "-78.7421729"
+  },
+  "Nunspeet, Netherlands": {
+    "lat": "52.3372909",
+    "lon": "5.7956364"
+  },
+  "Rancho Cucamonga, United States": {
+    "lat": "34.1033192",
+    "lon": "-117.5751730"
+  },
+  "Stovring, Denmark": {
+    "lat": "56.8847204",
+    "lon": "9.8330640"
+  },
+  "Stuttgart, Germany": {
+    "lat": "48.7784485",
+    "lon": "9.1800132"
+  },
+  "Wateringen, Netherlands": {
+    "lat": "52.0235098",
+    "lon": "4.2745855"
   }
 }

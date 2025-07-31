@@ -1,6 +1,7 @@
 import fs from 'fs'
 import geo from '../src/data/geo.json' with { type: 'json' };
 import countries from '../src/data/countries.json' with { type: 'json' };
+import prevVisitedCountries from '../src/data/visited-countries.json' with { type: 'json' };
 
 const propertyId = '1234';
 
@@ -77,11 +78,6 @@ async function runReport() {
     ],
   });
 
-  console.log('Report result:');
-  response.rows.forEach(row => {
-    console.log(row.dimensionValues[0], row.metricValues[0]);
-  });
-
   const data = {}
   const visitedCountries = {}
   response.rows.forEach(row => {
@@ -99,9 +95,11 @@ async function runReport() {
       data[key].value = data[key].value + value
 
       const thisCountry = key.replace(/.*, /g, '')  // extract the country
-      console.log(`thisCountry = ${thisCountry}`)
       if (visitedCountries[thisCountry] === undefined) {
         visitedCountries[thisCountry] = { value: 0}
+        if (!prevVisitedCountries[thisCountry]) {
+          console.log(`NEW VISITED COUNTRY: ${thisCountry}`)
+        }
       }
       visitedCountries[thisCountry].value += value
     }
