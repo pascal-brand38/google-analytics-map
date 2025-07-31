@@ -87,6 +87,7 @@ async function runReport() {
     key = key.replace(/^, /g, '')
     key = key.replace(/&/g, 'and')
     key = key.replace(/ Municipality/g, '')
+    key = key.replace(/ District/g, '')
     if (key !== '') {
       const value = parseInt(row.metricValues[0].value)
       if (data[key] === undefined) {

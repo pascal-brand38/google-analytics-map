@@ -8,7 +8,7 @@ import countries from '../data/countries.json'
 import visitedCountries from '../data/visited-countries.json'
 
 const markers: AstroLeafletMarkerType[] = []
-if (false) {
+if (true) {
 	Object.keys(data).forEach(key => {
 		markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key}} )
 	})

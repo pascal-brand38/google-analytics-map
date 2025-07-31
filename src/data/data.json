@@ -719,7 +719,7 @@
     "lat": "52.0217251",
     "lon": "21.1301595"
   },
-  "Banqiao District, Taiwan": {
+  "Banqiao, Taiwan": {
     "value": 1,
     "lat": "25.0096703",
     "lon": "121.4590989"
@@ -1629,10 +1629,10 @@
     "lat": "40.1098561",
     "lon": "-76.5033406"
   },
-  "Mueang Ranong District, Thailand": {
+  "Mueang Ranong, Thailand": {
     "value": 1,
-    "lat": 0,
-    "lon": 0
+    "lat": "9.8995646",
+    "lon": "98.6484896"
   },
   "Municipality of Kumanovo, North Macedonia": {
     "value": 1,
