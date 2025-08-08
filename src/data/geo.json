@@ -2642,5 +2642,145 @@
   "Mueang Ranong, Thailand": {
     "lat": "9.8995646",
     "lon": "98.6484896"
+  },
+  "Aachen, Germany": {
+    "lat": "50.7763510",
+    "lon": "6.0838620"
+  },
+  "Chandigarh, India": {
+    "lat": "30.7334421",
+    "lon": "76.7797143"
+  },
+  "Chongqing, China": {
+    "lat": "30.0551800",
+    "lon": "107.8748712"
+  },
+  "Chorley, United Kingdom": {
+    "lat": "53.6531915",
+    "lon": "-2.6294313"
+  },
+  "Fuzhou, China": {
+    "lat": "26.0774954",
+    "lon": "119.2918215"
+  },
+  "Katwijk aan Zee, Netherlands": {
+    "lat": "52.2048978",
+    "lon": "4.3965975"
+  },
+  "Ljubljana, Slovenia": {
+    "lat": "46.0500268",
+    "lon": "14.5069289"
+  },
+  "Lomas de Zamora, Argentina": {
+    "lat": "-34.7572582",
+    "lon": "-58.4026638"
+  },
+  "Nottingham, United Kingdom": {
+    "lat": "52.9534193",
+    "lon": "-1.1496461"
+  },
+  "Nuestra Senora de La Paz, Bolivia": {
+    "lat": "-16.4955455",
+    "lon": "-68.1336229"
+  },
+  "Orizaba, Mexico": {
+    "lat": "18.8497366",
+    "lon": "-97.1060062"
+  },
+  "Pitesti, Romania": {
+    "lat": "44.8572343",
+    "lon": "24.8719422"
+  },
+  "Sainte-Marguerite-du-Lac-Masson, Canada": {
+    "lat": "46.0312960",
+    "lon": "-74.0571210"
+  },
+  "Salzburg, Austria": {
+    "lat": "47.7981346",
+    "lon": "13.0464806"
+  },
+  "Sulingen, Germany": {
+    "lat": "52.6828374",
+    "lon": "8.8018923"
+  },
+  "Ungaran, Indonesia": {
+    "lat": "-7.1290892",
+    "lon": "110.4038912"
+  },
+  "Union, United States": {
+    "lat": "37.4616454",
+    "lon": "-89.2504793"
+  },
+  "Brno, Czechia": {
+    "lat": "49.1922443",
+    "lon": "16.6113382"
+  },
+  "Schiedam, Netherlands": {
+    "lat": "51.9300454",
+    "lon": "4.3864511"
+  },
+  "Addis Ababa, Ethiopia": {
+    "lat": "9.0358287",
+    "lon": "38.7524127"
+  },
+  "Carson, United States": {
+    "lat": "35.3636563",
+    "lon": "-101.3353895"
+  },
+  "Chemnitz, Germany": {
+    "lat": "50.8323531",
+    "lon": "12.9189140"
+  },
+  "Cutler Bay, United States": {
+    "lat": "25.5783000",
+    "lon": "-80.3377000"
+  },
+  "Delhi, India": {
+    "lat": "28.6328027",
+    "lon": "77.2197713"
+  },
+  "Domodedovo, Russia": {
+    "lat": "55.4368213",
+    "lon": "37.7680693"
+  },
+  "Gualdo Tadino, Italy": {
+    "lat": "43.2316518",
+    "lon": "12.7809617"
+  },
+  "Guwahati, India": {
+    "lat": "26.1805978",
+    "lon": "91.7539430"
+  },
+  "Leer, Germany": {
+    "lat": "53.2050927",
+    "lon": "7.4594640"
+  },
+  "Merida, Mexico": {
+    "lat": "20.9670759",
+    "lon": "-89.6237402"
+  },
+  "Miami, United States": {
+    "lat": "25.7741728",
+    "lon": "-80.1936200"
+  },
+  "Modling, Austria": {
+    "lat": "48.0855922",
+    "lon": "16.2833526"
+  },
+  "Mount Airy, United States": {
+    "lat": "39.3765918",
+    "lon": "-77.1549078"
+  },
+  "Naples, Italy": {
+    "lat": "40.8358846",
+    "lon": "14.2487679"
+  },
+  "Starnberg, Germany": {
+    "lat": "47.9986851",
+    "lon": "11.3410791"
+  },
+  "Zapopan, Mexico": {
+    "lat": "20.7211203",
+    "lon": "-103.3913671"
   }
 }

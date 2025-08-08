@@ -62,17 +62,3 @@ const options: AstroLeafletOptionsType = {
 		line-height:30px;
 	}
 </style>
-
-<script>
-  import { tileLayer } from "leaflet"
-	import { getMap } from "astro-leaflet"
-	window.onload = function() {
-		var gTerrain = tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',	{
-		  opacity: 0.5,
-			maxZoom: 20,
-			subdomains:['mt0','mt1','mt2','mt3']
-		});
-
-		// getMap('TODOMAP').addLayer(gTerrain)
-	}
-</script>
