@@ -2782,5 +2782,49 @@
   "Zapopan, Mexico": {
     "lat": "20.7211203",
     "lon": "-103.3913671"
+  },
+  "Boston, Massachusetts": {
+    "lat": "42.3554334",
+    "lon": "-71.0605110"
+  },
+  "Yerba Buena,Tucuman": {
+    "lat": "-26.8121581",
+    "lon": "-65.2981714"
+  },
+  "Calgary, Canada": {
+    "lat": "51.0456064",
+    "lon": "-114.0575410"
+  },
+  "Governador Valadares/MG": {
+    "lat": "-18.8698882",
+    "lon": "-41.9459383"
+  },
+  "Montreal, Canada": {
+    "lat": "45.5031824",
+    "lon": "-73.5698065"
+  },
+  "Ohio": {
+    "lat": "40.2253569",
+    "lon": "-82.6881395"
+  },
+  "Canton China": {
+    "lat": "23.1301964",
+    "lon": "113.2592945"
+  },
+  "Remote, USA": {
+    "lat": "43.0059455",
+    "lon": "-123.8925908"
+  },
+  "Perú": {
+    "lat": "-6.8699697",
+    "lon": "-75.0458515"
+  },
+  "Santa Fe, Argentina": {
+    "lat": "-30.3154739",
+    "lon": "-61.1645076"
+  },
+  "Sun Prairie, United States": {
+    "lat": "43.1832780",
+    "lon": "-89.2128297"
   }
 }

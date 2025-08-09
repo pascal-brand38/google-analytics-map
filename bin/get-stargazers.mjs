@@ -1,8 +1,7 @@
 import fs from 'fs'
 import githubUsers from '../src/data/github-users.json' with { type: 'json' };
 
-// TODO: CANNOT BE PUBLISHED ON GITHUB IN PUBLIC REPO
-const _token = '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'
+const _token = 'ghp_'
 const repos = [ 'astro-splide', 'astro-swiper', 'astro-lightgallery', 'astro-leaflet', 'astro-dev', 'astro-sprite', 'py-responsiveimage' ]
 // const repos = [ 'astro-splide',  ]
 

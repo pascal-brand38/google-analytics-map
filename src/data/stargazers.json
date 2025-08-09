@@ -1,0 +1,207 @@
+[
+  {
+    "starred_at": "2024-03-31T17:42:07Z",
+    "repo": "py-responsiveimage",
+    "userLogin": "szmyty",
+    "userLocation": "Boston, Massachusetts",
+    "userLocationLatLng": {
+      "lat": "42.3554334",
+      "lon": "-71.0605110"
+    }
+  },
+  {
+    "starred_at": "2025-04-08T18:03:22Z",
+    "repo": "astro-splide",
+    "userLogin": "avi-man"
+  },
+  {
+    "starred_at": "2025-05-26T10:33:32Z",
+    "repo": "astro-splide",
+    "userLogin": "mat-jaworski",
+    "userLocation": "Sydney, Australia",
+    "userLocationLatLng": {
+      "lat": "-33.8698439",
+      "lon": "151.2082848"
+    }
+  },
+  {
+    "starred_at": "2025-06-02T20:43:04Z",
+    "repo": "astro-splide",
+    "userLogin": "Aleervdnr",
+    "userLocation": "Yerba Buena,Tucuman",
+    "userLocationLatLng": {
+      "lat": "-26.8121581",
+      "lon": "-65.2981714"
+    }
+  },
+  {
+    "starred_at": "2025-06-06T05:43:08Z",
+    "repo": "astro-splide",
+    "userLogin": "srsgores",
+    "userLocation": "Calgary, Canada",
+    "userLocationLatLng": {
+      "lat": "51.0456064",
+      "lon": "-114.0575410"
+    }
+  },
+  {
+    "starred_at": "2025-06-10T20:36:28Z",
+    "repo": "astro-splide",
+    "userLogin": "patricklafleur",
+    "userLocation": "Montreal, Canada",
+    "userLocationLatLng": {
+      "lat": "45.5031824",
+      "lon": "-73.5698065"
+    }
+  },
+  {
+    "starred_at": "2025-06-24T01:01:24Z",
+    "repo": "astro-swiper",
+    "userLogin": "michaelcassius",
+    "userLocation": "New Caprica",
+    "userLocationLatLng": {
+      "lat": "0",
+      "lon": "0"
+    }
+  },
+  {
+    "starred_at": "2025-07-02T06:23:27Z",
+    "repo": "astro-dev",
+    "userLogin": "CmbRDevMx"
+  },
+  {
+    "starred_at": "2025-07-03T01:18:07Z",
+    "repo": "astro-swiper",
+    "userLogin": "edersign",
+    "userLocation": "Governador Valadares/MG",
+    "userLocationLatLng": {
+      "lat": "-18.8698882",
+      "lon": "-41.9459383"
+    }
+  },
+  {
+    "starred_at": "2025-07-05T06:55:29Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "masputrawae",
+    "userLocation": "Indonesia",
+    "userLocationLatLng": {
+      "lat": "-2.4833826",
+      "lon": "117.8902853"
+    }
+  },
+  {
+    "starred_at": "2025-07-06T14:04:18Z",
+    "repo": "astro-dev",
+    "userLogin": "jesseagleboy",
+    "userLocation": "Ohio",
+    "userLocationLatLng": {
+      "lat": "40.2253569",
+      "lon": "-82.6881395"
+    }
+  },
+  {
+    "starred_at": "2025-07-12T05:34:00Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "lukehsiao",
+    "userLocation": "Remote, USA",
+    "userLocationLatLng": {
+      "lat": "43.0059455",
+      "lon": "-123.8925908"
+    }
+  },
+  {
+    "starred_at": "2025-07-12T06:22:50Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "nicholaschiang"
+  },
+  {
+    "starred_at": "2025-07-13T14:03:07Z",
+    "repo": "astro-dev",
+    "userLogin": "sgalcheung",
+    "userLocation": "Canton China",
+    "userLocationLatLng": {
+      "lat": "23.1301964",
+      "lon": "113.2592945"
+    }
+  },
+  {
+    "starred_at": "2025-07-13T14:03:51Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "sgalcheung",
+    "userLocation": "Canton China",
+    "userLocationLatLng": {
+      "lat": "23.1301964",
+      "lon": "113.2592945"
+    }
+  },
+  {
+    "starred_at": "2025-07-16T23:58:06Z",
+    "repo": "astro-swiper",
+    "userLogin": "Alexis-Castro",
+    "userLocation": "Perú",
+    "userLocationLatLng": {
+      "lat": "-6.8699697",
+      "lon": "-75.0458515"
+    }
+  },
+  {
+    "starred_at": "2025-07-18T13:21:03Z",
+    "repo": "astro-splide",
+    "userLogin": "dobbbri"
+  },
+  {
+    "starred_at": "2025-07-22T21:51:56Z",
+    "repo": "astro-swiper",
+    "userLogin": "gabitoesmiapodo",
+    "userLocation": "Santa Fe, Argentina",
+    "userLocationLatLng": {
+      "lat": "-30.3154739",
+      "lon": "-61.1645076"
+    }
+  },
+  {
+    "starred_at": "2025-07-27T07:37:25Z",
+    "repo": "astro-dev",
+    "userLogin": "tlandmangh",
+    "userLocation": "The Hague, Netherlands",
+    "userLocationLatLng": {
+      "lat": "52.0749456",
+      "lon": "4.2696802"
+    }
+  },
+  {
+    "starred_at": "2025-08-01T14:16:04Z",
+    "repo": "astro-leaflet",
+    "userLogin": "antogg",
+    "userLocation": "Bangkok, Thailand",
+    "userLocationLatLng": {
+      "lat": "13.7524938",
+      "lon": "100.4935089"
+    }
+  },
+  {
+    "starred_at": "2025-08-04T21:10:22Z",
+    "repo": "astro-leaflet",
+    "userLogin": "birkholz-cubert"
+  },
+  {
+    "starred_at": "2025-08-06T17:03:01Z",
+    "repo": "astro-splide",
+    "userLogin": "tlandmangh",
+    "userLocation": "The Hague, Netherlands",
+    "userLocationLatLng": {
+      "lat": "52.0749456",
+      "lon": "4.2696802"
+    }
+  },
+  {
+    "starred_at": "2025-08-07T04:31:19Z",
+    "repo": "astro-dev",
+    "userLogin": "Kx53",
+    "userLocation": "Thailand",
+    "userLocationLatLng": {
+      "lat": "14.8971921",
+      "lon": "100.8327300"
+    }
+  }
+]

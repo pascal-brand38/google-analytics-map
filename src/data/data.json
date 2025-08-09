@@ -14,15 +14,15 @@
     "lat": "35.0000663",
     "lon": "104.9999550"
   },
+  "Hong Kong, Hong Kong": {
+    "value": 12,
+    "lat": "22.2793278",
+    "lon": "114.1628131"
+  },
   "London, United Kingdom": {
     "value": 12,
     "lat": "51.4893335",
     "lon": "-0.1440551"
-  },
-  "Hong Kong, Hong Kong": {
-    "value": 11,
-    "lat": "22.2793278",
-    "lon": "114.1628131"
   },
   "Spain": {
     "value": 10,
@@ -69,6 +69,11 @@
     "lat": "52.2434979",
     "lon": "5.6343227"
   },
+  "Bangkok, Thailand": {
+    "value": 6,
+    "lat": "13.7524938",
+    "lon": "100.4935089"
+  },
   "Jakarta, Indonesia": {
     "value": 6,
     "lat": "-6.1754049",
@@ -88,11 +93,6 @@
     "value": 5,
     "lat": "42.6384261",
     "lon": "12.6742970"
-  },
-  "Bangkok, Thailand": {
-    "value": 5,
-    "lat": "13.7524938",
-    "lon": "100.4935089"
   },
   "Bengaluru, India": {
     "value": 5,
@@ -163,6 +163,11 @@
     "value": 4,
     "lat": "34.0536909",
     "lon": "-118.2427660"
+  },
+  "Managua, Nicaragua": {
+    "value": 4,
+    "lat": "12.1544035",
+    "lon": "-86.2737642"
   },
   "Rajkot, India": {
     "value": 4,
@@ -289,11 +294,6 @@
     "lat": "36.1674263",
     "lon": "-115.1484131"
   },
-  "Managua, Nicaragua": {
-    "value": 3,
-    "lat": "12.1544035",
-    "lon": "-86.2737642"
-  },
   "Manchester, United Kingdom": {
     "value": 3,
     "lat": "53.4794892",
@@ -393,6 +393,11 @@
     "value": 2,
     "lat": "50.9383610",
     "lon": "6.9599740"
+  },
+  "Cutler Bay, United States": {
+    "value": 2,
+    "lat": "25.5783000",
+    "lon": "-80.3377000"
   },
   "Denpasar, Indonesia": {
     "value": 2,
@@ -971,8 +976,8 @@
   },
   "Chau Djoc, Vietnam": {
     "value": 1,
-    "lat": 0,
-    "lon": 0
+    "lat": "0",
+    "lon": "0"
   },
   "Chemnitz, Germany": {
     "value": 1,
@@ -1074,11 +1079,6 @@
     "lat": "18.0872903",
     "lon": "-93.2321356"
   },
-  "Cutler Bay, United States": {
-    "value": 1,
-    "lat": "25.5783000",
-    "lon": "-80.3377000"
-  },
   "Czluchow, Poland": {
     "value": 1,
     "lat": "53.6651462",
@@ -1156,8 +1156,8 @@
   },
   "Eastern Goleta Valley, United States": {
     "value": 1,
-    "lat": 0,
-    "lon": 0
+    "lat": "0",
+    "lon": "0"
   },
   "Eindhoven, Netherlands": {
     "value": 1,
@@ -2363,6 +2363,11 @@
     "value": 1,
     "lat": "52.6828374",
     "lon": "8.8018923"
+  },
+  "Sun Prairie, United States": {
+    "value": 1,
+    "lat": "43.1832780",
+    "lon": "-89.2128297"
   },
   "Surabaya, Indonesia": {
     "value": 1,
