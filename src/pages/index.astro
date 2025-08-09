@@ -1,5 +1,5 @@
 ---
-import { Leaflet, CreateLeafletIcon } from 'astro-leaflet';
+import { Leaflet, CreateLeafletIcon, Marker } from 'astro-leaflet';
 import type {AstroLeafletMarkerType, AstroLeafletOptionsType}  from 'astro-leaflet';
 import Layout from '../layouts/Layout.astro';
 
@@ -7,6 +7,7 @@ import data from '../data/data.json'
 import countries from '../data/countries.json'
 import visitedCountries from '../data/visited-countries.json'
 import stargazers from '../data/stargazers.json'
+import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS, ActionError } from 'astro:actions';
 
 const markers: AstroLeafletMarkerType[] = []
 
@@ -44,6 +45,7 @@ const options: AstroLeafletOptionsType = {
 		subdomains: [ 'mt0', 'mt1', 'mt2', 'mt3' ],
 		attribution: 'Map data &copy; Google',
 	},
+	mapOptions: { zoomControl: false },
 	markers: markers,
 }
 
@@ -57,21 +59,21 @@ const options: AstroLeafletOptionsType = {
 		style="width: 100vw; height: 100vh"
 		options={options}
 	>
-
-	<form>
-		<label class='label' >
-			<input type="checkbox" name="showcheckbox" value="astrodev" checked>
-			astro-dev
-		</label>
-		<label class='label' >
-			<input type="checkbox" name="showcheckbox" value="missingcountries" checked>
-			missing countries
-		</label>
-		<label class='label' >
-			<input type="checkbox" name="showcheckbox" value="stargazers" checked>
-			Stargazers
-		</label>
-	</form>
+		{/* markers.map(marker => (<Marker {...marker} />)) */}
+		<form>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="astrodev" checked>
+				astro-dev
+			</label>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="missingcountries" checked>
+				missing countries
+			</label>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="stargazers" checked>
+				Stargazers
+			</label>
+		</form>
 	</Leaflet>
 </Layout>
 
