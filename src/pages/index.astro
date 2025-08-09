@@ -38,7 +38,6 @@ stargazers.forEach(stargazer => {
 	}
 })
 
-
 const options: AstroLeafletOptionsType = {
 	tileLayer: 'https://{s}.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}',
 	tileLayerOptions: {
@@ -48,87 +47,68 @@ const options: AstroLeafletOptionsType = {
 	markers: markers,
 }
 
-
-
 ---
 
 <Layout>
-	<div class="wrapper">
-		<CreateLeafletIcon name='icon-astrodev' options={{className: "leaflet-icon-astrodev"}}/>
-		<CreateLeafletIcon name='icon-missingcountries' options={{className: "leaflet-icon-missingcountries"}}/>
-		<CreateLeafletIcon name='icon-stargazers' options={{className: "leaflet-icon-stargazers"}}/>
-		<Leaflet
-			style="width: 100vw; height: 100vh"
-			options={options}
-		>
+	<CreateLeafletIcon name='icon-astrodev' options={{className: "leaflet-icon-astrodev"}}/>
+	<CreateLeafletIcon name='icon-missingcountries' options={{className: "leaflet-icon-missingcountries"}}/>
+	<CreateLeafletIcon name='icon-stargazers' options={{className: "leaflet-icon-stargazers"}}/>
+	<Leaflet
+		style="width: 100vw; height: 100vh"
+		options={options}
+	>
 
-		<form>
-			<label class='label' >
-				<input type="checkbox" name="showcheckbox" value="astrodev" checked>
-				astro-dev
-			</label>
-			<label class='label' >
-				<input type="checkbox" name="showcheckbox" value="missingcountries" checked>
-				missing countries
-			</label>
-			<label class='label' >
-				<input type="checkbox" name="showcheckbox" value="stargazers" checked>
-				Stargazers
-			</label>
-		</form>
-		</Leaflet>
-	</div>
+	<form>
+		<label class='label' >
+			<input type="checkbox" name="showcheckbox" value="astrodev" checked>
+			astro-dev
+		</label>
+		<label class='label' >
+			<input type="checkbox" name="showcheckbox" value="missingcountries" checked>
+			missing countries
+		</label>
+		<label class='label' >
+			<input type="checkbox" name="showcheckbox" value="stargazers" checked>
+			Stargazers
+		</label>
+	</form>
+	</Leaflet>
 </Layout>
 
 <style is:global>
 	/* creating an icon.
 	   cf. for some examples
 		   https://www.drupal.org/docs/extending-drupal/contributed-modules/contributed-module-archive/contrib-modules-for-building-the-site-functionality/geographical-data-and-mapping/leaflet/creating-custom-styles-leaflet-icons-with */
-	.leaflet-icon-astrodev {
-		background:blue;
+	.leaflet-icon-astrodev, .leaflet-icon-missingcountries, .leaflet-icon-stargazers {
 		border:5px solid rgba(255,255,255,0.5);
 		border-radius:50%;
 	}
-
-	.leaflet-icon-missingcountries {
-		background:red;
-		border:5px solid rgba(255,255,255,0.5);
-		border-radius:50%;
-	}
-
-	.leaflet-icon-stargazers {
-		background:green;
-		border:5px solid rgba(255,255,255,0.5);
-		border-radius:50%;
-	}
+	.leaflet-icon-astrodev         { background:blue; }
+	.leaflet-icon-missingcountries { background:red; }
+	.leaflet-icon-stargazers       { background:green; }
 
 	.not-visible {
 		display: none;
 	}
 
-	.wrapper {
-		position: relative;
-	}
-	.wrapper form {
+	form {
 		position: absolute;
 		top: 0;
-		left: 0;
-		z-index: 9999;
+		right: 0;
+		z-index: 1000;
 		background-color: lightgray;
 		border: 1px solid black;
-		padding: 8px;
-		margin: 8px;
+		padding: 10px;
+		margin: 10px;
 	}
 
-	.wrapper form label {
+	form label {
 		display: block;
-		color: black;
 	}
-	.wrapper input {
-		color: black;
+	input {
 		accent-color: black;
 	}
-	.wrapper label:hover {
+	label:hover {
 		background-color: grey;
 	}
 </style>
