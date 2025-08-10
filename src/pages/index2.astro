@@ -1,5 +1,5 @@
 ---
-import { Leaflet, CreateLeafletIcon, Marker, LayerGroup, ControlLayer, Overlay } from 'astro-leaflet';
+import { Leaflet, CreateLeafletIcon, Marker, LayerGroup } from 'astro-leaflet';
 import type {AstroLeafletMarkerType, AstroLeafletOptionsType}  from 'astro-leaflet';
 import Layout from '../layouts/Layout.astro';
 
@@ -59,20 +59,30 @@ const options: AstroLeafletOptionsType = {
 		options={options}
 	>
 
-		<ControlLayer>
-			<LayerGroup id="astro-leaflet-layergroup-astrodev">
-				{ markersAstroDev.map(marker => (<Marker {...marker} />)) }
-				<Overlay name="Visitors to astro-dev"/>
-			<LayerGroup/>
-			<LayerGroup id="astro-leaflet-layergroup-missingcountries">
-				{ markersMissingCountries.map(marker => (<Marker {...marker} />)) }
-				<Overlay name="Missing Countries"/>
-			<LayerGroup/>
-			<LayerGroup id="astro-leaflet-layergroup-stargazers">
-				{ markersStargazers.map(marker => (<Marker {...marker} />)) }
-				<Overlay name="Github Stargazers"/>
-			<LayerGroup/>
-		</ControlLayer>
+		<LayerGroup id="astro-leaflet-layergroup-astrodev">
+			{ markersAstroDev.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+		<LayerGroup id="astro-leaflet-layergroup-missingcountries">
+			{ markersMissingCountries.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+		<LayerGroup id="astro-leaflet-layergroup-stargazers">
+			{ markersStargazers.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+
+		<form>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="astrodev" checked>
+				astro-dev
+			</label>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="missingcountries" checked>
+				missing countries
+			</label>
+			<label class='label' >
+				<input type="checkbox" name="showcheckbox" value="stargazers" checked>
+				Stargazers
+			</label>
+		</form>
 	</Leaflet>
 </Layout>
 
@@ -88,4 +98,46 @@ const options: AstroLeafletOptionsType = {
 	.leaflet-icon-missingcountries { background:red; }
 	.leaflet-icon-stargazers       { background:green; }
 
+	form {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1000;
+		background-color: lightgray;
+		border: 1px solid black;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	form label {
+		display: block;
+	}
+	input {
+		accent-color: black;
+	}
+	label:hover {
+		background-color: grey;
+	}
 </style>
+
+<script>
+	import { getMapFromId, getMapOrLayoutGroupFromId } from 'astro-leaflet'
+	window.addEventListener('load', ()=> {
+		const checkboxes = document.querySelectorAll('input[name="showcheckbox"]') as NodeListOf<HTMLInputElement>
+		const layerGroup: { [key: string]: any} = {}
+		layerGroup['astrodev'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-astrodev`)
+		layerGroup['missingcountries'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-missingcountries`)
+		layerGroup['stargazers'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-stargazers`)
+		const map = getMapFromId('astro-leaflet-layergroup-stargazers')
+
+		checkboxes.forEach((checkbox: HTMLInputElement) => {
+			checkbox.addEventListener('change', () => {
+				if (checkbox.checked) {
+					layerGroup[checkbox.value].addTo(map)
+				} else {
+					layerGroup[checkbox.value].remove(map)
+				}
+			})
+		})
+	})
+</script>
