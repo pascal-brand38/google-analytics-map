@@ -1,5 +1,5 @@
 ---
-import { Leaflet, CreateLeafletIcon, Marker } from 'astro-leaflet';
+import { Leaflet, CreateLeafletIcon, Marker, LayerGroup } from 'astro-leaflet';
 import type {AstroLeafletMarkerType, AstroLeafletOptionsType}  from 'astro-leaflet';
 import Layout from '../layouts/Layout.astro';
 
@@ -7,29 +7,29 @@ import data from '../data/data.json'
 import countries from '../data/countries.json'
 import visitedCountries from '../data/visited-countries.json'
 import stargazers from '../data/stargazers.json'
-import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS, ActionError } from 'astro:actions';
 
-const markers: AstroLeafletMarkerType[] = []
-
+const markersAstroDev: AstroLeafletMarkerType[] = []
 if (true) {
 	Object.keys(data).forEach(key => {
-		markers.push( {latlng: [data[key].lat, data[key].lon], options: {title: key, zIndexOffset: -400}, astroIconName:'icon-astrodev'} )
+		markersAstroDev.push( {latlng: [data[key].lat, data[key].lon], options: {title: key, zIndexOffset: -400}, astroIconName:'icon-astrodev'} )
 	})
 } else {
 	Object.keys(visitedCountries).forEach(key => {
-		markers.push( {latlng: [visitedCountries[key].lat, visitedCountries[key].lon], options: {title: key}} )
+		markersAstroDev.push( {latlng: [visitedCountries[key].lat, visitedCountries[key].lon], options: {title: key}} )
 	})
 }
 
+const markersMissingCountries: AstroLeafletMarkerType[] = []
 Object.keys(countries).forEach(key => {
 	if (visitedCountries[key] === undefined) {
-		markers.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'icon-missingcountries'} )
+		markersMissingCountries.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'icon-missingcountries'} )
 	}
 })
 
+const markersStargazers: AstroLeafletMarkerType[] = []
 stargazers.forEach(stargazer => {
 	if (stargazer.userLocationLatLng) {
-		markers.push( {
+		markersStargazers.push( {
 			latlng: [parseFloat(stargazer.userLocationLatLng.lat), parseFloat(stargazer.userLocationLatLng.lon)],
 			options: {
 				title: `${stargazer.userLocation}\n${stargazer.repo}`,
@@ -46,7 +46,6 @@ const options: AstroLeafletOptionsType = {
 		attribution: 'Map data &copy; Google',
 	},
 	mapOptions: { zoomControl: false },
-	markers: markers,
 }
 
 ---
@@ -59,7 +58,17 @@ const options: AstroLeafletOptionsType = {
 		style="width: 100vw; height: 100vh"
 		options={options}
 	>
-		{/* markers.map(marker => (<Marker {...marker} />)) */}
+
+		<LayerGroup id="astro-leaflet-layergroup-astrodev">
+			{ markersAstroDev.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+		<LayerGroup id="astro-leaflet-layergroup-missingcountries">
+			{ markersMissingCountries.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+		<LayerGroup id="astro-leaflet-layergroup-stargazers">
+			{ markersStargazers.map(marker => (<Marker {...marker} />)) }
+		<LayerGroup/>
+
 		<form>
 			<label class='label' >
 				<input type="checkbox" name="showcheckbox" value="astrodev" checked>
@@ -89,10 +98,6 @@ const options: AstroLeafletOptionsType = {
 	.leaflet-icon-missingcountries { background:red; }
 	.leaflet-icon-stargazers       { background:green; }
 
-	.not-visible {
-		display: none;
-	}
-
 	form {
 		position: absolute;
 		top: 0;
@@ -116,28 +121,21 @@ const options: AstroLeafletOptionsType = {
 </style>
 
 <script>
-	// window.addEventListener('load', ()=> {
-	// 	const elements = document.getElementsByClassName('leaflet-icon-stargazers')
-	// 	for (let i = 0; i < elements.length; i++) {
-	// 		elements[i].classList.add('not-visible')
-	// 	}
-	// })
-
+	import { getMapFromId, getMapOrLayoutGroupFromId } from 'astro-leaflet'
 	window.addEventListener('load', ()=> {
 		const checkboxes = document.querySelectorAll('input[name="showcheckbox"]') as NodeListOf<HTMLInputElement>
-		const markers: { [key: string]: HTMLCollectionOf<Element> } = {}
-		markers['astrodev'] = document.getElementsByClassName('leaflet-icon-astrodev')
-		markers['missingcountries'] = document.getElementsByClassName('leaflet-icon-missingcountries')
-		markers['stargazers'] = document.getElementsByClassName('leaflet-icon-stargazers')
+		const layerGroup: { [key: string]: any} = {}
+		layerGroup['astrodev'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-astrodev`)
+		layerGroup['missingcountries'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-missingcountries`)
+		layerGroup['stargazers'] = getMapOrLayoutGroupFromId(`astro-leaflet-layergroup-stargazers`)
+		const map = getMapFromId('astro-leaflet-layergroup-stargazers')
+
 		checkboxes.forEach((checkbox: HTMLInputElement) => {
 			checkbox.addEventListener('change', () => {
-				const elements = markers[checkbox.value]
-				for (let i = 0; i < elements.length; i++) {
-					if (checkbox.checked) {
-						elements[i].classList.remove('not-visible')
-					} else {
-						elements[i].classList.add('not-visible')
-					}
+				if (checkbox.checked) {
+					layerGroup[checkbox.value].addTo(map)
+				} else {
+					layerGroup[checkbox.value].remove(map)
 				}
 			})
 		})
