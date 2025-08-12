@@ -2826,5 +2826,49 @@
   "Sun Prairie, United States": {
     "lat": "43.1832780",
     "lon": "-89.2128297"
+  },
+  "Odesa, Ukraine": {
+    "lat": "46.4843023",
+    "lon": "30.7322878"
+  },
+  "Vigonza, Italy": {
+    "lat": "45.4430160",
+    "lon": "11.9830890"
+  },
+  "Barnsley, United Kingdom": {
+    "lat": "53.5527719",
+    "lon": "-1.4827755"
+  },
+  "Cape Town, South Africa": {
+    "lat": "-33.9288301",
+    "lon": "18.4172197"
+  },
+  "Cincinnati, United States": {
+    "lat": "39.1014537",
+    "lon": "-84.5124602"
+  },
+  "Cordoba, Mexico": {
+    "lat": "18.8944704",
+    "lon": "-96.9352891"
+  },
+  "Hachioji, Japan": {
+    "lat": "35.6663595",
+    "lon": "139.3163653"
+  },
+  "Permatang Pauh, Malaysia": {
+    "lat": "5.4124702",
+    "lon": "100.4125105"
+  },
+  "Philadelphia, United States": {
+    "lat": "39.9527237",
+    "lon": "-75.1635262"
+  },
+  "Quebec City, Canada": {
+    "lat": "46.8137431",
+    "lon": "-71.2084061"
+  },
+  "Samsun, Türkiye": {
+    "lat": "41.2303557",
+    "lon": "35.9683338"
   }
 }

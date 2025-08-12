@@ -1,6 +1,6 @@
 {
   "France": {
-    "value": 139,
+    "value": 153,
     "lat": "46.6033540",
     "lon": "1.8883335"
   },
@@ -8,6 +8,11 @@
     "value": 13,
     "lat": "39.7837304",
     "lon": "-100.4458820"
+  },
+  "London, United Kingdom": {
+    "value": 13,
+    "lat": "51.4893335",
+    "lon": "-0.1440551"
   },
   "China": {
     "value": 12,
@@ -18,11 +23,6 @@
     "value": 12,
     "lat": "22.2793278",
     "lon": "114.1628131"
-  },
-  "London, United Kingdom": {
-    "value": 12,
-    "lat": "51.4893335",
-    "lon": "-0.1440551"
   },
   "Spain": {
     "value": 10,
@@ -50,7 +50,7 @@
     "lon": "10.4478313"
   },
   "Peru": {
-    "value": 8,
+    "value": 9,
     "lat": "-6.8699697",
     "lon": "-75.0458515"
   },
@@ -79,6 +79,11 @@
     "lat": "-6.1754049",
     "lon": "106.8271680"
   },
+  "Mexico City, Mexico": {
+    "value": 6,
+    "lat": "19.3207722",
+    "lon": "-99.1514678"
+  },
   "Port-Gentil, Gabon": {
     "value": 6,
     "lat": "-0.7151966",
@@ -104,10 +109,15 @@
     "lat": "20.6720375",
     "lon": "-103.3383960"
   },
-  "Mexico City, Mexico": {
+  "Ho Chi Minh City, Vietnam": {
     "value": 5,
-    "lat": "19.3207722",
-    "lon": "-99.1514678"
+    "lat": "10.7763897",
+    "lon": "106.7011391"
+  },
+  "Krakow, Poland": {
+    "value": 5,
+    "lat": "50.0469432",
+    "lon": "19.9971534"
   },
   "Moscow, Russia": {
     "value": 5,
@@ -134,6 +144,11 @@
     "lat": "23.9739374",
     "lon": "120.9820179"
   },
+  "Amsterdam, Netherlands": {
+    "value": 4,
+    "lat": "52.3730796",
+    "lon": "4.8924534"
+  },
   "Cuiaba, Brazil": {
     "value": 4,
     "lat": "-15.5986686",
@@ -143,16 +158,6 @@
     "value": 4,
     "lat": "54.5164982",
     "lon": "18.5402738"
-  },
-  "Ho Chi Minh City, Vietnam": {
-    "value": 4,
-    "lat": "10.7763897",
-    "lon": "106.7011391"
-  },
-  "Krakow, Poland": {
-    "value": 4,
-    "lat": "50.0469432",
-    "lon": "19.9971534"
   },
   "Kyiv, Ukraine": {
     "value": 4,
@@ -214,11 +219,6 @@
     "lat": "22.3506270",
     "lon": "114.1849161"
   },
-  "Amsterdam, Netherlands": {
-    "value": 3,
-    "lat": "52.3730796",
-    "lon": "4.8924534"
-  },
   "Atlanta, United States": {
     "value": 3,
     "lat": "33.7544657",
@@ -253,6 +253,11 @@
     "value": 3,
     "lat": "34.0346534",
     "lon": "-5.0161926"
+  },
+  "Frankfurt am Main, Germany": {
+    "value": 3,
+    "lat": "50.1106444",
+    "lon": "8.6820917"
   },
   "Guangzhou, China": {
     "value": 3,
@@ -303,6 +308,11 @@
     "value": 3,
     "lat": "-37.8142454",
     "lon": "144.9631732"
+  },
+  "Odesa, Ukraine": {
+    "value": 3,
+    "lat": "46.4843023",
+    "lon": "30.7322878"
   },
   "Panama City, Panama": {
     "value": 3,
@@ -409,6 +419,11 @@
     "lat": "39.7392364",
     "lon": "-104.9848620"
   },
+  "Dubai, United Arab Emirates": {
+    "value": 2,
+    "lat": "25.0742823",
+    "lon": "55.1885387"
+  },
   "Edinburgh, United Kingdom": {
     "value": 2,
     "lat": "55.9533456",
@@ -418,11 +433,6 @@
     "value": 2,
     "lat": "6.1701348",
     "lon": "-75.5874150"
-  },
-  "Frankfurt am Main, Germany": {
-    "value": 2,
-    "lat": "50.1106444",
-    "lon": "8.6820917"
   },
   "Hemau, Germany": {
     "value": 2,
@@ -549,10 +559,20 @@
     "lat": "59.3251172",
     "lon": "18.0710935"
   },
+  "Stuttgart, Germany": {
+    "value": 2,
+    "lat": "48.7784485",
+    "lon": "9.1800132"
+  },
   "Vigo, Spain": {
     "value": 2,
     "lat": "42.2376602",
     "lon": "-8.7247205"
+  },
+  "Vigonza, Italy": {
+    "value": 2,
+    "lat": "45.4430160",
+    "lon": "11.9830890"
   },
   "Albania": {
     "value": 1,
@@ -794,6 +814,11 @@
     "lat": "41.3825802",
     "lon": "2.1770730"
   },
+  "Barnsley, United Kingdom": {
+    "value": 1,
+    "lat": "53.5527719",
+    "lon": "-1.4827755"
+  },
   "Barnstaple, United Kingdom": {
     "value": 1,
     "lat": "51.0804057",
@@ -929,6 +954,11 @@
     "lat": "21.1527467",
     "lon": "-86.8425761"
   },
+  "Cape Town, South Africa": {
+    "value": 1,
+    "lat": "-33.9288301",
+    "lon": "18.4172197"
+  },
   "Capilla del Senor, Argentina": {
     "value": 1,
     "lat": "-34.2869463",
@@ -1029,6 +1059,11 @@
     "lat": "-7.7509485",
     "lon": "108.1808709"
   },
+  "Cincinnati, United States": {
+    "value": 1,
+    "lat": "39.1014537",
+    "lon": "-84.5124602"
+  },
   "City Of Manila, Philippines": {
     "value": 1,
     "lat": "14.5904492",
@@ -1053,6 +1088,11 @@
     "value": 1,
     "lat": "41.1527614",
     "lon": "16.4114643"
+  },
+  "Cordoba, Mexico": {
+    "value": 1,
+    "lat": "18.8944704",
+    "lon": "-96.9352891"
   },
   "Cotonou, Benin": {
     "value": 1,
@@ -1133,11 +1173,6 @@
     "value": 1,
     "lat": "52.0333163",
     "lon": "5.3455956"
-  },
-  "Dubai, United Arab Emirates": {
-    "value": 1,
-    "lat": "25.0742823",
-    "lon": "55.1885387"
   },
   "Dubendorf, Switzerland": {
     "value": 1,
@@ -1298,6 +1333,11 @@
     "value": 1,
     "lat": "52.3837058",
     "lon": "4.6435597"
+  },
+  "Hachioji, Japan": {
+    "value": 1,
+    "lat": "35.6663595",
+    "lon": "139.3163653"
   },
   "Harnosand, Sweden": {
     "value": 1,
@@ -1974,6 +2014,11 @@
     "lat": "10.8542944",
     "lon": "76.5272947"
   },
+  "Permatang Pauh, Malaysia": {
+    "value": 1,
+    "lat": "5.4124702",
+    "lon": "100.4125105"
+  },
   "Petah Tikva, Israel": {
     "value": 1,
     "lat": "32.0906241",
@@ -1993,6 +2038,11 @@
     "value": 1,
     "lat": "47.5732762",
     "lon": "10.5320629"
+  },
+  "Philadelphia, United States": {
+    "value": 1,
+    "lat": "39.9527237",
+    "lon": "-75.1635262"
   },
   "Phoenix, United States": {
     "value": 1,
@@ -2083,6 +2133,11 @@
     "value": 1,
     "lat": "18.5565510",
     "lon": "-68.3691611"
+  },
+  "Quebec City, Canada": {
+    "value": 1,
+    "lat": "46.8137431",
+    "lon": "-71.2084061"
   },
   "Radolfzell, Germany": {
     "value": 1,
@@ -2183,6 +2238,11 @@
     "value": 1,
     "lat": "-0.5017804",
     "lon": "117.1393089"
+  },
+  "Samsun, Türkiye": {
+    "value": 1,
+    "lat": "41.2303557",
+    "lon": "35.9683338"
   },
   "San Angelo, United States": {
     "value": 1,
@@ -2353,11 +2413,6 @@
     "value": 1,
     "lat": "56.8847204",
     "lon": "9.8330640"
-  },
-  "Stuttgart, Germany": {
-    "value": 1,
-    "lat": "48.7784485",
-    "lon": "9.1800132"
   },
   "Sulingen, Germany": {
     "value": 1,
