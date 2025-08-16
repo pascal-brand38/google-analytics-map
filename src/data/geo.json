@@ -2870,5 +2870,85 @@
   "Samsun, Türkiye": {
     "lat": "41.2303557",
     "lon": "35.9683338"
+  },
+  "Hermosillo, Mexico": {
+    "lat": "29.0948207",
+    "lon": "-110.9692202"
+  },
+  "Banguntapan, Indonesia": {
+    "lat": "-7.8243669",
+    "lon": "110.4158242"
+  },
+  "Cheltenham, United Kingdom": {
+    "lat": "51.8995685",
+    "lon": "-2.0711559"
+  },
+  "Delaware, United States": {
+    "lat": "38.6920451",
+    "lon": "-75.4013315"
+  },
+  "Depok, Indonesia": {
+    "lat": "-6.4071900",
+    "lon": "106.8158371"
+  },
+  "Funchal, Portugal": {
+    "lat": "32.6496497",
+    "lon": "-16.9086783"
+  },
+  "Giza, Egypt": {
+    "lat": "29.9870753",
+    "lon": "31.2118063"
+  },
+  "Meerut, India": {
+    "lat": "29.0018557",
+    "lon": "77.7679671"
+  },
+  "Minot, United States": {
+    "lat": "48.2325100",
+    "lon": "-101.2962730"
+  },
+  "Monterrey, Mexico": {
+    "lat": "25.6802019",
+    "lon": "-100.3152580"
+  },
+  "Nuremberg, Germany": {
+    "lat": "49.4538720",
+    "lon": "11.0772980"
+  },
+  "Ostersund, Sweden": {
+    "lat": "63.1793655",
+    "lon": "14.6357061"
+  },
+  "Pinamar, Argentina": {
+    "lat": "-37.1099492",
+    "lon": "-56.8539007"
+  },
+  "San Jacinto, United States": {
+    "lat": "30.5083577",
+    "lon": "-95.1902362"
+  },
+  "Sturgis, United States": {
+    "lat": "44.4144770",
+    "lon": "-103.5091390"
+  },
+  "Trujillo, Peru": {
+    "lat": "-8.1116778",
+    "lon": "-79.0287742"
+  },
+  "Velikiye Luki, Russia": {
+    "lat": "56.3320746",
+    "lon": "30.5507990"
+  },
+  "Vitoria-Gasteiz, Spain": {
+    "lat": "42.8465088",
+    "lon": "-2.6724025"
+  },
+  "Zaporizhzhia, Ukraine": {
+    "lat": "47.8507859",
+    "lon": "35.1182867"
+  },
+  "Zilina, Slovakia": {
+    "lat": "49.2234674",
+    "lon": "18.7393139"
   }
 }
