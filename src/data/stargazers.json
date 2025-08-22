@@ -203,5 +203,10 @@
       "lat": "14.8971921",
       "lon": "100.8327300"
     }
+  },
+  {
+    "starred_at": "2025-08-20T19:05:53Z",
+    "repo": "astro-swiper",
+    "userLogin": "chriszacker"
   }
 ]

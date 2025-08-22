@@ -2950,5 +2950,81 @@
   "Zilina, Slovakia": {
     "lat": "49.2234674",
     "lon": "18.7393139"
+  },
+  "Bratislava, Slovakia": {
+    "lat": "48.1516988",
+    "lon": "17.1093063"
+  },
+  "Badajoz, Spain": {
+    "lat": "38.8781870",
+    "lon": "-6.9701115"
+  },
+  "De Koog, Netherlands": {
+    "lat": "53.0998817",
+    "lon": "4.7626457"
+  },
+  "Dresden, Germany": {
+    "lat": "51.0493286",
+    "lon": "13.7381437"
+  },
+  "Dumfries, United Kingdom": {
+    "lat": "55.0691831",
+    "lon": "-3.6106856"
+  },
+  "Frohnleiten, Austria": {
+    "lat": "47.2715315",
+    "lon": "15.3260206"
+  },
+  "Ibarra, Ecuador": {
+    "lat": "0.5159369",
+    "lon": "-78.1329448"
+  },
+  "Lome, Togo": {
+    "lat": "6.1304190",
+    "lon": "1.2158290"
+  },
+  "Los Banos, United States": {
+    "lat": "37.0592253",
+    "lon": "-120.8505342"
+  },
+  "Madurai, India": {
+    "lat": "9.9261153",
+    "lon": "78.1140983"
+  },
+  "North Bergen, United States": {
+    "lat": "40.8042674",
+    "lon": "-74.0120840"
+  },
+  "Olomouc, Czechia": {
+    "lat": "49.5940567",
+    "lon": "17.2511430"
+  },
+  "Palatka, United States": {
+    "lat": "29.6487882",
+    "lon": "-81.6372111"
+  },
+  "Santa Cruz De La Sierra, Bolivia": {
+    "lat": "-17.7834217",
+    "lon": "-63.1820853"
+  },
+  "Santiago del Estero, Argentina": {
+    "lat": "-27.6431016",
+    "lon": "-63.5408542"
+  },
+  "Yamaguchi, Japan": {
+    "lat": "34.2379614",
+    "lon": "131.5873845"
+  },
+  "Bang Krathuek, Thailand": {
+    "lat": "13.7648452",
+    "lon": "100.2856270"
+  },
+  "Hillsville, United States": {
+    "lat": "36.7662528",
+    "lon": "-80.7370242"
+  },
+  "Kitzingen, Germany": {
+    "lat": "49.7380667",
+    "lon": "10.1601218"
   }
 }
