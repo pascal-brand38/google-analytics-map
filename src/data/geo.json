@@ -3026,5 +3026,33 @@
   "Kitzingen, Germany": {
     "lat": "49.7380667",
     "lon": "10.1601218"
+  },
+  "Campobasso, Italy": {
+    "lat": "41.7172648",
+    "lon": "14.8262267"
+  },
+  "Chieti, Italy": {
+    "lat": "42.1026929",
+    "lon": "14.4159053"
+  },
+  "Hartland, United States": {
+    "lat": "43.8037219",
+    "lon": "-93.4866381"
+  },
+  "Limassol, Cyprus": {
+    "lat": "34.6852901",
+    "lon": "33.0332657"
+  },
+  "Pescara, Italy": {
+    "lat": "42.3102619",
+    "lon": "13.9575901"
+  },
+  "Pewaukee, United States": {
+    "lat": "43.0846017",
+    "lon": "-88.2139452"
+  },
+  "Tehuacan, Mexico": {
+    "lat": "18.4658011",
+    "lon": "-97.3978348"
   }
 }
