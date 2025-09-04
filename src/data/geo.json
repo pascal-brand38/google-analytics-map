@@ -3054,5 +3054,101 @@
   "Tehuacan, Mexico": {
     "lat": "18.4658011",
     "lon": "-97.3978348"
+  },
+  "Caracas, Venezuela": {
+    "lat": "10.5060934",
+    "lon": "-66.9146008"
+  },
+  "Ota City, Japan": {
+    "lat": "35.5613890",
+    "lon": "139.7160810"
+  },
+  "Agios Ioannis Rentis, Greece": {
+    "lat": "37.9674985",
+    "lon": "23.6746846"
+  },
+  "Albacete, Spain": {
+    "lat": "38.9950921",
+    "lon": "-1.8559154"
+  },
+  "Ankara, Türkiye": {
+    "lat": "39.9207759",
+    "lon": "32.8540497"
+  },
+  "Aparecida de Goiania, Brazil": {
+    "lat": "-16.8226769",
+    "lon": "-49.2452546"
+  },
+  "Bettembourg, Luxembourg": {
+    "lat": "49.5173351",
+    "lon": "6.0966536"
+  },
+  "Brovary, Ukraine": {
+    "lat": "50.5111168",
+    "lon": "30.7900482"
+  },
+  "Bury St Edmunds, United Kingdom": {
+    "lat": "52.2460367",
+    "lon": "0.7125173"
+  },
+  "David, Panama": {
+    "lat": "8.4371469",
+    "lon": "-82.4286281"
+  },
+  "Gallarate, Italy": {
+    "lat": "45.6598951",
+    "lon": "8.7932013"
+  },
+  "Gandia, Spain": {
+    "lat": "38.9675925",
+    "lon": "-0.1803423"
+  },
+  "Gunung Sindur, Indonesia": {
+    "lat": "-6.3865022",
+    "lon": "106.6837557"
+  },
+  "Kalispell, United States": {
+    "lat": "48.2021580",
+    "lon": "-114.3153210"
+  },
+  "Marbella, Spain": {
+    "lat": "36.5089760",
+    "lon": "-4.8856200"
+  },
+  "Moers, Germany": {
+    "lat": "51.4512830",
+    "lon": "6.6284300"
+  },
+  "Nha Trang, Vietnam": {
+    "lat": "12.2084991",
+    "lon": "109.2871204"
+  },
+  "Phoenixville, United States": {
+    "lat": "40.1303822",
+    "lon": "-75.5149128"
+  },
+  "Przemysl, Poland": {
+    "lat": "49.7835552",
+    "lon": "22.7885113"
+  },
+  "Riverdale, United States": {
+    "lat": "41.6333678",
+    "lon": "-87.6331021"
+  },
+  "Uriangato, Mexico": {
+    "lat": "20.1177350",
+    "lon": "-101.1380477"
+  },
+  "Verona, Italy": {
+    "lat": "45.4424977",
+    "lon": "10.9857377"
+  },
+  "Ankara": {
+    "lat": "39.9207759",
+    "lon": "32.8540497"
+  },
+  "El Cajon, United States": {
+    "lat": "32.7947731",
+    "lon": "-116.9625260"
   }
 }

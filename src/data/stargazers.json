@@ -213,5 +213,25 @@
     "starred_at": "2025-08-23T20:02:54Z",
     "repo": "astro-dev",
     "userLogin": "cmndctrls"
+  },
+  {
+    "starred_at": "2025-08-28T04:00:17Z",
+    "repo": "astro-leaflet",
+    "userLogin": "srsgores",
+    "userLocation": "Calgary, Canada",
+    "userLocationLatLng": {
+      "lat": "51.0456064",
+      "lon": "-114.0575410"
+    }
+  },
+  {
+    "starred_at": "2025-09-02T05:15:44Z",
+    "repo": "astro-leaflet",
+    "userLogin": "peksel",
+    "userLocation": "Ankara",
+    "userLocationLatLng": {
+      "lat": "39.9207759",
+      "lon": "32.8540497"
+    }
   }
 ]
