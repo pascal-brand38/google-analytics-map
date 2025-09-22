@@ -3150,5 +3150,169 @@
   "El Cajon, United States": {
     "lat": "32.7947731",
     "lon": "-116.9625260"
+  },
+  "Alhaurin de la Torre, Spain": {
+    "lat": "36.6627542",
+    "lon": "-4.5627530"
+  },
+  "Cambridge, Canada": {
+    "lat": "43.3600536",
+    "lon": "-80.3123023"
+  },
+  "Oberhausen-Rheinhausen, Germany": {
+    "lat": "49.2657980",
+    "lon": "8.4754497"
+  },
+  "Puerto La Cruz, Venezuela": {
+    "lat": "10.2028617",
+    "lon": "-64.6307626"
+  },
+  "Bartlesville, United States": {
+    "lat": "36.7509272",
+    "lon": "-95.9771779"
+  },
+  "Bathurst, Australia": {
+    "lat": "-33.4166378",
+    "lon": "149.5804943"
+  },
+  "Bogota, Colombia": {
+    "lat": "4.6533815",
+    "lon": "-74.0836331"
+  },
+  "Brandys nad Labem-Stara Boleslav, Czechia": {
+    "lat": "50.1912412",
+    "lon": "14.6649786"
+  },
+  "East Gwillimbury, Canada": {
+    "lat": "44.0957511",
+    "lon": "-79.4897803"
+  },
+  "Herrsching, Germany": {
+    "lat": "47.9984622",
+    "lon": "11.1703947"
+  },
+  "Indianapolis, United States": {
+    "lat": "39.7683331",
+    "lon": "-86.1583502"
+  },
+  "Lely Resort, United States": {
+    "lat": "26.0877283",
+    "lon": "-81.7013116"
+  },
+  "Loveland, United States": {
+    "lat": "40.3977612",
+    "lon": "-105.0749800"
+  },
+  "Lucerne, Switzerland": {
+    "lat": "47.0505452",
+    "lon": "8.3054682"
+  },
+  "Manta, Ecuador": {
+    "lat": "-1.0320064",
+    "lon": "-80.8169311"
+  },
+  "Pittsburgh, United States": {
+    "lat": "40.4416941",
+    "lon": "-79.9900861"
+  },
+  "Pulaski, United States": {
+    "lat": "37.2314232",
+    "lon": "-89.1183427"
+  },
+  "Sanmin, Taiwan": {
+    "lat": "22.6476949",
+    "lon": "120.2996219"
+  },
+  "Sendai, Japan": {
+    "lat": "38.2677554",
+    "lon": "140.8691498"
+  },
+  "Sergiyev Posad, Russia": {
+    "lat": "56.3153284",
+    "lon": "38.1359898"
+  },
+  "Usti nad Labem, Czechia": {
+    "lat": "50.6603327",
+    "lon": "14.0381357"
+  },
+  "Valledupar, Colombia": {
+    "lat": "10.3431115",
+    "lon": "-73.3757934"
+  },
+  "Wymore, United States": {
+    "lat": "40.1222615",
+    "lon": "-96.6624109"
+  },
+  "Portland, ME USA": {
+    "lat": "43.6573605",
+    "lon": "-70.2586618"
+  },
+  "Arcola, United States": {
+    "lat": "29.4960702",
+    "lon": "-95.4657756"
+  },
+  "2045, Hungary": {
+    "lat": "47.4393394",
+    "lon": "18.9113983"
+  },
+  "Aadorf, Switzerland": {
+    "lat": "47.4915782",
+    "lon": "8.9029526"
+  },
+  "Bonita Springs, United States": {
+    "lat": "26.3398060",
+    "lon": "-81.7786972"
+  },
+  "Ciudad Nicolas Romero, Mexico": {
+    "lat": "19.6184235",
+    "lon": "-99.3035542"
+  },
+  "Dunedin, New Zealand": {
+    "lat": "-45.8740984",
+    "lon": "170.5035755"
+  },
+  "General Escobedo, Mexico": {
+    "lat": "25.8085170",
+    "lon": "-100.3224334"
+  },
+  "Haridwar, India": {
+    "lat": "29.9384473",
+    "lon": "78.1452985"
+  },
+  "Leesburg, United States": {
+    "lat": "39.1154506",
+    "lon": "-77.5645607"
+  },
+  "Linkoping, Sweden": {
+    "lat": "58.4098135",
+    "lon": "15.6245252"
+  },
+  "Lukang Township, Taiwan": {
+    "lat": "24.0550920",
+    "lon": "120.4313410"
+  },
+  "Mogilev, Belarus": {
+    "lat": "53.9090245",
+    "lon": "30.3429838"
+  },
+  "Piano di Sorrento, Italy": {
+    "lat": "40.6329550",
+    "lon": "14.4113109"
+  },
+  "Sertaozinho, Brazil": {
+    "lat": "-21.1375782",
+    "lon": "-47.9913741"
+  },
+  "Tachikawa, Japan": {
+    "lat": "35.7139057",
+    "lon": "139.4077701"
+  },
+  "Tbilisi, Georgia": {
+    "lat": "41.6934591",
+    "lon": "44.8014495"
+  },
+  "Werrington, United Kingdom": {
+    "lat": "50.6655273",
+    "lon": "-4.3650896"
   }
 }
