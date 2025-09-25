@@ -3314,5 +3314,53 @@
   "Werrington, United Kingdom": {
     "lat": "50.6655273",
     "lon": "-4.3650896"
+  },
+  "Belleville, Canada": {
+    "lat": "44.2436328",
+    "lon": "-77.3607597"
+  },
+  "Brentford, United Kingdom": {
+    "lat": "51.4863958",
+    "lon": "-0.3216623"
+  },
+  "Cheadle Hulme, United Kingdom": {
+    "lat": "53.3709830",
+    "lon": "-2.1928018"
+  },
+  "Chester, United Kingdom": {
+    "lat": "53.1908873",
+    "lon": "-2.8908955"
+  },
+  "Curitiba, Brazil": {
+    "lat": "-25.4944375",
+    "lon": "-49.2842710"
+  },
+  "Huesca, Spain": {
+    "lat": "42.1360615",
+    "lon": "-0.0298027"
+  },
+  "Minneapolis, United States": {
+    "lat": "44.9772995",
+    "lon": "-93.2654692"
+  },
+  "Moosinning, Germany": {
+    "lat": "48.2778235",
+    "lon": "11.8450943"
+  },
+  "Radom, Poland": {
+    "lat": "51.4022557",
+    "lon": "21.1541546"
+  },
+  "Rudesheim am Rhein, Germany": {
+    "lat": "50.0293000",
+    "lon": "7.8902000"
+  },
+  "Tu Son, Vietnam": {
+    "lat": "21.1159714",
+    "lon": "105.9559193"
+  },
+  "Wiesbaden, Germany": {
+    "lat": "50.0820384",
+    "lon": "8.2416556"
   }
 }
