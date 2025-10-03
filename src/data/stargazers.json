@@ -293,5 +293,30 @@
       "lat": "47.4813896",
       "lon": "19.1460941"
     }
+  },
+  {
+    "starred_at": "2025-09-27T06:55:58Z",
+    "repo": "astro-swiper",
+    "userLogin": "thatswhatshesaid27",
+    "userLocation": "Mumbai",
+    "userLocationLatLng": {
+      "lat": "19.0549990",
+      "lon": "72.8692035"
+    }
+  },
+  {
+    "starred_at": "2025-09-27T13:35:07Z",
+    "repo": "astro-leaflet",
+    "userLogin": "ReemanS",
+    "userLocation": "Iloilo, Philippines",
+    "userLocationLatLng": {
+      "lat": "10.9522168",
+      "lon": "122.5799456"
+    }
+  },
+  {
+    "starred_at": "2025-10-03T02:06:58Z",
+    "repo": "astro-build-time-constants",
+    "userLogin": "sadnesslovefreedom-debug"
   }
 ]

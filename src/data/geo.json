@@ -3362,5 +3362,157 @@
   "Wiesbaden, Germany": {
     "lat": "50.0820384",
     "lon": "8.2416556"
+  },
+  "Baltimore, United States": {
+    "lat": "39.2908816",
+    "lon": "-76.6107590"
+  },
+  "Chimbote, Peru": {
+    "lat": "-9.0744966",
+    "lon": "-78.5936090"
+  },
+  "Poznan, Poland": {
+    "lat": "52.4006632",
+    "lon": "16.9197326"
+  },
+  "Puno, Peru": {
+    "lat": "-15.0000000",
+    "lon": "-70.0000000"
+  },
+  "Srem, Poland": {
+    "lat": "52.0893322",
+    "lon": "17.0156809"
+  },
+  "Troy, United States": {
+    "lat": "42.7284117",
+    "lon": "-73.6917878"
+  },
+  "Mumbai": {
+    "lat": "19.0549990",
+    "lon": "72.8692035"
+  },
+  "Iloilo, Philippines": {
+    "lat": "10.9522168",
+    "lon": "122.5799456"
+  },
+  "Ashkelon, Israel": {
+    "lat": "31.6687545",
+    "lon": "34.5740485"
+  },
+  "Bergamo, Italy": {
+    "lat": "45.7566557",
+    "lon": "9.7542192"
+  },
+  "Bex, Switzerland": {
+    "lat": "46.2513776",
+    "lon": "7.0123881"
+  },
+  "Brescia, Italy": {
+    "lat": "45.7795805",
+    "lon": "10.4258730"
+  },
+  "Calamba City, Philippines": {
+    "lat": "14.2066364",
+    "lon": "121.1550511"
+  },
+  "Charlotte, United States": {
+    "lat": "35.2272086",
+    "lon": "-80.8430827"
+  },
+  "City of Santa Rosa, Philippines": {
+    "lat": "14.3146042",
+    "lon": "121.1137004"
+  },
+  "Como, Italy": {
+    "lat": "45.9394759",
+    "lon": "9.1494101"
+  },
+  "Conwy, United Kingdom": {
+    "lat": "53.1460931",
+    "lon": "-3.7599202"
+  },
+  "Crosbyton, United States": {
+    "lat": "33.6600847",
+    "lon": "-101.2379270"
+  },
+  "Durban North, South Africa": {
+    "lat": "-29.7805560",
+    "lon": "31.0358330"
+  },
+  "Dvur Kralove nad Labem, Czechia": {
+    "lat": "50.4319898",
+    "lon": "15.8139714"
+  },
+  "Galveston, United States": {
+    "lat": "29.3872254",
+    "lon": "-94.9927360"
+  },
+  "General Trias, Philippines": {
+    "lat": "14.3861207",
+    "lon": "120.8802855"
+  },
+  "Gizycko, Poland": {
+    "lat": "54.0400920",
+    "lon": "21.7713092"
+  },
+  "Guayaquil, Ecuador": {
+    "lat": "-2.2895167",
+    "lon": "-80.0983887"
+  },
+  "Jaen, Spain": {
+    "lat": "37.9553976",
+    "lon": "-3.4937431"
+  },
+  "Jeju-si, South Korea": {
+    "lat": "33.4998289",
+    "lon": "126.5313902"
+  },
+  "Laem Chabang, Thailand": {
+    "lat": "13.0883664",
+    "lon": "100.9180778"
+  },
+  "Munich, Germany": {
+    "lat": "48.1371079",
+    "lon": "11.5753822"
+  },
+  "Nagoya, Japan": {
+    "lat": "35.1851045",
+    "lon": "136.8998438"
+  },
+  "Palma, Spain": {
+    "lat": "39.5695818",
+    "lon": "2.6500745"
+  },
+  "Phillipsburg, United States": {
+    "lat": "39.7561210",
+    "lon": "-99.3239850"
+  },
+  "Riga, Latvia": {
+    "lat": "56.9493977",
+    "lon": "24.1051846"
+  },
+  "Royal Tunbridge Wells, United Kingdom": {
+    "lat": "51.1371483",
+    "lon": "0.2673446"
+  },
+  "Savannah, United States": {
+    "lat": "32.0790074",
+    "lon": "-81.0921335"
+  },
+  "Tlemcen, Algeria": {
+    "lat": "34.8817890",
+    "lon": "-1.3166990"
+  },
+  "Trikala, Greece": {
+    "lat": "39.5560869",
+    "lon": "21.7678844"
+  },
+  "Varberg, Sweden": {
+    "lat": "57.1057412",
+    "lon": "12.2502949"
+  },
+  "West Vancouver, Canada": {
+    "lat": "49.3311208",
+    "lon": "-123.1594790"
   }
 }
