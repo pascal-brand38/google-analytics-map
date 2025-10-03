@@ -5,7 +5,16 @@ import prevVisitedCountries from '../src/data/visited-countries.json' with { typ
 import githubUsers from '../src/data/github-users.json' with { type: 'json' };
 
 const _token = 'ghp_'
-const repos = ['astro-splide', 'astro-swiper', 'astro-lightgallery', 'astro-leaflet', 'astro-dev', 'astro-sprite', 'py-responsiveimage']
+const repos = [
+  'astro-splide',
+  'astro-swiper',
+  'astro-lightgallery',
+  'astro-leaflet',
+  'astro-dev',
+  'astro-sprite',
+  'astro-build-time-constants',
+  'py-responsiveimage',
+]
 
 const propertyId = '1234';
 
