@@ -3514,5 +3514,113 @@
   "West Vancouver, Canada": {
     "lat": "49.3311208",
     "lon": "-123.1594790"
+  },
+  "Asuncion, Paraguay": {
+    "lat": "-25.2800459",
+    "lon": "-57.6343814"
+  },
+  "Blagoveshchensk, Russia": {
+    "lat": "50.2600417",
+    "lon": "127.5337378"
+  },
+  "Campos dos Goytacazes, Brazil": {
+    "lat": "-21.7546000",
+    "lon": "-41.3242000"
+  },
+  "Delafield, United States": {
+    "lat": "43.0594237",
+    "lon": "-88.4040172"
+  },
+  "Galesburg, United States": {
+    "lat": "40.9475652",
+    "lon": "-90.3712169"
+  },
+  "Gold Coast, Australia": {
+    "lat": "-28.0023731",
+    "lon": "153.4145987"
+  },
+  "Hermantown, United States": {
+    "lat": "46.8068852",
+    "lon": "-92.2382464"
+  },
+  "Idaho Falls, United States": {
+    "lat": "43.4887907",
+    "lon": "-112.0362800"
+  },
+  "Junee, Australia": {
+    "lat": "-34.8150257",
+    "lon": "147.6726750"
+  },
+  "Karachi, Pakistan": {
+    "lat": "24.8546842",
+    "lon": "67.0207055"
+  },
+  "Kasauli, India": {
+    "lat": "30.8999479",
+    "lon": "76.9619744"
+  },
+  "Katowice, Poland": {
+    "lat": "50.2137315",
+    "lon": "19.0058848"
+  },
+  "Krasnodar, Russia": {
+    "lat": "45.0351532",
+    "lon": "38.9772396"
+  },
+  "Kumasi, Ghana": {
+    "lat": "6.6985605",
+    "lon": "-1.6233086"
+  },
+  "North Kingstown, United States": {
+    "lat": "41.5514283",
+    "lon": "-71.4693875"
+  },
+  "Parkes, Australia": {
+    "lat": "-33.1368067",
+    "lon": "148.1754823"
+  },
+  "Pegau, Germany": {
+    "lat": "51.1667169",
+    "lon": "12.2554530"
+  },
+  "Pretoria, South Africa": {
+    "lat": "-25.7459277",
+    "lon": "28.1879101"
+  },
+  "Pruszkow, Poland": {
+    "lat": "52.1719590",
+    "lon": "20.8029827"
+  },
+  "Rondonopolis, Brazil": {
+    "lat": "-16.4603533",
+    "lon": "-54.6397099"
+  },
+  "Sandton, South Africa": {
+    "lat": "-26.1045525",
+    "lon": "28.0545147"
+  },
+  "Sanremo, Italy": {
+    "lat": "43.8198253",
+    "lon": "7.7748827"
+  },
+  "Si Maha Phot, Thailand": {
+    "lat": "13.8762297",
+    "lon": "101.5341413"
+  },
+  "South Tangerang, Indonesia": {
+    "lat": "-6.3227016",
+    "lon": "106.7085737"
+  },
+  "Soweto, South Africa": {
+    "lat": "-26.2227778",
+    "lon": "27.8900000"
+  },
+  "Surprise, United States": {
+    "lat": "33.6292470",
+    "lon": "-112.3681428"
+  },
+  "Vasylkiv, Ukraine": {
+    "lat": "50.1781370",
+    "lon": "30.3175045"
   }
 }
