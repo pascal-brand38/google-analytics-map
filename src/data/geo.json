@@ -3622,5 +3622,97 @@
   "Vasylkiv, Ukraine": {
     "lat": "50.1781370",
     "lon": "30.3175045"
+  },
+  "Aalborg, Denmark": {
+    "lat": "57.0462626",
+    "lon": "9.9215263"
+  },
+  "Cebu City, Philippines": {
+    "lat": "10.2934946",
+    "lon": "123.9018183"
+  },
+  "Gibraltar, Gibraltar": {
+    "lat": "36.1285933",
+    "lon": "-5.3474761"
+  },
+  "Hai Duong, Vietnam": {
+    "lat": "20.9602884",
+    "lon": "106.3604393"
+  },
+  "Haiphong, Vietnam": {
+    "lat": "20.8623278",
+    "lon": "106.6799266"
+  },
+  "Halifax, United Kingdom": {
+    "lat": "53.7229229",
+    "lon": "-1.8604874"
+  },
+  "Payyanur, India": {
+    "lat": "12.0913951",
+    "lon": "75.1952774"
+  },
+  "Rio de Janeiro, Brazil": {
+    "lat": "-22.9110137",
+    "lon": "-43.2093727"
+  },
+  "Sao Luis, Brazil": {
+    "lat": "-2.5295265",
+    "lon": "-44.2963942"
+  },
+  "Sundsvall, Sweden": {
+    "lat": "62.3907552",
+    "lon": "17.3071024"
+  },
+  "Surrey, Canada": {
+    "lat": "49.1913033",
+    "lon": "-122.8491430"
+  },
+  "Trowbridge, United Kingdom": {
+    "lat": "51.3161569",
+    "lon": "-2.2024324"
+  },
+  "Weiterstadt, Germany": {
+    "lat": "49.9178000",
+    "lon": "8.5924000"
+  },
+  "Gibraltar": {
+    "lat": "36.1285933",
+    "lon": "-5.3474761"
+  },
+  "Ajmer, India": {
+    "lat": "26.4691000",
+    "lon": "74.6390000"
+  },
+  "Beirut, Lebanon": {
+    "lat": "33.8892265",
+    "lon": "35.5025585"
+  },
+  "Lagos, Nigeria": {
+    "lat": "6.4550575",
+    "lon": "3.3941795"
+  },
+  "Nashville, United States": {
+    "lat": "36.1622767",
+    "lon": "-86.7742984"
+  },
+  "Pella, United States": {
+    "lat": "41.4073138",
+    "lon": "-92.9174074"
+  },
+  "Pentling, Germany": {
+    "lat": "48.9818271",
+    "lon": "12.0579420"
+  },
+  "Punta Arenas, Chile": {
+    "lat": "-53.1625688",
+    "lon": "-70.9078220"
+  },
+  "Woodbridge, United Kingdom": {
+    "lat": "52.0941323",
+    "lon": "1.3199383"
+  },
+  "Abuja, Nigeria": {
+    "lat": "9.0643305",
+    "lon": "7.4892974"
   }
 }

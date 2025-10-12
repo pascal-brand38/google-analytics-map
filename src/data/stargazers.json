@@ -323,5 +323,15 @@
     "starred_at": "2025-10-06T19:46:56Z",
     "repo": "astro-swiper",
     "userLogin": "CatCodeDanix"
+  },
+  {
+    "starred_at": "2025-10-10T12:39:13Z",
+    "repo": "astro-splide",
+    "userLogin": "timothymaarv",
+    "userLocation": "Abuja, Nigeria",
+    "userLocationLatLng": {
+      "lat": "9.0643305",
+      "lon": "7.4892974"
+    }
   }
 ]
