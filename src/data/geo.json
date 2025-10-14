@@ -3714,5 +3714,21 @@
   "Abuja, Nigeria": {
     "lat": "9.0643305",
     "lon": "7.4892974"
+  },
+  "Amagasaki, Japan": {
+    "lat": "34.7339783",
+    "lon": "135.4064015"
+  },
+  "Quartu Sant'Elena, Italy": {
+    "lat": "39.2399728",
+    "lon": "9.1880967"
+  },
+  "Rushden, United Kingdom": {
+    "lat": "52.2911567",
+    "lon": "-0.5988177"
+  },
+  "Suwon-si, South Korea": {
+    "lat": "37.2633325",
+    "lon": "127.0287472"
   }
 }
