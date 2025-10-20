@@ -3730,5 +3730,105 @@
   "Suwon-si, South Korea": {
     "lat": "37.2633325",
     "lon": "127.0287472"
+  },
+  "Lanzhou, China": {
+    "lat": "36.4744360",
+    "lon": "103.7332240"
+  },
+  "Rome, Italy": {
+    "lat": "41.8933203",
+    "lon": "12.4829321"
+  },
+  "8487, Netherlands": {
+    "lat": "40.1375520",
+    "lon": "-83.0593229"
+  },
+  "Anchorage, United States": {
+    "lat": "61.2163129",
+    "lon": "-149.8948520"
+  },
+  "Belen, United States": {
+    "lat": "34.6627495",
+    "lon": "-106.7762000"
+  },
+  "Cirebon, Indonesia": {
+    "lat": "-6.7137044",
+    "lon": "108.5608483"
+  },
+  "Coral Springs, United States": {
+    "lat": "26.2711920",
+    "lon": "-80.2706044"
+  },
+  "Forchheim, Germany": {
+    "lat": "49.7187319",
+    "lon": "11.0595749"
+  },
+  "Guachochi, Mexico": {
+    "lat": "27.1446687",
+    "lon": "-107.2053008"
+  },
+  "Isfahan, Iran": {
+    "lat": "32.6707877",
+    "lon": "51.6650002"
+  },
+  "Kalamazoo, United States": {
+    "lat": "42.2917070",
+    "lon": "-85.5872286"
+  },
+  "Kobe, Japan": {
+    "lat": "34.6932379",
+    "lon": "135.1943764"
+  },
+  "Lincoln, United States": {
+    "lat": "40.8088861",
+    "lon": "-96.7077751"
+  },
+  "Macapa, Brazil": {
+    "lat": "0.0401529",
+    "lon": "-51.0569588"
+  },
+  "Mammendorf, Germany": {
+    "lat": "48.2093848",
+    "lon": "11.1627571"
+  },
+  "Milton Keynes, United Kingdom": {
+    "lat": "52.0406502",
+    "lon": "-0.7594092"
+  },
+  "Oldenburg, Germany": {
+    "lat": "53.1389753",
+    "lon": "8.2146017"
+  },
+  "Pasig City, Philippines": {
+    "lat": "14.5605166",
+    "lon": "121.0764343"
+  },
+  "Penarth, United Kingdom": {
+    "lat": "51.4357312",
+    "lon": "-3.1750960"
+  },
+  "Pyin Oo Lwin, Myanmar (Burma)": {
+    "lat": "22.0331367",
+    "lon": "96.4667341"
+  },
+  "Reykjavik, Iceland": {
+    "lat": "64.1459810",
+    "lon": "-21.9422367"
+  },
+  "Santander, Spain": {
+    "lat": "43.4618932",
+    "lon": "-3.8100255"
+  },
+  "Suginami City, Japan": {
+    "lat": "35.6996212",
+    "lon": "139.6363543"
+  },
+  "Vicenza, Italy": {
+    "lat": "45.6348591",
+    "lon": "11.4063543"
+  },
+  "Yekaterinburg, Russia": {
+    "lat": "56.8382071",
+    "lon": "60.6007886"
   }
 }
