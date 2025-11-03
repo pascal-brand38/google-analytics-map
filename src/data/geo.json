@@ -3830,5 +3830,145 @@
   "Yekaterinburg, Russia": {
     "lat": "56.8382071",
     "lon": "60.6007886"
+  },
+  "Nganjuk, Indonesia": {
+    "lat": "-7.6150161",
+    "lon": "111.9465075"
+  },
+  "Airdrie, Canada": {
+    "lat": "51.2859700",
+    "lon": "-114.0106200"
+  },
+  "Arequipa, Peru": {
+    "lat": "-16.3988667",
+    "lon": "-71.5369607"
+  },
+  "Aspen Park, United States": {
+    "lat": "39.5442445",
+    "lon": "-105.2997498"
+  },
+  "Belo Horizonte, Brazil": {
+    "lat": "-19.9227318",
+    "lon": "-43.9450948"
+  },
+  "Cambridge, United Kingdom": {
+    "lat": "52.2055314",
+    "lon": "0.1186637"
+  },
+  "Cleveland, United States": {
+    "lat": "41.4996574",
+    "lon": "-81.6936772"
+  },
+  "Cupertino, United States": {
+    "lat": "37.3228934",
+    "lon": "-122.0322895"
+  },
+  "Davao City, Philippines": {
+    "lat": "7.0648306",
+    "lon": "125.6080623"
+  },
+  "Gottingen, Germany": {
+    "lat": "51.5328328",
+    "lon": "9.9351811"
+  },
+  "Goyang-si, South Korea": {
+    "lat": "37.6581862",
+    "lon": "126.8319452"
+  },
+  "Gross-Zimmern, Germany": {
+    "lat": "49.8864905",
+    "lon": "8.8014685"
+  },
+  "Hampton, United States": {
+    "lat": "37.0264414",
+    "lon": "-76.3442846"
+  },
+  "Honolulu, United States": {
+    "lat": "21.3045470",
+    "lon": "-157.8556760"
+  },
+  "Ichihara, Japan": {
+    "lat": "35.4977750",
+    "lon": "140.1156996"
+  },
+  "Irvine, United States": {
+    "lat": "33.6856969",
+    "lon": "-117.8259810"
+  },
+  "Iwanuma, Japan": {
+    "lat": "38.1042874",
+    "lon": "140.8701494"
+  },
+  "Jyvaskyla, Finland": {
+    "lat": "62.2416720",
+    "lon": "25.7495806"
+  },
+  "Kingston, Canada": {
+    "lat": "44.3054151",
+    "lon": "-76.4283781"
+  },
+  "Lhasa, China": {
+    "lat": "29.6542054",
+    "lon": "91.1173015"
+  },
+  "Lubeck, Germany": {
+    "lat": "53.8664440",
+    "lon": "10.6847380"
+  },
+  "Naaldwijk, Netherlands": {
+    "lat": "51.9930016",
+    "lon": "4.2074197"
+  },
+  "Newark, United States": {
+    "lat": "40.7356570",
+    "lon": "-74.1723667"
+  },
+  "Nizhny Novgorod, Russia": {
+    "lat": "56.2769292",
+    "lon": "43.9212981"
+  },
+  "Nova Santa Rita, Brazil": {
+    "lat": "-29.8489972",
+    "lon": "-51.2764275"
+  },
+  "Palo Alto, United States": {
+    "lat": "37.4443293",
+    "lon": "-122.1598465"
+  },
+  "Ponta Grossa, Brazil": {
+    "lat": "-25.0891685",
+    "lon": "-50.1601812"
+  },
+  "Port Harcourt, Nigeria": {
+    "lat": "4.7676576",
+    "lon": "7.0188527"
+  },
+  "San Diego, United States": {
+    "lat": "32.7174202",
+    "lon": "-117.1627720"
+  },
+  "Spring Hill, United States": {
+    "lat": "41.4117626",
+    "lon": "-93.6479872"
+  },
+  "Toshima City, Japan": {
+    "lat": "35.7242740",
+    "lon": "139.6860426"
+  },
+  "Villajoyosa, Spain": {
+    "lat": "38.5100778",
+    "lon": "-0.2296202"
+  },
+  "Zhoushan, China": {
+    "lat": "29.9873344",
+    "lon": "122.2030363"
+  },
+  "Dallas, Texas": {
+    "lat": "32.7762719",
+    "lon": "-96.7968559"
+  },
+  "Warsaw": {
+    "lat": "52.2333742",
+    "lon": "21.0711489"
   }
 }

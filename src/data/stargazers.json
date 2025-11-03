@@ -333,5 +333,50 @@
       "lat": "9.0643305",
       "lon": "7.4892974"
     }
+  },
+  {
+    "starred_at": "2025-10-22T18:18:51Z",
+    "repo": "astro-splide",
+    "userLogin": "RomanHauksson",
+    "userLocation": "Dallas, Texas",
+    "userLocationLatLng": {
+      "lat": "32.7762719",
+      "lon": "-96.7968559"
+    }
+  },
+  {
+    "starred_at": "2025-10-22T22:30:02Z",
+    "repo": "astro-swiper",
+    "userLogin": "RomanHauksson",
+    "userLocation": "Dallas, Texas",
+    "userLocationLatLng": {
+      "lat": "32.7762719",
+      "lon": "-96.7968559"
+    }
+  },
+  {
+    "starred_at": "2025-10-28T06:42:54Z",
+    "repo": "astro-leaflet",
+    "userLogin": "jesperp",
+    "userLocation": "Sweden",
+    "userLocationLatLng": {
+      "lat": "59.6749712",
+      "lon": "14.5208584"
+    }
+  },
+  {
+    "starred_at": "2025-10-28T07:23:46Z",
+    "repo": "astro-swiper",
+    "userLogin": "mimajka",
+    "userLocation": "Warsaw",
+    "userLocationLatLng": {
+      "lat": "52.2333742",
+      "lon": "21.0711489"
+    }
+  },
+  {
+    "starred_at": "2025-11-03T09:27:28Z",
+    "repo": "astro-swiper",
+    "userLogin": "Murchyman"
   }
 ]
