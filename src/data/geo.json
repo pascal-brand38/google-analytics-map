@@ -3970,5 +3970,325 @@
   "Warsaw": {
     "lat": "52.2333742",
     "lon": "21.0711489"
+  },
+  "Brzeziny, Poland": {
+    "lat": "51.8006607",
+    "lon": "19.7446206"
+  },
+  "Ciudad Juarez, Mexico": {
+    "lat": "31.7372575",
+    "lon": "-106.4856550"
+  },
+  "Girardot, Colombia": {
+    "lat": "4.3046383",
+    "lon": "-74.8030739"
+  },
+  "Helsinki, Finland": {
+    "lat": "60.1666204",
+    "lon": "24.9435408"
+  },
+  "Taby, Sweden": {
+    "lat": "59.4670482",
+    "lon": "18.0658494"
+  },
+  "Weybridge, United Kingdom": {
+    "lat": "51.3727175",
+    "lon": "-0.4549297"
+  },
+  "Akita, Japan": {
+    "lat": "39.6898802",
+    "lon": "140.3426080"
+  },
+  "Ambato, Ecuador": {
+    "lat": "-1.2422413",
+    "lon": "-78.6287594"
+  },
+  "Bad Essen, Germany": {
+    "lat": "52.3195756",
+    "lon": "8.3440599"
+  },
+  "Beijing, China": {
+    "lat": "40.1906320",
+    "lon": "116.4121440"
+  },
+  "Belagavi, India": {
+    "lat": "16.1587846",
+    "lon": "74.8888620"
+  },
+  "Belfast, United Kingdom": {
+    "lat": "54.5975805",
+    "lon": "-5.9277097"
+  },
+  "Bersenbruck, Germany": {
+    "lat": "52.5553293",
+    "lon": "7.9471842"
+  },
+  "Bremen, Germany": {
+    "lat": "53.0758196",
+    "lon": "8.8071646"
+  },
+  "Canoas, Brazil": {
+    "lat": "-29.9216045",
+    "lon": "-51.1799525"
+  },
+  "Christchurch, New Zealand": {
+    "lat": "-43.5309550",
+    "lon": "172.6364343"
+  },
+  "Colorado Springs, United States": {
+    "lat": "38.8339578",
+    "lon": "-104.8253480"
+  },
+  "Columbus, United States": {
+    "lat": "39.9622601",
+    "lon": "-83.0007065"
+  },
+  "Cordoba, Argentina": {
+    "lat": "-31.4166867",
+    "lon": "-64.1834193"
+  },
+  "Daegu, South Korea": {
+    "lat": "35.8713000",
+    "lon": "128.6018000"
+  },
+  "Don Torcuato, Argentina": {
+    "lat": "-34.4886587",
+    "lon": "-58.6266492"
+  },
+  "Ennepetal, Germany": {
+    "lat": "51.3048123",
+    "lon": "7.3435470"
+  },
+  "Eskilstuna, Sweden": {
+    "lat": "59.3717379",
+    "lon": "16.5051474"
+  },
+  "Gahanna, United States": {
+    "lat": "40.0195625",
+    "lon": "-82.8791363"
+  },
+  "Giessen, Germany": {
+    "lat": "50.5808795",
+    "lon": "8.6938161"
+  },
+  "Gifu, Japan": {
+    "lat": "35.4230949",
+    "lon": "136.7627526"
+  },
+  "Gijon, Spain": {
+    "lat": "43.5449422",
+    "lon": "-5.6627500"
+  },
+  "Goiana, Brazil": {
+    "lat": "-7.5606030",
+    "lon": "-34.9959100"
+  },
+  "Haltom City, United States": {
+    "lat": "32.7995738",
+    "lon": "-97.2691817"
+  },
+  "Helmond, Netherlands": {
+    "lat": "51.4790956",
+    "lon": "5.6557686"
+  },
+  "Highland Park, United States": {
+    "lat": "42.1836719",
+    "lon": "-87.7993245"
+  },
+  "Itagui, Colombia": {
+    "lat": "6.1724352",
+    "lon": "-75.6093254"
+  },
+  "Kasihan, Indonesia": {
+    "lat": "-7.8147201",
+    "lon": "110.3335862"
+  },
+  "Kishiwada, Japan": {
+    "lat": "34.4644000",
+    "lon": "135.3852370"
+  },
+  "Kitakyushu, Japan": {
+    "lat": "33.8829996",
+    "lon": "130.8749015"
+  },
+  "Koka, Japan": {
+    "lat": "34.9662392",
+    "lon": "136.1668719"
+  },
+  "Konstanz, Germany": {
+    "lat": "47.6592160",
+    "lon": "9.1750718"
+  },
+  "Kozhikode, India": {
+    "lat": "11.2450558",
+    "lon": "75.7754716"
+  },
+  "Krefeld, Germany": {
+    "lat": "51.3331205",
+    "lon": "6.5623343"
+  },
+  "L'Hospitalet de Llobregat, Spain": {
+    "lat": "41.3598601",
+    "lon": "2.0997927"
+  },
+  "Liberty Hill, United States": {
+    "lat": "30.6649119",
+    "lon": "-97.9225161"
+  },
+  "Lisbon, Portugal": {
+    "lat": "38.7077507",
+    "lon": "-9.1365919"
+  },
+  "Minami-Alps, Japan": {
+    "lat": "35.6084642",
+    "lon": "138.4650920"
+  },
+  "Mooresville, United States": {
+    "lat": "35.5848596",
+    "lon": "-80.8100724"
+  },
+  "Mueang Songkhla, Thailand": {
+    "lat": "7.1231729",
+    "lon": "100.6083905"
+  },
+  "Murfreesboro, United States": {
+    "lat": "35.8460396",
+    "lon": "-86.3921096"
+  },
+  "Newport, United Kingdom": {
+    "lat": "51.5882332",
+    "lon": "-2.9974967"
+  },
+  "Ogaki, Japan": {
+    "lat": "35.3671141",
+    "lon": "136.6179746"
+  },
+  "Opalenica, Poland": {
+    "lat": "52.3088119",
+    "lon": "16.4124256"
+  },
+  "Ottawa, Canada": {
+    "lat": "45.4208777",
+    "lon": "-75.6901106"
+  },
+  "Paisley, United Kingdom": {
+    "lat": "55.8455828",
+    "lon": "-4.4239646"
+  },
+  "Paradise, United States": {
+    "lat": "36.0724299",
+    "lon": "-115.1474759"
+  },
+  "Pompei, Italy": {
+    "lat": "40.7491267",
+    "lon": "14.5006415"
+  },
+  "Radauti, Romania": {
+    "lat": "47.8461055",
+    "lon": "25.9181822"
+  },
+  "Raleigh, United States": {
+    "lat": "35.7803977",
+    "lon": "-78.6390989"
+  },
+  "Rijeka, Croatia": {
+    "lat": "45.3267976",
+    "lon": "14.4422080"
+  },
+  "San Carlos, United States": {
+    "lat": "37.5049360",
+    "lon": "-122.2618230"
+  },
+  "San Pedro de la Paz, Chile": {
+    "lat": "-36.8414183",
+    "lon": "-73.1039909"
+  },
+  "Santa Clara, United States": {
+    "lat": "37.3541132",
+    "lon": "-121.9551740"
+  },
+  "Santa Coloma de Gramenet, Spain": {
+    "lat": "41.4515626",
+    "lon": "2.2083371"
+  },
+  "Schaffhausen, Switzerland": {
+    "lat": "47.6960491",
+    "lon": "8.6345130"
+  },
+  "Schemmerhofen, Germany": {
+    "lat": "48.1715557",
+    "lon": "9.7912710"
+  },
+  "Senica, Slovakia": {
+    "lat": "48.6787557",
+    "lon": "17.3661529"
+  },
+  "Sidney, United States": {
+    "lat": "40.7473867",
+    "lon": "-95.6468803"
+  },
+  "Sinsheim, Germany": {
+    "lat": "49.2531222",
+    "lon": "8.8769914"
+  },
+  "Suita, Japan": {
+    "lat": "34.7594193",
+    "lon": "135.5168350"
+  },
+  "Suzhou, China": {
+    "lat": "31.3111230",
+    "lon": "120.6212881"
+  },
+  "Tamm, Germany": {
+    "lat": "48.9204307",
+    "lon": "9.1158361"
+  },
+  "Tangail, Bangladesh": {
+    "lat": "24.2738513",
+    "lon": "89.9375911"
+  },
+  "Tarragona, Spain": {
+    "lat": "41.1172364",
+    "lon": "1.2546057"
+  },
+  "Tegucigalpa, Honduras": {
+    "lat": "14.1058135",
+    "lon": "-87.2047053"
+  },
+  "Temuco, Chile": {
+    "lat": "-38.7358908",
+    "lon": "-72.5905380"
+  },
+  "Varna, Bulgaria": {
+    "lat": "43.2073873",
+    "lon": "27.9166653"
+  },
+  "Villas, United States": {
+    "lat": "26.5507625",
+    "lon": "-81.8699350"
+  },
+  "Wellington, New Zealand": {
+    "lat": "-41.2887953",
+    "lon": "174.7772114"
+  },
+  "Winchester, United Kingdom": {
+    "lat": "51.0612766",
+    "lon": "-1.3131692"
+  },
+  "Yerevan, Armenia": {
+    "lat": "40.1777112",
+    "lon": "44.5126233"
+  },
+  "Yozgat, Türkiye": {
+    "lat": "39.7152422",
+    "lon": "35.1709980"
+  },
+  "Berlin": {
+    "lat": "52.5173885",
+    "lon": "13.3951309"
+  },
+  "Graz, Austria": {
+    "lat": "47.0708678",
+    "lon": "15.4382786"
   }
 }

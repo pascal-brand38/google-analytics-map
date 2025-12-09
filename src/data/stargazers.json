@@ -377,6 +377,36 @@
   {
     "starred_at": "2025-11-03T09:27:28Z",
     "repo": "astro-swiper",
-    "userLogin": "Murchyman"
+    "userLogin": "revampstudio"
+  },
+  {
+    "starred_at": "2025-11-09T17:30:40Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "mychatterbox"
+  },
+  {
+    "starred_at": "2025-11-10T21:25:45Z",
+    "repo": "astro-leaflet",
+    "userLogin": "L3t1fus"
+  },
+  {
+    "starred_at": "2025-11-21T18:21:58Z",
+    "repo": "astro-swiper",
+    "userLogin": "philfreshman",
+    "userLocation": "Berlin",
+    "userLocationLatLng": {
+      "lat": "52.5173885",
+      "lon": "13.3951309"
+    }
+  },
+  {
+    "starred_at": "2025-11-28T08:36:45Z",
+    "repo": "astro-dev",
+    "userLogin": "sorny",
+    "userLocation": "Graz, Austria",
+    "userLocationLatLng": {
+      "lat": "47.0708678",
+      "lon": "15.4382786"
+    }
   }
 ]
