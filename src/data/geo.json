@@ -4290,5 +4290,89 @@
   "Graz, Austria": {
     "lat": "47.0708678",
     "lon": "15.4382786"
+  },
+  "Southport, United Kingdom": {
+    "lat": "53.6487421",
+    "lon": "-3.0044972"
+  },
+  "Abiko, Japan": {
+    "lat": "35.8639990",
+    "lon": "140.0280653"
+  },
+  "Apple Valley, United States": {
+    "lat": "44.7319094",
+    "lon": "-93.2177200"
+  },
+  "Cairo, Egypt": {
+    "lat": "30.0443879",
+    "lon": "31.2357257"
+  },
+  "Cambridge, United States": {
+    "lat": "42.3656347",
+    "lon": "-71.1040018"
+  },
+  "Ciudadela, Argentina": {
+    "lat": "-34.6399288",
+    "lon": "-58.5410771"
+  },
+  "Essen, Germany": {
+    "lat": "51.4582235",
+    "lon": "7.0158171"
+  },
+  "Fraser, United States": {
+    "lat": "42.1264859",
+    "lon": "-93.9685535"
+  },
+  "Innisfil, Canada": {
+    "lat": "44.3150892",
+    "lon": "-79.5461073"
+  },
+  "Juazeiro do Norte, Brazil": {
+    "lat": "-7.2153453",
+    "lon": "-39.3153336"
+  },
+  "Luneburg, Germany": {
+    "lat": "53.2487060",
+    "lon": "10.4078550"
+  },
+  "Mikolow, Poland": {
+    "lat": "50.1960028",
+    "lon": "18.8539322"
+  },
+  "Ostrava, Czechia": {
+    "lat": "49.8349139",
+    "lon": "18.2820084"
+  },
+  "Richmond, Canada": {
+    "lat": "49.1631680",
+    "lon": "-123.1374140"
+  },
+  "Roanoke, United States": {
+    "lat": "37.2709730",
+    "lon": "-79.9414313"
+  },
+  "Saarlouis, Germany": {
+    "lat": "49.3164661",
+    "lon": "6.7498460"
+  },
+  "Schrobenhausen, Germany": {
+    "lat": "48.5613407",
+    "lon": "11.2654488"
+  },
+  "Shah Alam, Malaysia": {
+    "lat": "3.0739429",
+    "lon": "101.5185278"
+  },
+  "Soma, Türkiye": {
+    "lat": "39.1987193",
+    "lon": "27.6241754"
+  },
+  "St. Clair Shores, United States": {
+    "lat": "42.4969652",
+    "lon": "-82.8890965"
+  },
+  "Sumida City, Japan": {
+    "lat": "35.7100908",
+    "lon": "139.8126581"
   }
 }

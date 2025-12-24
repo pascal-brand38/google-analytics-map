@@ -408,5 +408,15 @@
       "lat": "47.0708678",
       "lon": "15.4382786"
     }
+  },
+  {
+    "starred_at": "2025-12-22T20:45:53Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "devzom",
+    "userLocation": "Poznan, Poland",
+    "userLocationLatLng": {
+      "lat": "52.4006632",
+      "lon": "16.9197326"
+    }
   }
 ]
