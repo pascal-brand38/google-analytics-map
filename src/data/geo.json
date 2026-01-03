@@ -4374,5 +4374,93 @@
   "Sumida City, Japan": {
     "lat": "35.7100908",
     "lon": "139.8126581"
+  },
+  "Aguascalientes, Mexico": {
+    "lat": "21.8804870",
+    "lon": "-102.2967195"
+  },
+  "A Coruna, Spain": {
+    "lat": "43.3709703",
+    "lon": "-8.3959425"
+  },
+  "Anaheim, United States": {
+    "lat": "33.8347516",
+    "lon": "-117.9117320"
+  },
+  "Babruysk, Belarus": {
+    "lat": "53.1449683",
+    "lon": "29.2281209"
+  },
+  "Burke, United States": {
+    "lat": "35.7270403",
+    "lon": "-81.6632108"
+  },
+  "Chico, United States": {
+    "lat": "39.7284945",
+    "lon": "-121.8374777"
+  },
+  "Cottonwood Heights, United States": {
+    "lat": "40.6134740",
+    "lon": "-111.8256464"
+  },
+  "Debrecen, Hungary": {
+    "lat": "47.5313990",
+    "lon": "21.6259782"
+  },
+  "Drachten, Netherlands": {
+    "lat": "53.1091111",
+    "lon": "6.0948102"
+  },
+  "Gland, Switzerland": {
+    "lat": "46.4239425",
+    "lon": "6.2655115"
+  },
+  "Haikou, China": {
+    "lat": "20.0462328",
+    "lon": "110.1956502"
+  },
+  "Havana, Cuba": {
+    "lat": "23.1353050",
+    "lon": "-82.3589631"
+  },
+  "Juriquilla, Mexico": {
+    "lat": "20.7125923",
+    "lon": "-100.4583870"
+  },
+  "Mataro, Spain": {
+    "lat": "41.5398348",
+    "lon": "2.4448926"
+  },
+  "Mertoyudan, Indonesia": {
+    "lat": "-7.5108329",
+    "lon": "110.2241571"
+  },
+  "Navi Mumbai, India": {
+    "lat": "19.0308262",
+    "lon": "73.0198537"
+  },
+  "Serra, Brazil": {
+    "lat": "-20.1252961",
+    "lon": "-40.3064477"
+  },
+  "Thu Dau Mot, Vietnam": {
+    "lat": "10.9808621",
+    "lon": "106.6537419"
+  },
+  "Vina del Mar, Chile": {
+    "lat": "-33.0244535",
+    "lon": "-71.5517636"
+  },
+  "Vitoria, Brazil": {
+    "lat": "-20.3200917",
+    "lon": "-40.3376682"
+  },
+  "Xitun, Taiwan": {
+    "lat": "24.1653026",
+    "lon": "120.6336550"
+  },
+  "Kunming, Yunnan": {
+    "lat": "25.0363006",
+    "lon": "102.7086139"
   }
 }

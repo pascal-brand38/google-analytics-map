@@ -418,5 +418,25 @@
       "lat": "52.4006632",
       "lon": "16.9197326"
     }
+  },
+  {
+    "starred_at": "2026-01-01T02:51:31Z",
+    "repo": "astro-swiper",
+    "userLogin": "yangzupan",
+    "userLocation": "Kunming, Yunnan",
+    "userLocationLatLng": {
+      "lat": "25.0363006",
+      "lon": "102.7086139"
+    }
+  },
+  {
+    "starred_at": "2026-01-01T23:20:15Z",
+    "repo": "astro-swiper",
+    "userLogin": "iKollor",
+    "userLocation": "Guayaquil, Ecuador",
+    "userLocationLatLng": {
+      "lat": "-2.2895167",
+      "lon": "-80.0983887"
+    }
   }
 ]
