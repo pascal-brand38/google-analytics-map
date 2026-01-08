@@ -438,5 +438,10 @@
       "lat": "-2.2895167",
       "lon": "-80.0983887"
     }
+  },
+  {
+    "starred_at": "2026-01-06T03:28:30Z",
+    "repo": "astro-swiper",
+    "userLogin": "cleancommunities"
   }
 ]

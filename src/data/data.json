@@ -1,16 +1,16 @@
 {
   "Lanzhou, China": {
-    "value": 171,
+    "value": 173,
     "lat": "36.4744360",
     "lon": "103.7332240"
   },
   "Singapore, Singapore": {
-    "value": 121,
+    "value": 122,
     "lat": "1.3571070",
     "lon": "103.8194992"
   },
   "France": {
-    "value": 225,
+    "value": 229,
     "lat": "46.6033540",
     "lon": "1.8883335"
   },
@@ -19,23 +19,23 @@
     "lat": "35.0000663",
     "lon": "104.9999550"
   },
+  "London, United Kingdom": {
+    "value": 23,
+    "lat": "51.4893335",
+    "lon": "-0.1440551"
+  },
   "United States": {
     "value": 22,
     "lat": "39.7837304",
     "lon": "-100.4458820"
   },
-  "London, United Kingdom": {
-    "value": 22,
-    "lat": "51.4893335",
-    "lon": "-0.1440551"
-  },
-  "Hong Kong, Hong Kong": {
-    "value": 17,
-    "lat": "22.2793278",
-    "lon": "114.1628131"
+  "Berlin, Germany": {
+    "value": 18,
+    "lat": "52.5108850",
+    "lon": "13.3989367"
   },
   "Jakarta, Indonesia": {
-    "value": 17,
+    "value": 18,
     "lat": "-6.1754049",
     "lon": "106.8271680"
   },
@@ -44,10 +44,10 @@
     "lat": "51.1638175",
     "lon": "10.4478313"
   },
-  "Berlin, Germany": {
-    "value": 16,
-    "lat": "52.5108850",
-    "lon": "13.3989367"
+  "Hong Kong, Hong Kong": {
+    "value": 17,
+    "lat": "22.2793278",
+    "lon": "114.1628131"
   },
   "Spain": {
     "value": 14,
@@ -59,6 +59,11 @@
     "lat": "13.7524938",
     "lon": "100.4935089"
   },
+  "Madrid, Spain": {
+    "value": 14,
+    "lat": "40.4167047",
+    "lon": "-3.7035825"
+  },
   "Peru": {
     "value": 13,
     "lat": "-6.8699697",
@@ -69,15 +74,15 @@
     "lat": "29.4960702",
     "lon": "-95.4657756"
   },
-  "Madrid, Spain": {
-    "value": 13,
-    "lat": "40.4167047",
-    "lon": "-3.7035825"
-  },
   "Amsterdam, Netherlands": {
     "value": 12,
     "lat": "52.3730796",
     "lon": "4.8924534"
+  },
+  "Los Angeles, United States": {
+    "value": 12,
+    "lat": "34.0536909",
+    "lon": "-118.2427660"
   },
   "Sydney, Australia": {
     "value": 12,
@@ -98,11 +103,6 @@
     "value": 11,
     "lat": "41.8755616",
     "lon": "-87.6244212"
-  },
-  "Los Angeles, United States": {
-    "value": 11,
-    "lat": "34.0536909",
-    "lon": "-118.2427660"
   },
   "Moscow, Russia": {
     "value": 11,
@@ -154,6 +154,11 @@
     "lat": "19.3207722",
     "lon": "-99.1514678"
   },
+  "Stockholm, Sweden": {
+    "value": 9,
+    "lat": "59.3251172",
+    "lon": "18.0710935"
+  },
   "Toronto, Canada": {
     "value": 9,
     "lat": "43.6534817",
@@ -169,10 +174,10 @@
     "lat": "50.0469432",
     "lon": "19.9971534"
   },
-  "Stockholm, Sweden": {
+  "Shanghai, China": {
     "value": 8,
-    "lat": "59.3251172",
-    "lon": "18.0710935"
+    "lat": "31.2312707",
+    "lon": "121.4700152"
   },
   "Barcelona, Spain": {
     "value": 7,
@@ -209,10 +214,10 @@
     "lat": "-23.5506507",
     "lon": "-46.6333824"
   },
-  "Shanghai, China": {
+  "Vienna, Austria": {
     "value": 7,
-    "lat": "31.2312707",
-    "lon": "121.4700152"
+    "lat": "48.2083537",
+    "lon": "16.3725042"
   },
   "Hong Kong": {
     "value": 6,
@@ -293,11 +298,6 @@
     "value": 6,
     "lat": "35.6892523",
     "lon": "51.3896004"
-  },
-  "Vienna, Austria": {
-    "value": 6,
-    "lat": "48.2083537",
-    "lon": "16.3725042"
   },
   "India": {
     "value": 5,
@@ -384,6 +384,11 @@
     "lat": "11.0101922",
     "lon": "-74.8231794"
   },
+  "Bogota, Colombia": {
+    "value": 4,
+    "lat": "4.6533815",
+    "lon": "-74.0836331"
+  },
   "Brussels, Belgium": {
     "value": 4,
     "lat": "50.8465573",
@@ -459,6 +464,11 @@
     "lat": "22.3053263",
     "lon": "70.8028377"
   },
+  "Spartanburg, United States": {
+    "value": 4,
+    "lat": "34.9498007",
+    "lon": "-81.9320157"
+  },
   "Stuttgart, Germany": {
     "value": 4,
     "lat": "48.7784485",
@@ -524,10 +534,10 @@
     "lat": "60.3943055",
     "lon": "5.3259192"
   },
-  "Bogota, Colombia": {
+  "Brno, Czechia": {
     "value": 3,
-    "lat": "4.6533815",
-    "lon": "-74.0836331"
+    "lat": "49.1922443",
+    "lon": "16.6113382"
   },
   "Cancun, Mexico": {
     "value": 3,
@@ -609,6 +619,11 @@
     "lat": "35.7562940",
     "lon": "139.7289647"
   },
+  "Kobe, Japan": {
+    "value": 3,
+    "lat": "34.6932379",
+    "lon": "135.1943764"
+  },
   "La Ceja, Colombia": {
     "value": 3,
     "lat": "5.9843082",
@@ -673,11 +688,6 @@
     "value": 3,
     "lat": "53.6487421",
     "lon": "-3.0044972"
-  },
-  "Spartanburg, United States": {
-    "value": 3,
-    "lat": "34.9498007",
-    "lon": "-81.9320157"
   },
   "Suginami City, Japan": {
     "value": 3,
@@ -819,11 +829,6 @@
     "lat": "51.4538022",
     "lon": "-2.5972985"
   },
-  "Brno, Czechia": {
-    "value": 2,
-    "lat": "49.1922443",
-    "lon": "16.6113382"
-  },
   "Bucharest, Romania": {
     "value": 2,
     "lat": "44.4361414",
@@ -918,6 +923,11 @@
     "value": 2,
     "lat": "-8.6188557",
     "lon": "115.1704677"
+  },
+  "Denton, United Kingdom": {
+    "value": 2,
+    "lat": "53.4547745",
+    "lon": "-2.1153406"
   },
   "Dhaka, Bangladesh": {
     "value": 2,
@@ -1033,11 +1043,6 @@
     "value": 2,
     "lat": "46.6239430",
     "lon": "14.3075976"
-  },
-  "Kobe, Japan": {
-    "value": 2,
-    "lat": "34.6932379",
-    "lon": "135.1943764"
   },
   "Lahore, Pakistan": {
     "value": 2,
@@ -1399,6 +1404,11 @@
     "lat": "45.3658443",
     "lon": "15.6575209"
   },
+  "Cuba": {
+    "value": 1,
+    "lat": "23.0131338",
+    "lon": "-80.8328748"
+  },
   "Egypt": {
     "value": 1,
     "lat": "26.2540493",
@@ -1443,11 +1453,6 @@
     "value": 1,
     "lat": "-32.8755548",
     "lon": "-56.0201525"
-  },
-  "Cuba": {
-    "value": 1,
-    "lat": "23.0131338",
-    "lon": "-80.8328748"
   },
   "2045, Hungary": {
     "value": 1,
@@ -1814,6 +1819,11 @@
     "lat": "56.0176867",
     "lon": "-3.6073601"
   },
+  "Boardman, United States": {
+    "value": 1,
+    "lat": "45.8398550",
+    "lon": "-119.7005830"
+  },
   "Bonita Springs, United States": {
     "value": 1,
     "lat": "26.3398060",
@@ -1853,6 +1863,11 @@
     "value": 1,
     "lat": "50.5111168",
     "lon": "30.7900482"
+  },
+  "Brownsville, United States": {
+    "value": 1,
+    "lat": "25.9024289",
+    "lon": "-97.4981698"
   },
   "Burke, United States": {
     "value": 1,
@@ -2134,6 +2149,11 @@
     "lat": "40.2804021",
     "lon": "-7.5041910"
   },
+  "Covina, United States": {
+    "value": 1,
+    "lat": "34.0877926",
+    "lon": "-117.8891164"
+  },
   "Cramlington, United Kingdom": {
     "value": 1,
     "lat": "55.0855893",
@@ -2214,6 +2234,11 @@
     "lat": "10.9079223",
     "lon": "106.7694761"
   },
+  "Dinslaken, Germany": {
+    "value": 1,
+    "lat": "51.5623618",
+    "lon": "6.7345106"
+  },
   "Domodedovo, Russia": {
     "value": 1,
     "lat": "55.4368213",
@@ -2274,6 +2299,11 @@
     "lat": "44.0957511",
     "lon": "-79.4897803"
   },
+  "East Hampton North, United States": {
+    "value": 1,
+    "lat": "40.9745288",
+    "lon": "-72.1747867"
+  },
   "Eastern Goleta Valley, United States": {
     "value": 1,
     "lat": "0",
@@ -2283,6 +2313,11 @@
     "value": 1,
     "lat": "32.7947731",
     "lon": "-116.9625260"
+  },
+  "Elizabethtown, United States": {
+    "value": 1,
+    "lat": "37.6939520",
+    "lon": "-85.8591285"
   },
   "Ennepetal, Germany": {
     "value": 1,
@@ -2554,6 +2589,11 @@
     "lat": "20.8623278",
     "lon": "106.6799266"
   },
+  "Halifax, Canada": {
+    "value": 1,
+    "lat": "44.6486180",
+    "lon": "-63.5859487"
+  },
   "Halifax, United Kingdom": {
     "value": 1,
     "lat": "53.7229229",
@@ -2568,6 +2608,11 @@
     "value": 1,
     "lat": "37.0264414",
     "lon": "-76.3442846"
+  },
+  "Hanover, Germany": {
+    "value": 1,
+    "lat": "52.3744779",
+    "lon": "9.7385532"
   },
   "Haridwar, India": {
     "value": 1,
@@ -2628,6 +2673,11 @@
     "value": 1,
     "lat": "50.3674478",
     "lon": "8.8667269"
+  },
+  "Higashihiroshima, Japan": {
+    "value": 1,
+    "lat": "34.4268300",
+    "lon": "132.7415520"
   },
   "Highland Park, United States": {
     "value": 1,
@@ -4658,6 +4708,11 @@
     "value": 1,
     "lat": "47.8507859",
     "lon": "35.1182867"
+  },
+  "Zaragoza, Spain": {
+    "value": 1,
+    "lat": "41.6521342",
+    "lon": "-0.8809428"
   },
   "Zaventem, Belgium": {
     "value": 1,

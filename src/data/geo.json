@@ -4462,5 +4462,49 @@
   "Kunming, Yunnan": {
     "lat": "25.0363006",
     "lon": "102.7086139"
+  },
+  "Denton, United Kingdom": {
+    "lat": "53.4547745",
+    "lon": "-2.1153406"
+  },
+  "Boardman, United States": {
+    "lat": "45.8398550",
+    "lon": "-119.7005830"
+  },
+  "Brownsville, United States": {
+    "lat": "25.9024289",
+    "lon": "-97.4981698"
+  },
+  "Covina, United States": {
+    "lat": "34.0877926",
+    "lon": "-117.8891164"
+  },
+  "Dinslaken, Germany": {
+    "lat": "51.5623618",
+    "lon": "6.7345106"
+  },
+  "East Hampton North, United States": {
+    "lat": "40.9745288",
+    "lon": "-72.1747867"
+  },
+  "Elizabethtown, United States": {
+    "lat": "37.6939520",
+    "lon": "-85.8591285"
+  },
+  "Halifax, Canada": {
+    "lat": "44.6486180",
+    "lon": "-63.5859487"
+  },
+  "Hanover, Germany": {
+    "lat": "52.3744779",
+    "lon": "9.7385532"
+  },
+  "Higashihiroshima, Japan": {
+    "lat": "34.4268300",
+    "lon": "132.7415520"
+  },
+  "Zaragoza, Spain": {
+    "lat": "41.6521342",
+    "lon": "-0.8809428"
   }
 }
