@@ -1,6 +1,6 @@
 {
   "Lanzhou, China": {
-    "value": 173,
+    "value": 174,
     "lat": "36.4744360",
     "lon": "103.7332240"
   },
@@ -104,6 +104,11 @@
     "lat": "41.8755616",
     "lon": "-87.6244212"
   },
+  "Hanoi, Vietnam": {
+    "value": 11,
+    "lat": "21.0283334",
+    "lon": "105.8540410"
+  },
   "Moscow, Russia": {
     "value": 11,
     "lat": "55.6255780",
@@ -118,11 +123,6 @@
     "value": 10,
     "lat": "23.9739374",
     "lon": "120.9820179"
-  },
-  "Hanoi, Vietnam": {
-    "value": 10,
-    "lat": "21.0283334",
-    "lon": "105.8540410"
   },
   "Port-Gentil, Gabon": {
     "value": 10,
@@ -199,10 +199,20 @@
     "lat": "41.0063810",
     "lon": "28.9758715"
   },
+  "Milan, Italy": {
+    "value": 7,
+    "lat": "45.4641943",
+    "lon": "9.1896346"
+  },
   "Odesa, Ukraine": {
     "value": 7,
     "lat": "46.4843023",
     "lon": "30.7322878"
+  },
+  "San Jose, United States": {
+    "value": 7,
+    "lat": "37.3361663",
+    "lon": "-121.8905910"
   },
   "Santiago, Chile": {
     "value": 7,
@@ -264,11 +274,6 @@
     "lat": "20.9670759",
     "lon": "-89.6237402"
   },
-  "Milan, Italy": {
-    "value": 6,
-    "lat": "45.4641943",
-    "lon": "9.1896346"
-  },
   "Philadelphia, United States": {
     "value": 6,
     "lat": "39.9527237",
@@ -278,11 +283,6 @@
     "value": 6,
     "lat": "50.0596288",
     "lon": "14.4464593"
-  },
-  "San Jose, United States": {
-    "value": 6,
-    "lat": "37.3361663",
-    "lon": "-121.8905910"
   },
   "Shenzhen, China": {
     "value": 6,
@@ -508,6 +508,11 @@
     "value": 3,
     "lat": "21.8804870",
     "lon": "-102.2967195"
+  },
+  "Ahmedabad, India": {
+    "value": 3,
+    "lat": "23.0215374",
+    "lon": "72.5800568"
   },
   "Ashburn, United States": {
     "value": 3,
@@ -759,11 +764,6 @@
     "lat": "5.3203570",
     "lon": "-4.0161070"
   },
-  "Ahmedabad, India": {
-    "value": 2,
-    "lat": "23.0215374",
-    "lon": "72.5800568"
-  },
   "Alicante, Spain": {
     "value": 2,
     "lat": "38.3436365",
@@ -973,6 +973,11 @@
     "value": 2,
     "lat": "4.3046383",
     "lon": "-74.8030739"
+  },
+  "Gland, Switzerland": {
+    "value": 2,
+    "lat": "46.4239425",
+    "lon": "6.2655115"
   },
   "Groningen, Netherlands": {
     "value": 2,
@@ -2493,11 +2498,6 @@
     "value": 1,
     "lat": "54.0400920",
     "lon": "21.7713092"
-  },
-  "Gland, Switzerland": {
-    "value": 1,
-    "lat": "46.4239425",
-    "lon": "6.2655115"
   },
   "Goiana, Brazil": {
     "value": 1,
