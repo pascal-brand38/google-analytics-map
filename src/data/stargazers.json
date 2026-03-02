@@ -80,16 +80,6 @@
     }
   },
   {
-    "starred_at": "2025-07-05T06:55:29Z",
-    "repo": "astro-lightgallery",
-    "userLogin": "masputrawae",
-    "userLocation": "Indonesia",
-    "userLocationLatLng": {
-      "lat": "-2.4833826",
-      "lon": "117.8902853"
-    }
-  },
-  {
     "starred_at": "2025-07-06T14:04:18Z",
     "repo": "astro-dev",
     "userLogin": "jesseagleboy",
@@ -180,11 +170,6 @@
     }
   },
   {
-    "starred_at": "2025-08-04T21:10:22Z",
-    "repo": "astro-leaflet",
-    "userLogin": "birkholz-cubert"
-  },
-  {
     "starred_at": "2025-08-06T17:03:01Z",
     "repo": "astro-splide",
     "userLogin": "tlandmangh",
@@ -222,16 +207,6 @@
     "userLocationLatLng": {
       "lat": "51.0456064",
       "lon": "-114.0575410"
-    }
-  },
-  {
-    "starred_at": "2025-09-02T05:15:44Z",
-    "repo": "astro-leaflet",
-    "userLogin": "peksel",
-    "userLocation": "Ankara",
-    "userLocationLatLng": {
-      "lat": "39.9207759",
-      "lon": "32.8540497"
     }
   },
   {
@@ -443,5 +418,75 @@
     "starred_at": "2026-01-06T03:28:30Z",
     "repo": "astro-swiper",
     "userLogin": "cleancommunities"
+  },
+  {
+    "starred_at": "2026-01-10T07:14:05Z",
+    "repo": "astro-swiper",
+    "userLogin": "amoamare"
+  },
+  {
+    "starred_at": "2026-02-07T08:31:24Z",
+    "repo": "astro-leaflet",
+    "userLogin": "devLukaszMichalak",
+    "userLocation": "Poland",
+    "userLocationLatLng": {
+      "lat": "52.2159330",
+      "lon": "19.1344220"
+    }
+  },
+  {
+    "starred_at": "2026-02-07T08:32:03Z",
+    "repo": "astro-swiper",
+    "userLogin": "devLukaszMichalak",
+    "userLocation": "Poland",
+    "userLocationLatLng": {
+      "lat": "52.2159330",
+      "lon": "19.1344220"
+    }
+  },
+  {
+    "starred_at": "2026-02-07T22:38:26Z",
+    "repo": "astro-swiper",
+    "userLogin": "brianr482",
+    "userLocation": "Toronto, Canada",
+    "userLocationLatLng": {
+      "lat": "43.6534817",
+      "lon": "-79.3839347"
+    }
+  },
+  {
+    "starred_at": "2026-02-10T12:52:29Z",
+    "repo": "astro-swiper",
+    "userLogin": "slauriere",
+    "userLocation": "France",
+    "userLocationLatLng": {
+      "lat": "46.6033540",
+      "lon": "1.8883335"
+    }
+  },
+  {
+    "starred_at": "2026-02-10T12:53:47Z",
+    "repo": "astro-leaflet",
+    "userLogin": "slauriere",
+    "userLocation": "France",
+    "userLocationLatLng": {
+      "lat": "46.6033540",
+      "lon": "1.8883335"
+    }
+  },
+  {
+    "starred_at": "2026-02-13T03:09:59Z",
+    "repo": "astro-webtools",
+    "userLogin": "talkingwires",
+    "userLocation": "Havre de Grace, MD",
+    "userLocationLatLng": {
+      "lat": "39.5488270",
+      "lon": "-76.0898259"
+    }
+  },
+  {
+    "starred_at": "2026-02-18T08:16:21Z",
+    "repo": "astro-leaflet",
+    "userLogin": "simon-birkholz"
   }
 ]
