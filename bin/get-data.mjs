@@ -3,6 +3,7 @@ import geo from '../src/data/geo.json' with { type: 'json' };
 import countries from '../src/data/countries.json' with { type: 'json' };
 import prevVisitedCountries from '../src/data/visited-countries.json' with { type: 'json' };
 import githubUsers from '../src/data/github-users.json' with { type: 'json' };
+import stringify from 'json-stable-stringify';    // uses this stringify to sort the keys in the output json files, for better readability and better git diff
 
 const _token = 'ghp'
 const repos = [
@@ -182,7 +183,7 @@ async function runReport() {
     visitedCountries[countryNames[i]].lon = geo.lon
   }
   console.log(`Writing src/data/visited-countries.json`)
-  fs.writeFileSync("src/data/visited-countries.json", JSON.stringify(visitedCountries, null, 2))
+  fs.writeFileSync("src/data/visited-countries.json", stringify(visitedCountries, { space: 2 }))
 
   // update countries location
   // const countriesKeys = Object.keys(countries)
@@ -253,9 +254,9 @@ async function runReport() {
   // console.log(stargazersByDate)
 
   console.log(`Writing src/data/data.json`)
-  fs.writeFileSync("src/data/data.json", JSON.stringify(data, null, 2))
+  fs.writeFileSync("src/data/data.json", stringify(data, { space: 2 }))
   console.log(`Writing src/data/geo.json`)
-  fs.writeFileSync("src/data/geo.json", JSON.stringify(geo, null, 2))
+  fs.writeFileSync("src/data/geo.json", stringify(geo, { space: 2 }))
   console.log(`Writing src/data/github-users.json`)
   fs.writeFileSync("src/data/github-users.json", JSON.stringify(githubUsers, null, 2))
   console.log(`Writing src/data/stargazers.json`)
