@@ -5,6 +5,7 @@
   "scripts": {
     "get-data": "node bin/get-data.mjs",
     "get-stargazers": "node bin/get-stargazers.mjs",
+    "get-candidates": "node bin/get-candidates.mjs",
     "clean": "rm -rf .astro node_modules/.vite",
     "dev": "astro dev",
     "build": "astro build",
