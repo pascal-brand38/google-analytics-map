@@ -4,7 +4,6 @@ import countries from '../src/data/countries.json' with { type: 'json' };
 import prevVisitedCountries from '../src/data/visited-countries.json' with { type: 'json' };
 import githubUsers from '../src/data/github-users.json' with { type: 'json' };
 
-// TODO: CANNOT BE PUBLISHED ON GITHUB IN PUBLIC REPO
 const _token = 'ghp'
 const repos = [
   'astro-splide',
