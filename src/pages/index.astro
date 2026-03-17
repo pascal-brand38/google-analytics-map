@@ -19,7 +19,7 @@ Object.keys(data).forEach(key => {
 // })
 Object.keys(countries).forEach(key => {
 	if (visitedCountries[key] === undefined) {
-		markers.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'TODO'} )
+		markers.push( {latlng: [countries[key].lat, countries[key].lon], options: {title: key}, astroIconName:'iconName'} )
 	}
 })
 
@@ -34,7 +34,7 @@ const options: AstroLeafLetOptionsType = {
 ---
 
 <Layout>
-	<CreateLeafLetDivIcon name='TODO' class="leaflet-div-icon2"/>
+	<CreateLeafLetDivIcon name='iconName' class="leaflet-div-icon2"/>
 	<LeafLet
 		style="width: 100vw; height: 100vh"
 		id="leafletid"
