@@ -58,11 +58,16 @@ async function getLongLat(name) {
     }
 
     const json = await response.json();
+    if (!json || json.length === 0) {
+      console.log(`Can't find location of ${name}`)
+      return { lat: '0', lon: '0' }
+    }
     console.log(`${name} ==> ${json[0].lat} ${json[0].lon}`)
     geo[name] = { lat: json[0].lat, lon: json[0].lon }
     return geo[name]
   } catch (error) {
     console.log(`Throw an error while searching for location of ${name}`)
+    console.log(error)
     return { lat: '0', lon: '0' }
   }
 }
