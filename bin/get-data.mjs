@@ -1,11 +1,22 @@
+// Copyright (c) Pascal Brand
+// MIT License
+
 import fs from 'fs'
 import geo from '../src/data/geo.json' with { type: 'json' };
 import countries from '../src/data/countries.json' with { type: 'json' };
 import prevVisitedCountries from '../src/data/visited-countries.json' with { type: 'json' };
 import githubUsers from '../src/data/github-users.json' with { type: 'json' };
 import stringify from 'json-stable-stringify';    // uses this stringify to sort the keys in the output json files, for better readability and better git diff
+import 'dotenv/config';   // load environment variables from .env file
 
-const _token = 'ghp'
+if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PROPERTY_ID) {
+  console.error('Error: SECRET_GITHUB_TOKEN or SECRET_GOOGLE_ANALYTICS_PROPERTY_ID is not set in .env file. Please set it in .env file.')
+  console.error('SECRET_GITHUB_TOKEN=<github_token> # generate at https://github.com/settings/tokens');
+  console.error('SECRET_GOOGLE_ANALYTICS_PROPERTY_ID=<9-digit number>');
+  process.exit(1)
+}
+
+const _token = process.env.SECRET_GITHUB_TOKEN
 const repos = [
   'astro-splide',
   'astro-swiper',
@@ -17,7 +28,7 @@ const repos = [
   'py-responsiveimage',
 ]
 
-const propertyId = '1234';
+const propertyId = process.env.SECRET_GOOGLE_ANALYTICS_PROPERTY_ID;
 
 // Imports the Google Analytics Data API client library.
 import { BetaAnalyticsDataClient } from '@google-analytics/data'
@@ -31,12 +42,18 @@ async function getLongLat(name) {
     return geo[name]
   }
 
-  sleep(1000)
-  const url = `https://nominatim.openstreetmap.org/search?q=${name},&format=json`
+  console.log(`Getting location of ${name}...`)
+  await sleep(2000)
+  const url = `https://nominatim.openstreetmap.org/search?q=${name}&format=json`
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+      }
+    });
     if (!response.ok) {
       console.log(`Can't find location of ${name}`)
+      console.log(response)
       return { lat: '0', lon: '0' }
     }
 
@@ -101,8 +118,8 @@ async function getGithubUser(user) {
 // await getLongLat()
 // throw('STOP')
 
-async function sleep(s) {
-  return new Promise(r => setTimeout(r, s * 1000))
+async function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
 }
 
 // Runs a simple report.

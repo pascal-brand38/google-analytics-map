@@ -475,18 +475,43 @@
     }
   },
   {
-    "starred_at": "2026-02-13T03:09:59Z",
-    "repo": "astro-webtools",
-    "userLogin": "talkingwires",
-    "userLocation": "Havre de Grace, MD",
-    "userLocationLatLng": {
-      "lat": "39.5488270",
-      "lon": "-76.0898259"
-    }
-  },
-  {
     "starred_at": "2026-02-18T08:16:21Z",
     "repo": "astro-leaflet",
     "userLogin": "simon-birkholz"
+  },
+  {
+    "starred_at": "2026-03-03T13:07:23Z",
+    "repo": "astro-swiper",
+    "userLogin": "prime-optimal"
+  },
+  {
+    "starred_at": "2026-03-08T12:18:22Z",
+    "repo": "astro-leaflet",
+    "userLogin": "aifirstd3v"
+  },
+  {
+    "starred_at": "2026-03-11T15:34:14Z",
+    "repo": "astro-swiper",
+    "userLogin": "attajak",
+    "userLocation": "Trang, Thailand",
+    "userLocationLatLng": {
+      "lat": "7.5892935",
+      "lon": "99.5032004"
+    }
+  },
+  {
+    "starred_at": "2026-03-13T14:51:32Z",
+    "repo": "astro-leaflet",
+    "userLogin": "RaphaelFelten"
+  },
+  {
+    "starred_at": "2026-03-17T08:04:25Z",
+    "repo": "astro-leaflet",
+    "userLogin": "jomaway",
+    "userLocation": "Germany",
+    "userLocationLatLng": {
+      "lat": "51.1638175",
+      "lon": "10.4478313"
+    }
   }
 ]

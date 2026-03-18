@@ -751,6 +751,10 @@
     "lat": "21.1527467",
     "lon": "-86.8425761"
   },
+  "Cangzhou, China": {
+    "lat": "38.3042796",
+    "lon": "116.8511597"
+  },
   "Canoas, Brazil": {
     "lat": "-29.9216045",
     "lon": "-51.1799525"
@@ -946,6 +950,10 @@
   "Ciudadela, Argentina": {
     "lat": "-34.6399288",
     "lon": "-58.5410771"
+  },
+  "Civitanova Marche, Italy": {
+    "lat": "43.3055233",
+    "lon": "13.7229297"
   },
   "Cleveland, United States": {
     "lat": "41.4996574",
@@ -1254,6 +1262,10 @@
   "Dresden, Germany": {
     "lat": "51.0493286",
     "lon": "13.7381437"
+  },
+  "Dronten, Netherlands": {
+    "lat": "52.5236608",
+    "lon": "5.7160381"
   },
   "Dubai, United Arab Emirates": {
     "lat": "25.0742823",
@@ -1787,6 +1799,10 @@
     "lat": "39.5488270",
     "lon": "-76.0898259"
   },
+  "Hayward, United States": {
+    "lat": "37.6688205",
+    "lon": "-122.0807960"
+  },
   "Heilbronn, Germany": {
     "lat": "49.1422910",
     "lon": "9.2186550"
@@ -2047,6 +2063,10 @@
     "lat": "-26.2050000",
     "lon": "28.0497220"
   },
+  "Johnstone, United Kingdom": {
+    "lat": "55.8365170",
+    "lon": "-4.5122831"
+  },
   "Jonkoping, Sweden": {
     "lat": "57.7825634",
     "lon": "14.1657190"
@@ -2090,6 +2110,14 @@
   "Kalispell, United States": {
     "lat": "48.2021580",
     "lon": "-114.3153210"
+  },
+  "Kalyan, India": {
+    "lat": "19.2396742",
+    "lon": "73.1366482"
+  },
+  "Kampala, Uganda": {
+    "lat": "0.3177137",
+    "lon": "32.5813539"
   },
   "Kannapolis, United States": {
     "lat": "35.4979605",
@@ -2154,6 +2182,10 @@
   "Kempten, Germany": {
     "lat": "47.7267063",
     "lon": "10.3168835"
+  },
+  "Kempton Park, South Africa": {
+    "lat": "-26.0964372",
+    "lon": "28.2336325"
   },
   "Kenya": {
     "lat": "1.4419683",
@@ -2327,6 +2359,10 @@
     "lat": "38.8993832",
     "lon": "22.4335820"
   },
+  "Langenthal, Switzerland": {
+    "lat": "47.2116019",
+    "lon": "7.7887860"
+  },
   "Lanus, Argentina": {
     "lat": "-34.7073871",
     "lon": "-58.3905998"
@@ -2342,6 +2378,10 @@
   "Lapu-lapu City, Philippines": {
     "lat": "13.1516159",
     "lon": "123.7527758"
+  },
+  "Larissa, Greece": {
+    "lat": "39.6383092",
+    "lon": "22.4160706"
   },
   "Las Palmas de Gran Canaria, Spain": {
     "lat": "28.1288694",
@@ -2923,6 +2963,10 @@
     "lat": "50.4167025",
     "lon": "16.1622871"
   },
+  "Nagareyama, Japan": {
+    "lat": "35.8555836",
+    "lon": "139.9027815"
+  },
   "Nagoya, Japan": {
     "lat": "35.1851045",
     "lon": "136.8998438"
@@ -2998,6 +3042,10 @@
   "Neusass, Germany": {
     "lat": "48.3928722",
     "lon": "10.8354535"
+  },
+  "New Albany, United States": {
+    "lat": "38.2856247",
+    "lon": "-85.8241312"
   },
   "New Cairo City, Egypt": {
     "lat": "30.0277688",
@@ -3699,6 +3747,10 @@
     "lat": "-16.4603533",
     "lon": "-54.6397099"
   },
+  "Rostov-on-Don, Russia": {
+    "lat": "47.2610441",
+    "lon": "39.7249086"
+  },
   "Rotorua, New Zealand": {
     "lat": "-38.1381493",
     "lon": "176.2529220"
@@ -3726,6 +3778,10 @@
   "Russia": {
     "lat": "64.6863136",
     "lon": "97.7453061"
+  },
+  "Rustburg, United States": {
+    "lat": "37.2754135",
+    "lon": "-79.1090569"
   },
   "Rwanda": {
     "lat": "-1.9646631",
@@ -3766,6 +3822,10 @@
   "Salaspils, Latvia": {
     "lat": "56.8634541",
     "lon": "24.3545214"
+  },
+  "Salina, United States": {
+    "lat": "38.8402805",
+    "lon": "-97.6114237"
   },
   "Salt Lake City, United States": {
     "lat": "40.7596198",
@@ -3826,6 +3886,10 @@
   "San Miguel de Tucuman, Argentina": {
     "lat": "-26.8303703",
     "lon": "-65.2038133"
+  },
+  "San Nicolas de los Garza, Mexico": {
+    "lat": "25.7558021",
+    "lon": "-100.2896480"
   },
   "San Pablo City, Philippines": {
     "lat": "14.0747764",
@@ -4018,6 +4082,10 @@
   "Shanghai, China": {
     "lat": "31.2312707",
     "lon": "121.4700152"
+  },
+  "Shangqiu, China": {
+    "lat": "34.4168215",
+    "lon": "115.6507447"
   },
   "Shenzhen, China": {
     "lat": "22.5445741",
@@ -4387,6 +4455,10 @@
     "lat": "-37.6859006",
     "lon": "176.1675050"
   },
+  "Tawau, Malaysia": {
+    "lat": "4.2435206",
+    "lon": "117.8853310"
+  },
   "Tbilisi, Georgia": {
     "lat": "41.6934591",
     "lon": "44.8014495"
@@ -4439,6 +4511,10 @@
     "lat": "30.1734194",
     "lon": "-95.5046860"
   },
+  "Thessaloniki, Greece": {
+    "lat": "40.6403167",
+    "lon": "22.9352716"
+  },
   "Thika, Kenya": {
     "lat": "-1.0366480",
     "lon": "37.0775230"
@@ -4478,6 +4554,14 @@
   "Toshima City, Japan": {
     "lat": "35.7242740",
     "lon": "139.6860426"
+  },
+  "Trabzon, Türkiye": {
+    "lat": "41.0054605",
+    "lon": "39.7301463"
+  },
+  "Trang, Thailand": {
+    "lat": "7.5892935",
+    "lon": "99.5032004"
   },
   "Trikala, Greece": {
     "lat": "39.5560869",
@@ -4570,6 +4654,10 @@
   "United States": {
     "lat": "39.7837304",
     "lon": "-100.4458820"
+  },
+  "Unterhaching, Germany": {
+    "lat": "48.0662249",
+    "lon": "11.6102245"
   },
   "Uriangato, Mexico": {
     "lat": "20.1177350",
@@ -4675,6 +4763,10 @@
     "lat": "45.4430160",
     "lon": "11.9830890"
   },
+  "Vila Nova de Gaia, Portugal": {
+    "lat": "41.1292264",
+    "lon": "-8.6057396"
+  },
   "Villajoyosa, Spain": {
     "lat": "38.5100778",
     "lon": "-0.2296202"
@@ -4694,6 +4786,10 @@
   "Vitoria-Gasteiz, Spain": {
     "lat": "42.8465088",
     "lon": "-2.6724025"
+  },
+  "Vladikavkaz, Russia": {
+    "lat": "43.0245930",
+    "lon": "44.6821100"
   },
   "Voronezh, Russia": {
     "lat": "51.6605982",
@@ -4803,6 +4899,10 @@
     "lat": "47.4991723",
     "lon": "8.7291498"
   },
+  "Woerden, Netherlands": {
+    "lat": "52.0859261",
+    "lon": "4.8832939"
+  },
   "Woodbridge, United Kingdom": {
     "lat": "52.0941323",
     "lon": "1.3199383"
@@ -4814,6 +4914,10 @@
   "Wymore, United States": {
     "lat": "40.1222615",
     "lon": "-96.6624109"
+  },
+  "Xi'An, China": {
+    "lat": "34.2610040",
+    "lon": "108.9423363"
   },
   "Xitun, Taiwan": {
     "lat": "24.1653026",
@@ -4854,6 +4958,10 @@
   "Yerevan, Armenia": {
     "lat": "40.1777112",
     "lon": "44.5126233"
+  },
+  "York, United Kingdom": {
+    "lat": "53.9656579",
+    "lon": "-1.0743052"
   },
   "Yozgat, Türkiye": {
     "lat": "39.7152422",
