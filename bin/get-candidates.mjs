@@ -1,3 +1,6 @@
+// Copyright (c) Pascal Brand
+// MIT License
+
 import fs from 'fs'
 import stringify from 'json-stable-stringify';    // uses this stringify to sort the keys in the output json files, for better readability and better git diff
 import 'dotenv/config';   // load environment variables from .env file
@@ -8,7 +11,7 @@ async function sleep(ms) {
 
 async function fetchAndRetry(url) {
   // await sleep(2000)   // wait for 2 seconds before the first try
-  for (let i=0; i<10; i++) {
+  for (let i=0; i<3; i++) {
     const ms = i * 1000 * 60 + 60000;
     try {
       const response = await fetch(url, {
@@ -70,8 +73,8 @@ for (let page = 0; page < 1000; page++) {
 
 const finalResults = []
 for (const result of results) {
-  console.log(`Getting repo info for ${result.repository.full_name}: ${repo?.stargazers_count} stars`)
   const repo = await getRepo(result.repository.owner.login, result.repository.name)
+  console.log(`Getting repo info for ${result.repository.full_name}: ${repo?.stargazers_count} stars`)
   // console.log(repo)
   finalResults.push({
     url: `https://github.com/${result.repository.full_name}`,
