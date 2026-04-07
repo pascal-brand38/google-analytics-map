@@ -35,6 +35,10 @@
     "lat": "47.3927146",
     "lon": "8.0444448"
   },
+  "Aarhus, Denmark": {
+    "lat": "56.1496278",
+    "lon": "10.2134046"
+  },
   "Abidjan, Côte d’Ivoire": {
     "lat": "5.3203570",
     "lon": "-4.0161070"
@@ -43,9 +47,17 @@
     "lat": "35.8639990",
     "lon": "140.0280653"
   },
+  "Abu Dhabi, United Arab Emirates": {
+    "lat": "24.4538352",
+    "lon": "54.3774014"
+  },
   "Abuja, Nigeria": {
     "lat": "9.0643305",
     "lon": "7.4892974"
+  },
+  "Accra, Ghana": {
+    "lat": "5.5571096",
+    "lon": "-0.2012376"
   },
   "Adachi City, Japan": {
     "lat": "35.7748726",
@@ -495,6 +507,10 @@
     "lat": "46.2513776",
     "lon": "7.0123881"
   },
+  "Bhubaneswar, India": {
+    "lat": "20.2602964",
+    "lon": "85.8394521"
+  },
   "Bhutan": {
     "lat": "27.5495110",
     "lon": "90.5119273"
@@ -682,6 +698,10 @@
   "Bury St Edmunds, United Kingdom": {
     "lat": "52.2460367",
     "lon": "0.7125173"
+  },
+  "Bydgoszcz, Poland": {
+    "lat": "53.1219648",
+    "lon": "18.0002529"
   },
   "Cachoeirinha, Brazil": {
     "lat": "-29.9493353",
@@ -923,6 +943,10 @@
     "lat": "-7.7509485",
     "lon": "108.1808709"
   },
+  "Cimahi, Indonesia": {
+    "lat": "-6.8731527",
+    "lon": "107.5423099"
+  },
   "Cincinnati, United States": {
     "lat": "39.1014537",
     "lon": "-84.5124602"
@@ -962,6 +986,10 @@
   "Coeur d'Alene, United States": {
     "lat": "47.6742994",
     "lon": "-116.7811531"
+  },
+  "Colina, Chile": {
+    "lat": "-33.2024720",
+    "lon": "-70.6749147"
   },
   "Cologne, Germany": {
     "lat": "50.9383610",
@@ -1311,9 +1339,17 @@
     "lat": "-1.3397668",
     "lon": "-79.3666965"
   },
+  "Ecublens, Switzerland": {
+    "lat": "46.5258000",
+    "lon": "6.5621137"
+  },
   "Edinburgh, United Kingdom": {
     "lat": "55.9533456",
     "lon": "-3.1883749"
+  },
+  "Edmonton, Canada": {
+    "lat": "53.5462055",
+    "lon": "-113.4912410"
   },
   "Egypt": {
     "lat": "26.2540493",
@@ -2115,6 +2151,10 @@
     "lat": "19.2396742",
     "lon": "73.1366482"
   },
+  "Kamatero, Greece": {
+    "lat": "38.0620067",
+    "lon": "23.7089143"
+  },
   "Kampala, Uganda": {
     "lat": "0.3177137",
     "lon": "32.5813539"
@@ -2238,6 +2278,10 @@
   "Klagenfurt am Worthersee, Austria": {
     "lat": "46.6239430",
     "lon": "14.3075976"
+  },
+  "Klapanunggal, Indonesia": {
+    "lat": "-6.4764819",
+    "lon": "106.9612191"
   },
   "Kobe, Japan": {
     "lat": "34.6932379",
@@ -2415,6 +2459,10 @@
     "lat": "39.1154506",
     "lon": "-77.5645607"
   },
+  "Leicester, United Kingdom": {
+    "lat": "52.6362000",
+    "lon": "-1.1331969"
+  },
   "Leipzig, Germany": {
     "lat": "51.3406321",
     "lon": "12.3747329"
@@ -2494,6 +2542,10 @@
   "Linkoping, Sweden": {
     "lat": "58.4098135",
     "lon": "15.6245252"
+  },
+  "Linz, Austria": {
+    "lat": "48.3059078",
+    "lon": "14.2861980"
   },
   "Lipa, Philippines": {
     "lat": "13.9414340",
@@ -2683,6 +2735,10 @@
     "lat": "36.5089760",
     "lon": "-4.8856200"
   },
+  "Marica, Brazil": {
+    "lat": "-22.9088759",
+    "lon": "-42.8171914"
+  },
   "Marietta, United States": {
     "lat": "33.9528472",
     "lon": "-84.5496148"
@@ -2738,6 +2794,10 @@
   "Memphis, United States": {
     "lat": "35.1460249",
     "lon": "-90.0517638"
+  },
+  "Merchtem, Belgium": {
+    "lat": "50.9593636",
+    "lon": "4.2335677"
   },
   "Merida, Mexico": {
     "lat": "20.9670759",
@@ -2939,6 +2999,10 @@
     "lat": "51.9625101",
     "lon": "7.6251879"
   },
+  "Murcia, Spain": {
+    "lat": "37.9923795",
+    "lon": "-1.1305431"
+  },
   "Murfreesboro, United States": {
     "lat": "35.8460396",
     "lon": "-86.3921096"
@@ -3054,6 +3118,10 @@
   "New Franklin, United States": {
     "lat": "40.9526931",
     "lon": "-81.5659370"
+  },
+  "New Orleans, United States": {
+    "lat": "29.9561422",
+    "lon": "-90.0733934"
   },
   "New York, United States": {
     "lat": "40.7127281",
@@ -3514,6 +3582,10 @@
   "Ponta Grossa, Brazil": {
     "lat": "-25.0891685",
     "lon": "-50.1601812"
+  },
+  "Pori, Finland": {
+    "lat": "61.4866126",
+    "lon": "21.7972071"
   },
   "Porirua, New Zealand": {
     "lat": "-41.1354217",
@@ -4087,6 +4159,10 @@
     "lat": "34.4168215",
     "lon": "115.6507447"
   },
+  "Shenyang, China": {
+    "lat": "41.8026095",
+    "lon": "123.4279105"
+  },
   "Shenzhen, China": {
     "lat": "22.5445741",
     "lon": "114.0545429"
@@ -4262,6 +4338,10 @@
   "Stovring, Denmark": {
     "lat": "56.8847204",
     "lon": "9.8330640"
+  },
+  "Strausberg, Germany": {
+    "lat": "52.5588942",
+    "lon": "13.9042481"
   },
   "Sturgis, United States": {
     "lat": "44.4144770",
@@ -4635,6 +4715,10 @@
     "lat": "54.1904260",
     "lon": "-3.0838997"
   },
+  "Ulyanovsk, Russia": {
+    "lat": "54.3150278",
+    "lon": "48.4033730"
+  },
   "Ungaran, Indonesia": {
     "lat": "-7.1290892",
     "lon": "110.4038912"
@@ -4662,6 +4746,10 @@
   "Uriangato, Mexico": {
     "lat": "20.1177350",
     "lon": "-101.1380477"
+  },
+  "Urom, Hungary": {
+    "lat": "47.5987004",
+    "lon": "19.0134262"
   },
   "Uruguay": {
     "lat": "-32.8755548",
@@ -4707,6 +4795,10 @@
     "lat": "10.3431115",
     "lon": "-73.3757934"
   },
+  "Vancouver, Canada": {
+    "lat": "49.2608724",
+    "lon": "-123.1139520"
+  },
   "Vanuatu": {
     "lat": "-16.5255069",
     "lon": "168.1069154"
@@ -4734,6 +4826,10 @@
   "Venezuela": {
     "lat": "8.0018709",
     "lon": "-66.1109318"
+  },
+  "Venice, Italy": {
+    "lat": "45.4046171",
+    "lon": "12.3105232"
   },
   "Verona, Italy": {
     "lat": "45.4424977",
@@ -4766,6 +4862,10 @@
   "Vila Nova de Gaia, Portugal": {
     "lat": "41.1292264",
     "lon": "-8.6057396"
+  },
+  "Vila do Conde, Portugal": {
+    "lat": "41.3540398",
+    "lon": "-8.7435403"
   },
   "Villajoyosa, Spain": {
     "lat": "38.5100778",
@@ -4811,6 +4911,10 @@
     "lat": "52.5847949",
     "lon": "-1.9822687"
   },
+  "Wanaka, New Zealand": {
+    "lat": "-44.6941691",
+    "lon": "169.1364637"
+  },
   "Warsaw": {
     "lat": "52.2333742",
     "lon": "21.0711489"
@@ -4842,6 +4946,10 @@
   "Wellington, New Zealand": {
     "lat": "-41.2887953",
     "lon": "174.7772114"
+  },
+  "Wenatchee, United States": {
+    "lat": "47.4234599",
+    "lon": "-120.3103490"
   },
   "Werrington, United Kingdom": {
     "lat": "50.6655273",
@@ -4959,6 +5067,10 @@
     "lat": "40.1777112",
     "lon": "44.5126233"
   },
+  "Yokohama, Japan": {
+    "lat": "35.4503381",
+    "lon": "139.6343802"
+  },
   "York, United Kingdom": {
     "lat": "53.9656579",
     "lon": "-1.0743052"
@@ -5010,6 +5122,10 @@
   "Zimbabwe": {
     "lat": "-18.4554963",
     "lon": "29.7468414"
+  },
+  "Zipaquira, Colombia": {
+    "lat": "5.0234748",
+    "lon": "-74.0039818"
   },
   "Zurich, Switzerland": {
     "lat": "47.3744489",

@@ -270,16 +270,6 @@
     }
   },
   {
-    "starred_at": "2025-09-27T06:55:58Z",
-    "repo": "astro-swiper",
-    "userLogin": "thatswhatshesaid27",
-    "userLocation": "Mumbai",
-    "userLocationLatLng": {
-      "lat": "19.0549990",
-      "lon": "72.8692035"
-    }
-  },
-  {
     "starred_at": "2025-09-27T13:35:07Z",
     "repo": "astro-leaflet",
     "userLogin": "ReemanS",
@@ -513,5 +503,25 @@
       "lat": "51.1638175",
       "lon": "10.4478313"
     }
+  },
+  {
+    "starred_at": "2026-03-18T21:08:39Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "BorisLord",
+    "userLocation": "France",
+    "userLocationLatLng": {
+      "lat": "46.6033540",
+      "lon": "1.8883335"
+    }
+  },
+  {
+    "starred_at": "2026-04-01T22:43:35Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "devopsoskar"
+  },
+  {
+    "starred_at": "2026-04-06T11:55:43Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "sd44"
   }
 ]
