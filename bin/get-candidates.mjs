@@ -59,15 +59,19 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
   process.exit(1)
 }
 
-const request = 'swiper+and+astro+language:json+size:<5000'
+//const request = 'swiper+and+astro+language:json+size:<5000'
+//const request = 'leaflet+astro+language:json+size:<5000'
+const request = 'script+swiper+language:astro'
+//const request = 'topic:astro+topic:theme'
 const results = []
 for (let page = 0; page < 1000; page++) {
   const json = await getCandidates(request, page)
   if (!json?.items || json.items.length === 0) {
     break;
   }
-  const filtered = json.items.filter(item => item.name === 'package.json')
-  results.push(...filtered)
+  // const filtered = json.items.filter(item => item.name === 'package.json')
+  // results.push(...filtered)
+  results.push(...json.items)
   console.log(`page ${page} has ${json.items.length} items`)
 }
 
