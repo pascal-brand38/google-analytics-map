@@ -5,7 +5,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   vite: {
     optimizeDeps: {
-      include: ['leaflet'],
+      include: ['astro-leaflet > leaflet'],
     }
   },
 });
