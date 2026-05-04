@@ -667,6 +667,10 @@
     "lat": "51.5049859",
     "lon": "-3.5756674"
   },
+  "Bridlicna, Czechia": {
+    "lat": "49.9116692",
+    "lon": "17.3710729"
+  },
   "Brisbane, Australia": {
     "lat": "-27.4689623",
     "lon": "153.0235009"
@@ -766,6 +770,10 @@
   "Cali, Colombia": {
     "lat": "3.4108435",
     "lon": "-76.5812127"
+  },
+  "Caloocan, Philippines": {
+    "lat": "14.6513445",
+    "lon": "120.9723835"
   },
   "Calw, Germany": {
     "lat": "48.7142691",
@@ -1026,6 +1034,10 @@
   "Civitanova Marche, Italy": {
     "lat": "43.3055233",
     "lon": "13.7229297"
+  },
+  "Claremont, United States": {
+    "lat": "34.0966764",
+    "lon": "-117.7197785"
   },
   "Cleveland, United States": {
     "lat": "41.4996574",
@@ -1835,6 +1847,10 @@
     "lat": "35.6663595",
     "lon": "139.3163653"
   },
+  "Haddenham, United Kingdom": {
+    "lat": "52.3587178",
+    "lon": "0.1501133"
+  },
   "Hai Duong, Vietnam": {
     "lat": "20.9602884",
     "lon": "106.3604393"
@@ -2182,6 +2198,10 @@
   "Jeju-si, South Korea": {
     "lat": "33.4998289",
     "lon": "126.5313902"
+  },
+  "Jersey City, United States": {
+    "lat": "40.7215682",
+    "lon": "-74.0474550"
   },
   "Jiaxing, China": {
     "lat": "30.7474425",
@@ -3938,6 +3958,10 @@
   "Riverdale, United States": {
     "lat": "41.6333678",
     "lon": "-87.6331021"
+  },
+  "Rivne, Ukraine": {
+    "lat": "51.2074112",
+    "lon": "26.5208033"
   },
   "Riyadh, Saudi Arabia": {
     "lat": "23.3333330",

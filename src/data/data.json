@@ -427,7 +427,7 @@
   "Barcelona, Spain": {
     "lat": "41.3825802",
     "lon": "2.1770730",
-    "value": 9
+    "value": 10
   },
   "Barnsley, United Kingdom": {
     "lat": "53.5527719",
@@ -547,7 +547,7 @@
   "Bengaluru, India": {
     "lat": "12.9767936",
     "lon": "77.5900820",
-    "value": 7
+    "value": 8
   },
   "Benoni, South Africa": {
     "lat": "-26.1930356",
@@ -724,6 +724,11 @@
     "lon": "-3.5756674",
     "value": 1
   },
+  "Bridlicna, Czechia": {
+    "lat": "49.9116692",
+    "lon": "17.3710729",
+    "value": 1
+  },
   "Brisbane, Australia": {
     "lat": "-27.4689623",
     "lon": "153.0235009",
@@ -828,6 +833,11 @@
     "lat": "3.4108435",
     "lon": "-76.5812127",
     "value": 2
+  },
+  "Caloocan, Philippines": {
+    "lat": "14.6513445",
+    "lon": "120.9723835",
+    "value": 1
   },
   "Calw, Germany": {
     "lat": "48.7142691",
@@ -1122,6 +1132,11 @@
   "Civitanova Marche, Italy": {
     "lat": "43.3055233",
     "lon": "13.7229297",
+    "value": 1
+  },
+  "Claremont, United States": {
+    "lat": "34.0966764",
+    "lon": "-117.7197785",
     "value": 1
   },
   "Cleveland, United States": {
@@ -1657,7 +1672,7 @@
   "France": {
     "lat": "46.6033540",
     "lon": "1.8883335",
-    "value": 258
+    "value": 260
   },
   "Frankfurt am Main, Germany": {
     "lat": "50.1106444",
@@ -1817,7 +1832,7 @@
   "Gijon, Spain": {
     "lat": "43.5449422",
     "lon": "-5.6627500",
-    "value": 3
+    "value": 4
   },
   "Girardot, Colombia": {
     "lat": "4.3046383",
@@ -1988,6 +2003,11 @@
     "lat": "35.6663595",
     "lon": "139.3163653",
     "value": 4
+  },
+  "Haddenham, United Kingdom": {
+    "lat": "52.3587178",
+    "lon": "0.1501133",
+    "value": 1
   },
   "Hai Duong, Vietnam": {
     "lat": "20.9602884",
@@ -2379,6 +2399,11 @@
     "lon": "126.5313902",
     "value": 1
   },
+  "Jersey City, United States": {
+    "lat": "40.7215682",
+    "lon": "-74.0474550",
+    "value": 1
+  },
   "Jiaxing, China": {
     "lat": "30.7474425",
     "lon": "120.7510971",
@@ -2517,7 +2542,7 @@
   "Kawasaki, Japan": {
     "lat": "35.5306639",
     "lon": "139.7037668",
-    "value": 2
+    "value": 3
   },
   "Kedah, Malaysia": {
     "lat": "5.8098265",
@@ -2637,7 +2662,7 @@
   "Konstanz, Germany": {
     "lat": "47.6592160",
     "lon": "9.1750718",
-    "value": 1
+    "value": 2
   },
   "Koto City, Japan": {
     "lat": "35.6726469",
@@ -2977,7 +3002,7 @@
   "Lublin, Poland": {
     "lat": "51.2181945",
     "lon": "22.5546776",
-    "value": 5
+    "value": 6
   },
   "Lucerne, Switzerland": {
     "lat": "47.0505452",
@@ -3302,7 +3327,7 @@
   "Montevideo, Uruguay": {
     "lat": "-34.9058916",
     "lon": "-56.1913095",
-    "value": 3
+    "value": 4
   },
   "Montreal, Canada": {
     "lat": "45.5031824",
@@ -3537,7 +3562,7 @@
   "Newark, United States": {
     "lat": "40.7356570",
     "lon": "-74.1723667",
-    "value": 2
+    "value": 4
   },
   "Newcastle upon Tyne, United Kingdom": {
     "lat": "54.9738474",
@@ -3767,7 +3792,7 @@
   "Ottawa, Canada": {
     "lat": "45.4208777",
     "lon": "-75.6901106",
-    "value": 2
+    "value": 3
   },
   "Paderborn, Germany": {
     "lat": "51.7177044",
@@ -4314,10 +4339,15 @@
     "lon": "-87.6331021",
     "value": 1
   },
+  "Rivne, Ukraine": {
+    "lat": "51.2074112",
+    "lon": "26.5208033",
+    "value": 1
+  },
   "Riyadh, Saudi Arabia": {
     "lat": "23.3333330",
     "lon": "45.3333330",
-    "value": 1
+    "value": 2
   },
   "Roanoke, United States": {
     "lat": "37.2709730",
@@ -4372,7 +4402,7 @@
   "Russia": {
     "lat": "64.6863136",
     "lon": "97.7453061",
-    "value": 4
+    "value": 5
   },
   "Rustburg, United States": {
     "lat": "37.2754135",
@@ -4422,7 +4452,7 @@
   "Salt Lake City, United States": {
     "lat": "40.7596198",
     "lon": "-111.8867970",
-    "value": 3
+    "value": 4
   },
   "Salzburg, Austria": {
     "lat": "47.7981346",
@@ -4707,7 +4737,7 @@
   "Setagaya City, Japan": {
     "lat": "35.6465296",
     "lon": "139.6532504",
-    "value": 4
+    "value": 5
   },
   "Shah Alam, Malaysia": {
     "lat": "3.0739429",
@@ -4947,7 +4977,7 @@
   "Stuttgart, Germany": {
     "lat": "48.7784485",
     "lon": "9.1800132",
-    "value": 4
+    "value": 5
   },
   "Suginami City, Japan": {
     "lat": "35.6996212",
@@ -5037,7 +5067,7 @@
   "Sydney, Australia": {
     "lat": "-33.8698439",
     "lon": "151.2082848",
-    "value": 13
+    "value": 14
   },
   "Syracuse, United States": {
     "lat": "43.0481221",
@@ -5482,7 +5512,7 @@
   "Vienna, Austria": {
     "lat": "48.2083537",
     "lon": "16.3725042",
-    "value": 12
+    "value": 13
   },
   "Viernheim, Germany": {
     "lat": "49.5401213",
