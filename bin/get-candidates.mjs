@@ -61,18 +61,29 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
 
 //const request = 'swiper+and+astro+language:json+size:<5000'
 //const request = 'leaflet+astro+language:json+size:<5000'
-const request = 'script+swiper+language:astro'
+// const request = 'script+swiper+language:astro'
 //const request = 'topic:astro+topic:theme'
+const packageName = 'splide'
+const requests = [
+  { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
+  { req: `script+${packageName}+language:astro`, },
+]
 const results = []
-for (let page = 0; page < 1000; page++) {
-  const json = await getCandidates(request, page)
-  if (!json?.items || json.items.length === 0) {
-    break;
+for (let request of requests) {
+  for (let page = 0; page < 1000; page++) {
+    const json = await getCandidates(request.req, page)
+    if (!json?.items || json.items.length === 0) {
+      break;
+    }
+
+    if (request.filterName) {
+      const filtered = json.items.filter(item => item.name === request.filterName)
+      results.push(...filtered)
+    } else {
+      results.push(...json.items)
+    }
+    console.log(`page ${page} has ${json.items.length} items`)
   }
-  // const filtered = json.items.filter(item => item.name === 'package.json')
-  // results.push(...filtered)
-  results.push(...json.items)
-  console.log(`page ${page} has ${json.items.length} items`)
 }
 
 const finalResults = []
