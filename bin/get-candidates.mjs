@@ -59,49 +59,53 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
   process.exit(1)
 }
 
-//const request = 'swiper+and+astro+language:json+size:<5000'
-//const request = 'leaflet+astro+language:json+size:<5000'
-// const request = 'script+swiper+language:astro'
-//const request = 'topic:astro+topic:theme'
-const packageName = 'splide'
-const requests = [
-  { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
-  { req: `script+${packageName}+language:astro`, },
-]
-const results = []
-for (let request of requests) {
-  for (let page = 0; page < 1000; page++) {
-    const json = await getCandidates(request.req, page)
-    if (!json?.items || json.items.length === 0) {
-      break;
-    }
+const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
+const results = {}
 
-    if (request.filterName) {
-      const filtered = json.items.filter(item => item.name === request.filterName)
-      results.push(...filtered)
-    } else {
-      results.push(...json.items)
+for (const packageName of packageNames) {
+  console.log(`Getting candidates for package ${packageName}...`)
+  const requests = [
+    { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
+    { req: `script+${packageName}+language:astro`, },
+  ]
+  let resultsPackage = []
+  for (const request of requests) {
+    for (let page = 0; page < 1000; page++) {
+      const json = await getCandidates(request.req, page)
+      if (!json?.items || json.items.length === 0) {
+        break;
+      }
+
+      if (request.filterName) {
+        const filtered = json.items.filter(item => item.name === request.filterName)
+        resultsPackage.push(...filtered)
+      } else {
+        resultsPackage.push(...json.items)
+      }
+      console.log(`page ${page} has ${json.items.length} items`)
     }
-    console.log(`page ${page} has ${json.items.length} items`)
   }
+
+  const finalResults = []
+  for (const resultPackage of resultsPackage) {
+    // remove duplicates
+    if (finalResults.some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
+      continue;
+    }
+    const repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
+    console.log(`Getting repo info for ${resultPackage.repository.full_name}: ${repo?.stargazers_count} stars`)
+    // console.log(repo)
+    finalResults.push({
+      url: `https://github.com/${resultPackage.repository.full_name}`,
+      stargazers_count: repo?.stargazers_count || 0,
+    })
+  }
+
+  finalResults.sort((a, b) => b.stargazers_count - a.stargazers_count)
+  results[packageName] = finalResults
 }
 
-const finalResults = []
-for (const result of results) {
-  const repo = await getRepo(result.repository.owner.login, result.repository.name)
-  console.log(`Getting repo info for ${result.repository.full_name}: ${repo?.stargazers_count} stars`)
-  // console.log(repo)
-  finalResults.push({
-    url: `https://github.com/${result.repository.full_name}`,
-    stargazers_count: repo?.stargazers_count || 0,
-  })
-}
-
-finalResults.sort((a, b) => b.stargazers_count - a.stargazers_count)
+fs.writeFileSync("src/data/candidates.json", stringify(results, { space: 2 }))
 
 console.log('DONE')
-console.log(`Total items: ${finalResults.length}`)
-// console.log(stringify(finalResults, { /*space: 2*/ }))
-fs.writeFileSync("src/data/candidates.json", stringify(finalResults, { space: 2 }))
-
 process.exit(0)
