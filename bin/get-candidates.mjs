@@ -61,9 +61,11 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
 
 const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
 const results = {}
+const minUpdatedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
+const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
 
 for (const packageName of packageNames) {
-  console.log(`Getting candidates for package ${packageName}...`)
+  console.log(`---------- Getting candidates for package ${packageName}...`)
   const requests = [
     { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
     { req: `script+${packageName}+language:astro`, },
@@ -83,6 +85,9 @@ for (const packageName of packageNames) {
         resultsPackage.push(...json.items)
       }
       console.log(`page ${page} has ${json.items.length} items`)
+      // console.log(stringify(resultsPackage, { space: 2 }))
+      // throw new Error('Stop after the first page for testing')
+
     }
   }
 
@@ -94,11 +99,17 @@ for (const packageName of packageNames) {
     }
     const repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
     console.log(`Getting repo info for ${resultPackage.repository.full_name}: ${repo?.stargazers_count} stars`)
-    // console.log(repo)
-    finalResults.push({
-      url: `https://github.com/${resultPackage.repository.full_name}`,
-      stargazers_count: repo?.stargazers_count || 0,
-    })
+    // console.log(stringify(repo, { space: 2 }))
+    // throw new Error('Stop after the first repo for testing')
+
+    // keep only the ones that are updated after 2025-01-01 and have at least 1 star,
+    // to make sure they are still maintained and popular
+    if (repo?.updated_at >= minUpdatedAt && repo?.stargazers_count >= minStars) {
+      finalResults.push({
+        url: `https://github.com/${resultPackage.repository.full_name}`,
+        stargazers_count: repo?.stargazers_count || 0,
+      })
+    }
   }
 
   finalResults.sort((a, b) => b.stargazers_count - a.stargazers_count)
