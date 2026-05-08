@@ -66,9 +66,19 @@ const minStars = 1   // only keep repos that have at least this many stars, to m
 
 for (const packageName of packageNames) {
   console.log(`---------- Getting candidates for package ${packageName}...`)
+  let specificRequests = []
+  if (packageName === 'swiper') {
+    specificRequests.push({ req: `swiper-wrapper+language:astro`, })
+    specificRequests.push({ req: `swiper-slide+language:astro`, })
+  } else if (packageName === 'leaflet') {
+  } else if (packageName === 'lightgallery') {
+  } else if (packageName === 'splide') {
+  }
   const requests = [
     { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
     { req: `script+${packageName}+language:astro`, },
+    { req: `${packageName}+language:astro`, },
+    ...specificRequests,
   ]
   let resultsPackage = []
   for (const request of requests) {
