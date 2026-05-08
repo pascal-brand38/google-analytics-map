@@ -80,9 +80,13 @@ for (const packageName of packageNames) {
     { req: `${packageName}+language:astro`, },
     ...specificRequests,
   ]
-  let resultsPackage = []
+
+  const finalResults = []
+
   for (const request of requests) {
     for (let page = 0; page < 1000; page++) {
+      let resultsPackage = undefined
+
       const json = await getCandidates(request.req, page)
       if (!json?.items || json.items.length === 0) {
         break;
@@ -90,40 +94,39 @@ for (const packageName of packageNames) {
 
       if (request.filterName) {
         const filtered = json.items.filter(item => item.name === request.filterName)
-        resultsPackage.push(...filtered)
+        resultsPackage = filtered
       } else {
-        resultsPackage.push(...json.items)
+        resultsPackage = json.items
       }
       console.log(`page ${page} has ${json.items.length} items`)
       // console.log(stringify(resultsPackage, { space: 2 }))
       // throw new Error('Stop after the first page for testing')
 
+      for (const resultPackage of resultsPackage) {
+        // remove duplicates
+        if (finalResults.some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
+          continue;
+        }
+        const repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
+        console.log(`Getting repo info for ${resultPackage.repository.full_name}: ${repo?.stargazers_count} stars`)
+        // console.log(stringify(repo, { space: 2 }))
+        // throw new Error('Stop after the first repo for testing')
+
+        finalResults.push({
+          url: `https://github.com/${resultPackage.repository.full_name}`,
+          stargazers_count: repo?.stargazers_count || 0,
+          updated_at: repo?.updated_at || '1900-01-01',
+        })
+      }
     }
   }
 
-  const finalResults = []
-  for (const resultPackage of resultsPackage) {
-    // remove duplicates
-    if (finalResults.some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
-      continue;
-    }
-    const repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
-    console.log(`Getting repo info for ${resultPackage.repository.full_name}: ${repo?.stargazers_count} stars`)
-    // console.log(stringify(repo, { space: 2 }))
-    // throw new Error('Stop after the first repo for testing')
-
-    // keep only the ones that are updated after 2025-01-01 and have at least 1 star,
-    // to make sure they are still maintained and popular
-    if (repo?.updated_at >= minUpdatedAt && repo?.stargazers_count >= minStars) {
-      finalResults.push({
-        url: `https://github.com/${resultPackage.repository.full_name}`,
-        stargazers_count: repo?.stargazers_count || 0,
-      })
-    }
-  }
-
-  finalResults.sort((a, b) => b.stargazers_count - a.stargazers_count)
+  // keep only the ones that are updated after 2025-01-01 and have at least 1 star,
+  // to make sure they are still maintained and popular
+  // and sort by stars in descending order
   results[packageName] = finalResults
+    .filter(item => item.updated_at >= minUpdatedAt && item.stargazers_count >= minStars)
+    .sort((a, b) => b.stargazers_count - a.stargazers_count)
 }
 
 fs.writeFileSync("src/data/candidates.json", stringify(results, { space: 2 }))
