@@ -4,6 +4,7 @@
 import fs from 'fs'
 import stringify from 'json-stable-stringify';    // uses this stringify to sort the keys in the output json files, for better readability and better git diff
 import 'dotenv/config';   // load environment variables from .env file
+import githubRepo from '../src/data/github-repo.json' with { type: 'json' };
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -107,17 +108,32 @@ for (const packageName of packageNames) {
         if (finalResults.some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
           continue;
         }
-        const repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
-        console.log(`Getting repo info for ${resultPackage.repository.full_name}: ${repo?.stargazers_count} stars`)
-        // console.log(stringify(repo, { space: 2 }))
-        // throw new Error('Stop after the first repo for testing')
+
+        const url = `https://github.com/${resultPackage.repository.full_name}`
+        let repo = githubRepo[url]
+        if (!repo) {
+          repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
+          if (repo) {
+            console.log(`Getting repo info for ${url}: ${repo.stargazers_count} stars`)
+            githubRepo[url] = {
+              stargazers_count: repo.stargazers_count,
+              updated_at: repo.updated_at,
+            }
+          } else {
+            console.log(`Failed to get repo info for ${url}, skip it.`)
+            continue;
+          }
+        }
 
         finalResults.push({
-          url: `https://github.com/${resultPackage.repository.full_name}`,
-          stargazers_count: repo?.stargazers_count || 0,
-          updated_at: repo?.updated_at || '1900-01-01',
+          url: url,
+          stargazers_count: repo.stargazers_count,
+          updated_at: repo.updated_at,
         })
       }
+
+      // save new information about the github repo
+      fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
     }
   }
 
@@ -129,7 +145,11 @@ for (const packageName of packageNames) {
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
 }
 
+// save new candidate list
 fs.writeFileSync("src/data/candidates.json", stringify(results, { space: 2 }))
+
+// save new information about the github repo
+fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
 
 console.log('DONE')
 process.exit(0)
