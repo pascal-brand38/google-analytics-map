@@ -5,6 +5,7 @@ import fs from 'fs'
 import stringify from 'json-stable-stringify';    // uses this stringify to sort the keys in the output json files, for better readability and better git diff
 import 'dotenv/config';   // load environment variables from .env file
 import githubRepo from '../src/data/github-repo.json' with { type: 'json' };
+import candidates from '../src/data/candidates.json' with { type: 'json' };
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -61,7 +62,6 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
 }
 
 const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
-const results = {}
 const minUpdatedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
 const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
 
@@ -82,10 +82,8 @@ for (const packageName of packageNames) {
     ...specificRequests,
   ]
 
-  const finalResults = []
-
   for (const request of requests) {
-    for (let page = 0; page < 1000; page++) {
+    for (let page = 0; page < 1; page++) {
       let resultsPackage = undefined
 
       const json = await getCandidates(request.req, page)
@@ -104,12 +102,13 @@ for (const packageName of packageNames) {
       // throw new Error('Stop after the first page for testing')
 
       for (const resultPackage of resultsPackage) {
-        // remove duplicates
-        if (finalResults.some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
+        const url = `https://github.com/${resultPackage.repository.full_name}`
+
+        // do not add duplicates
+        if (candidates[packageName].some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
           continue;
         }
 
-        const url = `https://github.com/${resultPackage.repository.full_name}`
         let repo = githubRepo[url]
         if (!repo) {
           repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
@@ -125,28 +124,31 @@ for (const packageName of packageNames) {
           }
         }
 
-        finalResults.push({
-          url: url,
-          stargazers_count: repo.stargazers_count,
-          updated_at: repo.updated_at,
-        })
+        // add to candidates when recently updated and has at least 1 star, to make sure it is still maintained and popular
+        if (repo.updated_at >= minUpdatedAt && repo.stargazers_count >= minStars) {
+          candidates[packageName].push({
+            url: url,
+            stargazers_count: repo.stargazers_count,
+            updated_at: repo.updated_at,
+          })
+        }
       }
+
+      // save new candidate list
+      candidates[packageName].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
+      fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
 
       // save new information about the github repo
       fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
     }
   }
-
-  // keep only the ones that are updated after 2025-01-01 and have at least 1 star,
-  // to make sure they are still maintained and popular
-  // and sort by stars in descending order
-  results[packageName] = finalResults
-    .filter(item => item.updated_at >= minUpdatedAt && item.stargazers_count >= minStars)
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
 }
 
 // save new candidate list
-fs.writeFileSync("src/data/candidates.json", stringify(results, { space: 2 }))
+packageNames.forEach((name) => {
+  candidates[name].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
+})
+fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
 
 // save new information about the github repo
 fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
