@@ -7,6 +7,7 @@ import 'dotenv/config';   // load environment variables from .env file
 import githubRepo from '../src/data/github-repo.json' with { type: 'json' };
 import candidates from '../src/data/candidates.json' with { type: 'json' };
 import candidatesFilter from '../src/data/candidates-filter.json' with { type: 'json' };
+import 'colors';
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -120,7 +121,11 @@ for (const packageName of packageNames) {
         if (!repo) {
           repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
           if (repo) {
-            console.log(`${packageName}: fetching repo info for ${url}: ${repo.stargazers_count} stars`)
+            if (!repo.stargazers_count) {
+              console.log(`${packageName}: fetching repo info for ${url}: ${repo.stargazers_count} stars`)
+            } else {
+              console.log(`${packageName}: fetching repo info for ${url}: ${repo.stargazers_count} stars`.green)
+            }
             githubRepo[url] = {
               stargazers_count: repo.stargazers_count,
               updated_at: repo.updated_at,
