@@ -9,6 +9,11 @@ import candidates from '../src/data/candidates.json' with { type: 'json' };
 import candidatesFilter from '../src/data/candidates-filter.json' with { type: 'json' };
 import 'colors';
 
+const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
+const minUpdatedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
+const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
+
+
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -49,6 +54,25 @@ async function getRepo(user, repo) {
   return fetchAndRetry(`https://api.github.com/repos/${user}/${repo}`)
 }
 
+function removeFilteredCandidates() {
+  for (const packageName in candidatesFilter) {
+    if (candidatesFilter[packageName] && candidatesFilter[packageName].length > 0) {
+      candidates[packageName] = candidates[packageName].filter(item => !candidatesFilter[packageName].includes(item.url))
+    }
+  }
+}
+
+function saveCandidates() {
+  removeFilteredCandidates()
+  packageNames.forEach((name) => {
+    candidates[name].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
+  })
+  fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
+}
+
+function saveGithubRepo() {
+  fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
+}
 
 // $ curl -k --location --header 'Authorization: Token ghp_xxx'  --request GET   'https://api.github.com/search/code?q=swiper+and+astro+language:json&page=0'
 async function getCandidates(request, page) {
@@ -63,9 +87,7 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
   process.exit(1)
 }
 
-const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
-const minUpdatedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
-const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
+removeFilteredCandidates()
 
 for (const packageName of packageNames) {
   console.log(`---------- Getting candidates for package ${packageName}...`)
@@ -146,24 +168,16 @@ for (const packageName of packageNames) {
         }
       }
 
-      // save new candidate list
-      candidates[packageName].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
-      fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
-
-      // save new information about the github repo
-      fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
+      // save
+      saveCandidates()
+      saveGithubRepo()
     }
   }
 }
 
-// save new candidate list
-packageNames.forEach((name) => {
-  candidates[name].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
-})
-fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
-
-// save new information about the github repo
-fs.writeFileSync("src/data/github-repo.json", stringify(githubRepo, { space: 2 }))
+// save
+saveCandidates()
+saveGithubRepo()
 
 console.log('DONE')
 process.exit(0)

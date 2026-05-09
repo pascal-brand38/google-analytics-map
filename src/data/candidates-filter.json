@@ -8,6 +8,12 @@
   "swiper": [
     "https://github.com/rustdesk/doc.rustdesk.com",
     "https://github.com/bcms/starters",
-    "https://github.com/MicroWebStacks/astro-examples"
+    "https://github.com/MicroWebStacks/astro-examples",
+    "https://github.com/lin-stephanie/astro-antfustyle-theme",
+    "https://github.com/cssninjaStudio/dokto",
+    "https://github.com/AlchemillaHQ/Sylve",
+    "https://github.com/MicroWebStacks/astro-big-doc",
+    "https://github.com/vasquez-esteban/kreativ-software",
+    "https://github.com/statichunt/geeky-astro"
   ]
 }
