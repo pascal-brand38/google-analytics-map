@@ -6,6 +6,7 @@ import stringify from 'json-stable-stringify';    // uses this stringify to sort
 import 'dotenv/config';   // load environment variables from .env file
 import githubRepo from '../src/data/github-repo.json' with { type: 'json' };
 import candidates from '../src/data/candidates.json' with { type: 'json' };
+import candidatesFilter from '../src/data/candidates-filter.json' with { type: 'json' };
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -83,7 +84,7 @@ for (const packageName of packageNames) {
   ]
 
   for (const request of requests) {
-    for (let page = 0; page < 1; page++) {
+    for (let page = 0; page < 1000; page++) {
       let resultsPackage = undefined
 
       const json = await getCandidates(request.req, page)
@@ -97,12 +98,18 @@ for (const packageName of packageNames) {
       } else {
         resultsPackage = json.items
       }
-      console.log(`page ${page} has ${json.items.length} items`)
+      console.log(`${packageName}: page ${page} has ${json.items.length} items`)
       // console.log(stringify(resultsPackage, { space: 2 }))
       // throw new Error('Stop after the first page for testing')
 
       for (const resultPackage of resultsPackage) {
         const url = `https://github.com/${resultPackage.repository.full_name}`
+
+        // do not add filtered candidates
+        if (candidatesFilter[packageName] && candidatesFilter[packageName].includes(url)) {
+          console.log(`${packageName}: skip filtered candidate ${url}`)
+          continue;
+        }
 
         // do not add duplicates
         if (candidates[packageName].some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
@@ -113,13 +120,13 @@ for (const packageName of packageNames) {
         if (!repo) {
           repo = await getRepo(resultPackage.repository.owner.login, resultPackage.repository.name)
           if (repo) {
-            console.log(`Getting repo info for ${url}: ${repo.stargazers_count} stars`)
+            console.log(`${packageName}: fetching repo info for ${url}: ${repo.stargazers_count} stars`)
             githubRepo[url] = {
               stargazers_count: repo.stargazers_count,
               updated_at: repo.updated_at,
             }
           } else {
-            console.log(`Failed to get repo info for ${url}, skip it.`)
+            console.log(`${packageName}: failed to get repo info for ${url}, skip it.`)
             continue;
           }
         }

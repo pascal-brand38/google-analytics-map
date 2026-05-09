@@ -1,0 +1,13 @@
+{
+  "leaflet": [
+  ],
+  "lightgallery": [
+  ],
+  "splide": [
+  ],
+  "swiper": [
+    "https://github.com/rustdesk/doc.rustdesk.com",
+    "https://github.com/bcms/starters",
+    "https://github.com/MicroWebStacks/astro-examples"
+  ]
+}
