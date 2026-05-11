@@ -57,7 +57,8 @@ async function getRepo(user, repo) {
 function removeFilteredCandidates() {
   for (const packageName in candidatesFilter) {
     if (candidatesFilter[packageName] && candidatesFilter[packageName].length > 0) {
-      candidates[packageName] = candidates[packageName].filter(item => !candidatesFilter[packageName].includes(item.url))
+      candidates[packageName] = candidates[packageName].filter(item =>
+        !candidatesFilter[packageName].includes(item.url) && item.updated_at >= minUpdatedAt && item.stargazers_count >= minStars)
     }
   }
 }
@@ -101,6 +102,7 @@ for (const packageName of packageNames) {
   }
   const requests = [
     { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
+    { req: `${packageName}+astro+react+language:json+size:<5000`, filterName: 'package.json' },
     { req: `script+${packageName}+language:astro`, },
     { req: `${packageName}+language:astro`, },
     ...specificRequests,

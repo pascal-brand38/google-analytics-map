@@ -1,79 +1,9 @@
 {
   "leaflet": [
     {
-      "stargazers_count": 6303,
-      "updated_at": "2026-05-08T13:52:42Z",
-      "url": "https://github.com/evidence-dev/evidence"
-    },
-    {
-      "stargazers_count": 973,
-      "updated_at": "2026-05-08T17:16:07Z",
-      "url": "https://github.com/frank890417/taiwan-md"
-    },
-    {
-      "stargazers_count": 454,
-      "updated_at": "2026-05-08T05:32:02Z",
-      "url": "https://github.com/codergautam/worldguessr"
-    },
-    {
-      "stargazers_count": 442,
-      "updated_at": "2026-05-06T03:00:25Z",
-      "url": "https://github.com/taibeled/JetLagHideAndSeek"
-    },
-    {
-      "stargazers_count": 193,
-      "updated_at": "2026-04-20T20:51:14Z",
-      "url": "https://github.com/hellotham/hello-astro"
-    },
-    {
-      "stargazers_count": 155,
-      "updated_at": "2026-04-16T09:21:07Z",
-      "url": "https://github.com/midudev/lolalolitaland.com"
-    },
-    {
-      "stargazers_count": 154,
-      "updated_at": "2026-05-03T05:33:23Z",
-      "url": "https://github.com/jestsee/jestsee.com"
-    },
-    {
-      "stargazers_count": 124,
-      "updated_at": "2026-04-30T09:29:05Z",
-      "url": "https://github.com/midudev/bigibai-2025"
-    },
-    {
-      "stargazers_count": 115,
-      "updated_at": "2026-05-05T08:54:00Z",
-      "url": "https://github.com/TechForPalestine/website"
-    },
-    {
-      "stargazers_count": 112,
-      "updated_at": "2026-04-22T19:15:12Z",
-      "url": "https://github.com/RealEstateWebTools/property_web_scraper"
-    },
-    {
-      "stargazers_count": 102,
-      "updated_at": "2026-04-30T12:13:48Z",
-      "url": "https://github.com/aitorllj93/astro-loader-obsidian"
-    },
-    {
       "stargazers_count": 91,
       "updated_at": "2026-05-08T15:01:32Z",
       "url": "https://github.com/nf-core/website"
-    },
-    {
-      "stargazers_count": 76,
-      "updated_at": "2026-05-07T01:48:26Z",
-      "url": "https://github.com/colibri-social/colibri.social"
-    },
-    {
-      "stargazers_count": 52,
-      "updated_at": "2026-05-08T07:21:37Z",
-      "url": "https://github.com/dossierhq/dossierhq"
-    },
-    {
-      "stargazers_count": 39,
-      "updated_at": "2026-05-08T10:01:21Z",
-      "url": "https://github.com/arnoldwender/wm-project-astro-components"
     },
     {
       "stargazers_count": 32,
@@ -81,24 +11,9 @@
       "url": "https://github.com/lmammino/loige.co"
     },
     {
-      "stargazers_count": 31,
-      "updated_at": "2026-05-04T11:42:03Z",
-      "url": "https://github.com/roblabs/maps-withastro"
-    },
-    {
-      "stargazers_count": 27,
-      "updated_at": "2026-05-01T01:20:17Z",
-      "url": "https://github.com/musicjunkieg/astro-standard-site"
-    },
-    {
       "stargazers_count": 26,
       "updated_at": "2026-05-08T05:57:44Z",
       "url": "https://github.com/swadhinbiswas/swadhinbiswas"
-    },
-    {
-      "stargazers_count": 25,
-      "updated_at": "2026-05-07T13:18:57Z",
-      "url": "https://github.com/nulfrost/leaflet-loader-astro"
     },
     {
       "stargazers_count": 24,
@@ -107,13 +22,13 @@
     },
     {
       "stargazers_count": 22,
-      "updated_at": "2026-02-15T21:41:46Z",
-      "url": "https://github.com/alexpearce/home"
+      "updated_at": "2026-05-10T14:09:41Z",
+      "url": "https://github.com/airqo-platform/AirQo-frontend"
     },
     {
-      "stargazers_count": 20,
-      "updated_at": "2026-04-17T12:22:57Z",
-      "url": "https://github.com/ATProtocol-Community/atmosphereconf"
+      "stargazers_count": 22,
+      "updated_at": "2026-02-15T21:41:46Z",
+      "url": "https://github.com/alexpearce/home"
     },
     {
       "stargazers_count": 20,
@@ -272,6 +187,16 @@
     },
     {
       "stargazers_count": 6,
+      "updated_at": "2026-05-03T21:07:43Z",
+      "url": "https://github.com/MiguelPuntoEs/gnsscalc"
+    },
+    {
+      "stargazers_count": 6,
+      "updated_at": "2026-04-19T14:43:12Z",
+      "url": "https://github.com/Muslehud77/SwiftRental-Client"
+    },
+    {
+      "stargazers_count": 6,
       "updated_at": "2025-10-29T19:54:38Z",
       "url": "https://github.com/web3foru/grupo-estudio-cloud"
     },
@@ -357,6 +282,11 @@
     },
     {
       "stargazers_count": 4,
+      "updated_at": "2026-04-25T09:57:22Z",
+      "url": "https://github.com/Tuhura-Tech/site"
+    },
+    {
+      "stargazers_count": 4,
       "updated_at": "2025-09-24T09:28:43Z",
       "url": "https://github.com/xKarol/vision-studio"
     },
@@ -394,6 +324,11 @@
       "stargazers_count": 3,
       "updated_at": "2026-04-28T16:28:55Z",
       "url": "https://github.com/Cornell-Tech-Urban-Tech-Hub/BIDspec"
+    },
+    {
+      "stargazers_count": 3,
+      "updated_at": "2026-04-14T01:43:40Z",
+      "url": "https://github.com/cosmoart/jobzilla"
     },
     {
       "stargazers_count": 3,
@@ -437,6 +372,11 @@
     },
     {
       "stargazers_count": 3,
+      "updated_at": "2026-04-14T13:34:14Z",
+      "url": "https://github.com/MicrohamsARC/MicrohamsARC.github.io"
+    },
+    {
+      "stargazers_count": 3,
       "updated_at": "2026-05-07T16:04:22Z",
       "url": "https://github.com/nanjakorewa/GeoGuessrTips"
     },
@@ -474,6 +414,11 @@
       "stargazers_count": 3,
       "updated_at": "2025-06-17T09:00:30Z",
       "url": "https://github.com/shipon-hossen-raju/HireWave-Client"
+    },
+    {
+      "stargazers_count": 3,
+      "updated_at": "2025-12-18T17:21:58Z",
+      "url": "https://github.com/simon04/zamg-explorer"
     },
     {
       "stargazers_count": 3,
@@ -527,8 +472,18 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2025-08-28T03:13:05Z",
+      "url": "https://github.com/AtaUlMohsin900/Admin_panel"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-05-05T02:12:29Z",
       "url": "https://github.com/backontrackus/website"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-05-04T14:01:20Z",
+      "url": "https://github.com/blaudden/mtbo-sajten"
     },
     {
       "stargazers_count": 2,
@@ -562,6 +517,11 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2026-05-05T03:54:16Z",
+      "url": "https://github.com/deathemperor/pensieve"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-04-08T09:34:57Z",
       "url": "https://github.com/desertthunder/website"
     },
@@ -579,6 +539,11 @@
       "stargazers_count": 2,
       "updated_at": "2026-04-08T13:52:29Z",
       "url": "https://github.com/easylogic/contenteditable"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2025-11-27T12:35:39Z",
+      "url": "https://github.com/emery-bughunter/medliink"
     },
     {
       "stargazers_count": 2,
@@ -672,6 +637,11 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2025-08-11T21:36:01Z",
+      "url": "https://github.com/Smalandaren/Naturguiden"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-05-04T14:45:12Z",
       "url": "https://github.com/valerionarcisi/valerio-blog"
     },
@@ -699,6 +669,16 @@
       "stargazers_count": 1,
       "updated_at": "2026-05-08T07:59:55Z",
       "url": "https://github.com/508-dev/favorite-places"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-06-06T00:27:56Z",
+      "url": "https://github.com/954cabrera/usrad-r"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-12-06T19:13:30Z",
+      "url": "https://github.com/Aaron408/tourist_app_arroyo_seco"
     },
     {
       "stargazers_count": 1,
@@ -772,6 +752,21 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-04-15T18:44:57Z",
+      "url": "https://github.com/amirabaskanov/amirabaskanov.com"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-02-04T03:03:09Z",
+      "url": "https://github.com/AndrewLHellman/wheretostargaze"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-04-29T00:55:05Z",
+      "url": "https://github.com/Angstromico/new-isa"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-02-11T14:50:57Z",
       "url": "https://github.com/AnonChatX/anonchatx.github.io"
     },
@@ -807,6 +802,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-01-04T16:41:24Z",
+      "url": "https://github.com/bangyuwen/byw-mit"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-05-08T09:09:41Z",
       "url": "https://github.com/bears-space/bears-space.github.io"
     },
@@ -814,6 +814,16 @@
       "stargazers_count": 1,
       "updated_at": "2025-08-08T19:32:28Z",
       "url": "https://github.com/beginningofdays/inspirado-marketing"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-05-07T05:43:39Z",
+      "url": "https://github.com/BrayanVR31/nuestra-sra-guadalupe-public-website"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-04-30T23:19:11Z",
+      "url": "https://github.com/Buga-Software/rifasvelez-web"
     },
     {
       "stargazers_count": 1,
@@ -897,6 +907,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-10-15T20:16:38Z",
+      "url": "https://github.com/doriandarren/splytin.com"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-01-18T21:59:20Z",
       "url": "https://github.com/doxa-tech/bullenetwork-constellation"
     },
@@ -967,6 +982,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-10-17T14:09:29Z",
+      "url": "https://github.com/GLOBAL-PALO-IT/th_PALO-LLM-openai-realtime-console"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-05-06T15:50:58Z",
       "url": "https://github.com/gosimfoundation/paris2026"
     },
@@ -994,6 +1014,11 @@
       "stargazers_count": 1,
       "updated_at": "2026-05-08T16:56:10Z",
       "url": "https://github.com/hrcosigntheta/travelblog-website-template"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-06-17T15:39:54Z",
+      "url": "https://github.com/ignaciodiazjimenez/FrontTfgGeolocalizer"
     },
     {
       "stargazers_count": 1,
@@ -1102,6 +1127,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-02-19T14:45:36Z",
+      "url": "https://github.com/Kraboobee/hello-astro"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-04-17T09:01:41Z",
       "url": "https://github.com/kryptonum-dev/fabryka-atrakcji"
     },
@@ -1132,6 +1162,16 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-03-27T22:54:11Z",
+      "url": "https://github.com/m4cd4r4/cosmos-collective-v2"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-12-08T18:15:47Z",
+      "url": "https://github.com/MaFalana/HWC-POINT-CLOUD-VIEWER"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-11-21T20:29:11Z",
       "url": "https://github.com/MartinXCVI/bakery"
     },
@@ -1144,6 +1184,16 @@
       "stargazers_count": 1,
       "updated_at": "2026-05-07T22:04:24Z",
       "url": "https://github.com/mateo-khalil/sumate-ya"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-11-29T07:59:03Z",
+      "url": "https://github.com/matplat/buddyfinder"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-02-08T19:31:42Z",
+      "url": "https://github.com/mdshahariarhafizofficial/Sports-Club-Management-System"
     },
     {
       "stargazers_count": 1,
@@ -1187,6 +1237,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-09-27T11:31:21Z",
+      "url": "https://github.com/ngirot/Moon-Sight"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-10-11T12:23:41Z",
       "url": "https://github.com/nhutkimlong/astro-site"
     },
@@ -1224,6 +1279,16 @@
       "stargazers_count": 1,
       "updated_at": "2025-09-10T22:27:34Z",
       "url": "https://github.com/phongtn/vietnamadventure"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-01-27T19:03:24Z",
+      "url": "https://github.com/Pranav77722/aditya_akolkar"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-11-14T15:28:10Z",
+      "url": "https://github.com/PritamBiswas489/TRAVEL_MAIN_ADMIN"
     },
     {
       "stargazers_count": 1,
@@ -1267,6 +1332,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-05-10T12:23:01Z",
+      "url": "https://github.com/starman011/flightspace"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-03-22T20:20:41Z",
       "url": "https://github.com/stepstev/oceanphenix.fr"
     },
@@ -1307,6 +1377,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-05-08T11:52:26Z",
+      "url": "https://github.com/tiagohm/nebulosa.app"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-03-28T13:38:25Z",
       "url": "https://github.com/tobiasthorin/lajvstart"
     },
@@ -1319,6 +1394,11 @@
       "stargazers_count": 1,
       "updated_at": "2026-04-27T03:06:29Z",
       "url": "https://github.com/trannhukhoinguyen/ancient-tosuthien.vercel.app"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-04-17T02:58:50Z",
+      "url": "https://github.com/tylerhartless/fishing-directory"
     },
     {
       "stargazers_count": 1,
@@ -1509,11 +1589,6 @@
     }
   ],
   "splide": [
-    {
-      "stargazers_count": 228,
-      "updated_at": "2026-04-05T19:33:27Z",
-      "url": "https://github.com/MicroWebStacks/astro-examples"
-    },
     {
       "stargazers_count": 185,
       "updated_at": "2026-05-07T21:19:50Z",
@@ -1857,44 +1932,34 @@
   ],
   "swiper": [
     {
+      "stargazers_count": 227,
+      "updated_at": "2026-05-06T07:20:58Z",
+      "url": "https://github.com/themefisher/pinwheel-astro"
+    },
+    {
       "stargazers_count": 156,
       "updated_at": "2026-05-07T14:25:42Z",
       "url": "https://github.com/akash-network/website"
     },
     {
-      "stargazers_count": 130,
-      "updated_at": "2026-04-24T00:46:09Z",
-      "url": "https://github.com/pixeleye-io/pixeleye"
+      "stargazers_count": 72,
+      "updated_at": "2026-05-09T05:58:48Z",
+      "url": "https://github.com/unitaryfoundation/unitary.foundation"
     },
     {
-      "stargazers_count": 74,
-      "updated_at": "2026-05-04T08:43:05Z",
-      "url": "https://github.com/blackspike/blackspike-astro-landing-page"
+      "stargazers_count": 54,
+      "updated_at": "2026-05-02T12:38:16Z",
+      "url": "https://github.com/maplezzzzzz/MapleBlog"
     },
     {
-      "stargazers_count": 68,
-      "updated_at": "2026-05-02T11:37:12Z",
-      "url": "https://github.com/sofiyevsr/mobile-app-landing-template"
-    },
-    {
-      "stargazers_count": 33,
-      "updated_at": "2026-03-03T17:06:49Z",
-      "url": "https://github.com/nodejs-design-patterns-book/nodejsdesignpatterns.com"
-    },
-    {
-      "stargazers_count": 32,
-      "updated_at": "2026-03-31T21:26:34Z",
-      "url": "https://github.com/green-dalii/diflowy"
+      "stargazers_count": 43,
+      "updated_at": "2026-04-28T15:07:45Z",
+      "url": "https://github.com/wpinfusion/AstroPie"
     },
     {
       "stargazers_count": 30,
-      "updated_at": "2026-05-07T21:12:49Z",
-      "url": "https://github.com/AstroImageJ/astroimagej"
-    },
-    {
-      "stargazers_count": 29,
-      "updated_at": "2026-05-01T09:48:16Z",
-      "url": "https://github.com/iswilljr/wovie"
+      "updated_at": "2026-03-08T02:56:18Z",
+      "url": "https://github.com/kas-catholic/confessit-web"
     },
     {
       "stargazers_count": 26,
@@ -1917,6 +1982,11 @@
       "url": "https://github.com/oxygenna-themes/mizu-light-astro-theme"
     },
     {
+      "stargazers_count": 20,
+      "updated_at": "2026-05-01T22:43:49Z",
+      "url": "https://github.com/PaiJi/NetNewsWire-themes-collection"
+    },
+    {
       "stargazers_count": 19,
       "updated_at": "2025-10-16T19:39:20Z",
       "url": "https://github.com/itmowang/sxq-astro"
@@ -1933,8 +2003,23 @@
     },
     {
       "stargazers_count": 16,
+      "updated_at": "2025-10-06T09:20:57Z",
+      "url": "https://github.com/sugarcane-ai/sugarcane-ai.github.io"
+    },
+    {
+      "stargazers_count": 16,
       "updated_at": "2025-08-25T17:11:34Z",
       "url": "https://github.com/tcet-opensource/tnp-website"
+    },
+    {
+      "stargazers_count": 15,
+      "updated_at": "2025-11-23T03:29:19Z",
+      "url": "https://github.com/IEEE-ESTl/IEEE-ESTl-Student-Web-Hub"
+    },
+    {
+      "stargazers_count": 15,
+      "updated_at": "2026-05-07T16:28:54Z",
+      "url": "https://github.com/themefisher/automark-astro"
     },
     {
       "stargazers_count": 14,
@@ -1942,24 +2027,14 @@
       "url": "https://github.com/Lautaro-R-collins/E-commer-Astro"
     },
     {
-      "stargazers_count": 13,
-      "updated_at": "2026-04-30T20:32:21Z",
-      "url": "https://github.com/airalab/robonomics.network"
-    },
-    {
-      "stargazers_count": 13,
-      "updated_at": "2026-04-23T04:36:54Z",
-      "url": "https://github.com/statichunt/hydrogen-astro"
-    },
-    {
-      "stargazers_count": 12,
-      "updated_at": "2026-05-06T13:58:35Z",
-      "url": "https://github.com/minmatarfleet/minmatar.org"
-    },
-    {
       "stargazers_count": 12,
       "updated_at": "2026-03-09T06:06:44Z",
       "url": "https://github.com/prodkt/app"
+    },
+    {
+      "stargazers_count": 12,
+      "updated_at": "2025-12-13T23:10:58Z",
+      "url": "https://github.com/rosnovsky/rosnovsky.us"
     },
     {
       "stargazers_count": 11,
@@ -2058,6 +2133,11 @@
     },
     {
       "stargazers_count": 6,
+      "updated_at": "2025-11-03T13:58:11Z",
+      "url": "https://github.com/LadyKerr/advocatehub"
+    },
+    {
+      "stargazers_count": 6,
       "updated_at": "2026-04-17T23:36:24Z",
       "url": "https://github.com/naighes/scoutforall"
     },
@@ -2128,6 +2208,11 @@
     },
     {
       "stargazers_count": 4,
+      "updated_at": "2025-06-12T10:00:34Z",
+      "url": "https://github.com/gdgoc-mmarau1/Mmarau-tech-website"
+    },
+    {
+      "stargazers_count": 4,
       "updated_at": "2026-05-07T22:35:34Z",
       "url": "https://github.com/gxjansen/gxjansen.github.io"
     },
@@ -2140,6 +2225,11 @@
       "stargazers_count": 4,
       "updated_at": "2026-03-13T03:54:30Z",
       "url": "https://github.com/LeapingZ/pinwheel-astro"
+    },
+    {
+      "stargazers_count": 4,
+      "updated_at": "2026-02-21T19:24:42Z",
+      "url": "https://github.com/mbozhik/audit"
     },
     {
       "stargazers_count": 4,
@@ -2198,6 +2288,11 @@
     },
     {
       "stargazers_count": 3,
+      "updated_at": "2025-07-09T15:18:15Z",
+      "url": "https://github.com/dashtail-admin/dashtail-nextjs-free"
+    },
+    {
+      "stargazers_count": 3,
       "updated_at": "2026-03-21T17:09:29Z",
       "url": "https://github.com/denver-space/website"
     },
@@ -2220,6 +2315,11 @@
       "stargazers_count": 3,
       "updated_at": "2026-04-24T04:19:10Z",
       "url": "https://github.com/kaerozhi/minimalstudio"
+    },
+    {
+      "stargazers_count": 3,
+      "updated_at": "2026-04-27T05:16:55Z",
+      "url": "https://github.com/LadyKerr/devwins"
     },
     {
       "stargazers_count": 3,
@@ -2248,6 +2348,11 @@
     },
     {
       "stargazers_count": 3,
+      "updated_at": "2025-05-30T06:23:39Z",
+      "url": "https://github.com/nhnasim333/bistro-boss-client"
+    },
+    {
+      "stargazers_count": 3,
       "updated_at": "2026-04-04T15:19:13Z",
       "url": "https://github.com/papuaopensource/kastaumuzik"
     },
@@ -2273,6 +2378,11 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2025-07-29T04:20:39Z",
+      "url": "https://github.com/0jaaack/blog"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-03-03T00:43:38Z",
       "url": "https://github.com/7R0N1X/evolve"
     },
@@ -2280,6 +2390,11 @@
       "stargazers_count": 2,
       "updated_at": "2026-03-10T23:21:49Z",
       "url": "https://github.com/abakus-ntnu/abakusrevyen"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-01-14T18:37:47Z",
+      "url": "https://github.com/AbirhossenCSE/Employee-Management-Client"
     },
     {
       "stargazers_count": 2,
@@ -2298,8 +2413,23 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2026-04-03T14:52:58Z",
+      "url": "https://github.com/Aquitano/Aquitano.github.io"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-03-20T10:51:58Z",
       "url": "https://github.com/avasdao/avasdao.org"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-02-19T16:23:00Z",
+      "url": "https://github.com/biznagafest/web-2025"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2025-06-15T07:16:49Z",
+      "url": "https://github.com/bombergio/michelin"
     },
     {
       "stargazers_count": 2,
@@ -2315,6 +2445,11 @@
       "stargazers_count": 2,
       "updated_at": "2025-08-06T17:09:56Z",
       "url": "https://github.com/emon50666/Electro-Mart"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-02-20T06:43:55Z",
+      "url": "https://github.com/foxseedlab/vkemonight-lp"
     },
     {
       "stargazers_count": 2,
@@ -2348,8 +2483,18 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2026-03-22T19:07:42Z",
+      "url": "https://github.com/isnaroa/hero-slider-swiperjs"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-02-24T02:52:49Z",
       "url": "https://github.com/JeremieAlcaraz/j12zdotcom"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2025-11-23T21:17:14Z",
+      "url": "https://github.com/Joadevy/swiperify"
     },
     {
       "stargazers_count": 2,
@@ -2363,6 +2508,11 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2026-05-09T08:09:34Z",
+      "url": "https://github.com/kobekapoor/Nudge-The-Web"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2025-08-26T05:45:59Z",
       "url": "https://github.com/Luxho31/Depoeventos-React"
     },
@@ -2370,6 +2520,11 @@
       "stargazers_count": 2,
       "updated_at": "2026-04-22T13:30:47Z",
       "url": "https://github.com/maximoospital/ubaestatus"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2025-02-04T18:42:37Z",
+      "url": "https://github.com/meryboth/porfolioid"
     },
     {
       "stargazers_count": 2,
@@ -2385,6 +2540,11 @@
       "stargazers_count": 2,
       "updated_at": "2026-04-28T08:06:07Z",
       "url": "https://github.com/mslxl/mslxl.github.io"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2025-01-06T07:34:10Z",
+      "url": "https://github.com/Natabagass/portofolio-astro"
     },
     {
       "stargazers_count": 2,
@@ -2408,6 +2568,16 @@
     },
     {
       "stargazers_count": 2,
+      "updated_at": "2025-06-15T04:37:21Z",
+      "url": "https://github.com/sanzserif/whiskrs-digital-portfolio"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-05-06T02:04:56Z",
+      "url": "https://github.com/SeattleFoundations/seattlefoundations.org"
+    },
+    {
+      "stargazers_count": 2,
       "updated_at": "2026-04-13T15:22:58Z",
       "url": "https://github.com/sidetoolco/org-charts"
     },
@@ -2425,6 +2595,11 @@
       "stargazers_count": 2,
       "updated_at": "2026-01-19T06:37:43Z",
       "url": "https://github.com/sunyzhi55/sunyzhi55.github.io"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-05-06T21:50:01Z",
+      "url": "https://github.com/TEDxCuneo/TEDxCuneo"
     },
     {
       "stargazers_count": 2,
@@ -2450,6 +2625,16 @@
       "stargazers_count": 2,
       "updated_at": "2025-09-25T20:08:45Z",
       "url": "https://github.com/Youness-Ailal/Kitilab"
+    },
+    {
+      "stargazers_count": 2,
+      "updated_at": "2026-02-24T17:42:11Z",
+      "url": "https://github.com/zulfikriyahya/mtsn1pandeglang"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-04-19T09:06:16Z",
+      "url": "https://github.com/aayman01/UrbanDrive-Client"
     },
     {
       "stargazers_count": 1,
@@ -2513,6 +2698,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-05-07T18:54:39Z",
+      "url": "https://github.com/AndreDev385/bruschi-rentals"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-02-15T15:52:09Z",
       "url": "https://github.com/andresRivera123/chef-armando-rivera"
     },
@@ -2570,6 +2760,11 @@
       "stargazers_count": 1,
       "updated_at": "2025-09-30T20:46:37Z",
       "url": "https://github.com/berkleeonline/berklee-open"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-02-19T15:57:55Z",
+      "url": "https://github.com/biznaga-fest/web"
     },
     {
       "stargazers_count": 1,
@@ -2648,6 +2843,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2026-03-31T08:58:01Z",
+      "url": "https://github.com/Digital-Back-Office/website"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-06-11T07:36:04Z",
       "url": "https://github.com/Donadev1/HSC-LANDING"
     },
@@ -2693,6 +2893,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-12-04T06:57:08Z",
+      "url": "https://github.com/fikalalif/tpg_website"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-03-16T19:03:05Z",
       "url": "https://github.com/fortuneiyoha/Manage"
     },
@@ -2720,6 +2925,11 @@
       "stargazers_count": 1,
       "updated_at": "2026-05-07T14:54:51Z",
       "url": "https://github.com/golumin2025/eli-containers"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-03-22T15:35:18Z",
+      "url": "https://github.com/hasanredoy/Poultry_Hub_Web_Application"
     },
     {
       "stargazers_count": 1,
@@ -2805,6 +3015,11 @@
       "stargazers_count": 1,
       "updated_at": "2025-01-13T05:56:32Z",
       "url": "https://github.com/jsontype/assets"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-02-07T19:43:02Z",
+      "url": "https://github.com/judaicadh/kaplan"
     },
     {
       "stargazers_count": 1,
@@ -2913,6 +3128,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-08-20T05:17:27Z",
+      "url": "https://github.com/MTS-Services/asalmiah_nextjs_fixing"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2026-03-21T02:27:42Z",
       "url": "https://github.com/munusshih/munusshih.com"
     },
@@ -2955,6 +3175,21 @@
       "stargazers_count": 1,
       "updated_at": "2026-04-25T15:48:48Z",
       "url": "https://github.com/nono-k/hypb-blog"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-05-23T05:09:07Z",
+      "url": "https://github.com/nurullah91/meeting-spot-frontend"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-10-05T17:39:55Z",
+      "url": "https://github.com/opar2043/Gold_E-Commerce_Web"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2025-10-11T17:27:23Z",
+      "url": "https://github.com/opar2043/odemy-client"
     },
     {
       "stargazers_count": 1,
@@ -3003,6 +3238,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-10-03T08:41:17Z",
+      "url": "https://github.com/RaiderMr3003/Cinerama"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-10-02T07:45:03Z",
       "url": "https://github.com/Raul-Gon/test"
     },
@@ -3015,6 +3255,11 @@
       "stargazers_count": 1,
       "updated_at": "2026-04-05T21:40:46Z",
       "url": "https://github.com/romulopalacios/aniversario"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-03-13T19:49:49Z",
+      "url": "https://github.com/Root-Expo-ry/rootexpo-website"
     },
     {
       "stargazers_count": 1,
@@ -3158,6 +3403,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-05-25T00:07:20Z",
+      "url": "https://github.com/toastielab-mirror/Dragonschild"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-11-16T19:40:21Z",
       "url": "https://github.com/topdev1228/SacredProfit"
     },
@@ -3188,6 +3438,11 @@
     },
     {
       "stargazers_count": 1,
+      "updated_at": "2025-05-12T02:34:14Z",
+      "url": "https://github.com/vhorvath2010/old-personal-site.github.io"
+    },
+    {
+      "stargazers_count": 1,
       "updated_at": "2025-08-06T13:40:55Z",
       "url": "https://github.com/virtual-labs/app-vlead-web"
     },
@@ -3200,6 +3455,11 @@
       "stargazers_count": 1,
       "updated_at": "2026-02-25T19:34:53Z",
       "url": "https://github.com/webnucleus6/Shopery-E-commerce-"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-04-30T14:54:55Z",
+      "url": "https://github.com/webvs2/astroplate"
     },
     {
       "stargazers_count": 1,
@@ -3220,6 +3480,11 @@
       "stargazers_count": 1,
       "updated_at": "2025-04-01T21:35:22Z",
       "url": "https://github.com/yuriyward/kko"
+    },
+    {
+      "stargazers_count": 1,
+      "updated_at": "2026-04-28T15:08:51Z",
+      "url": "https://github.com/yuwei-wu/tc-on-aerial-robotics"
     },
     {
       "stargazers_count": 1,

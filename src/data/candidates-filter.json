@@ -1,11 +1,36 @@
 {
   "leaflet": [
+    "https://github.com/evidence-dev/evidence",
+    "https://github.com/frank890417/taiwan-md",
+    "https://github.com/codergautam/worldguessr",
+    "https://github.com/hellotham/hello-astro",
+    "https://github.com/taibeled/JetLagHideAndSeek",
+    "https://github.com/midudev/lolalolitaland.com",
+    "https://github.com/jestsee/jestsee.com",
+    "https://github.com/midudev/bigibai-2025",
+    "https://github.com/TechForPalestine/website",
+    "https://github.com/RealEstateWebTools/property_web_scraper",
+    "https://github.com/aitorllj93/astro-loader-obsidian",
+    "https://github.com/colibri-social/colibri.social",
+    "https://github.com/dossierhq/dossierhq",
+    "https://github.com/arnoldwender/wm-project-astro-components",
+    "https://github.com/musicjunkieg/astro-standard-site",
+    "https://github.com/nulfrost/leaflet-loader-astro",
+    "https://github.com/ATProtocol-Community/atmosphereconf",
+    "https://github.com/takram-design-engineering/three-geospatial",
+    "https://github.com/hyperknot/openfreemap",
+    "https://github.com/roblabs/maps-withastro",
+    "https://github.com/themefisher/pinwheel-astro"
   ],
   "lightgallery": [
   ],
   "splide": [
+    "https://github.com/MicroWebStacks/astro-examples"
   ],
   "swiper": [
+    "https://github.com/zeon-studio/astroplate",
+    "https://github.com/hellotham/hello-astro",
+    "https://github.com/getastrothemes/folex-lite-astro",
     "https://github.com/rustdesk/doc.rustdesk.com",
     "https://github.com/bcms/starters",
     "https://github.com/MicroWebStacks/astro-examples",
@@ -14,6 +39,17 @@
     "https://github.com/AlchemillaHQ/Sylve",
     "https://github.com/MicroWebStacks/astro-big-doc",
     "https://github.com/vasquez-esteban/kreativ-software",
-    "https://github.com/statichunt/geeky-astro"
+    "https://github.com/statichunt/geeky-astro",
+    "https://github.com/nodejs-design-patterns-book/nodejsdesignpatterns.com",
+    "https://github.com/sofiyevsr/mobile-app-landing-template",
+    "https://github.com/blackspike/blackspike-astro-landing-page",
+    "https://github.com/pixeleye-io/pixeleye",
+    "https://github.com/AstroImageJ/astroimagej",
+    "https://github.com/iswilljr/wovie",
+    "https://github.com/green-dalii/diflowy",
+    "https://github.com/statichunt/hydrogen-astro",
+    "https://github.com/minmatarfleet/minmatar.org",
+    "https://github.com/airalab/robonomics.network",
+    "https://github.com/spicetify/docs"
   ]
 }
