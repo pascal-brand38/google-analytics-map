@@ -143,6 +143,10 @@
     "lat": "38.3436365",
     "lon": "-0.4881708"
   },
+  "Alkmaar, Netherlands": {
+    "lat": "52.6008538",
+    "lon": "4.8170994"
+  },
   "Almada, Portugal": {
     "lat": "38.6831302",
     "lon": "-9.1576301"
@@ -266,6 +270,10 @@
   "Aspen Park, United States": {
     "lat": "39.5442445",
     "lon": "-105.2997498"
+  },
+  "Aspen, United States": {
+    "lat": "39.1911128",
+    "lon": "-106.8235600"
   },
   "Asuncion, Paraguay": {
     "lat": "-25.2800459",
@@ -559,6 +567,10 @@
     "lat": "52.4796992",
     "lon": "-1.9026911"
   },
+  "Blackburn, United Kingdom": {
+    "lat": "53.7493260",
+    "lon": "-2.4840566"
+  },
   "Blackpool, United Kingdom": {
     "lat": "53.8179442",
     "lon": "-3.0509812"
@@ -670,6 +682,10 @@
   "Bridlicna, Czechia": {
     "lat": "49.9116692",
     "lon": "17.3710729"
+  },
+  "Brighton and Hove, United Kingdom": {
+    "lat": "50.8454126",
+    "lon": "-0.1497239"
   },
   "Brisbane, Australia": {
     "lat": "-27.4689623",
@@ -875,6 +891,10 @@
     "lat": "39.3722552",
     "lon": "-104.8586820"
   },
+  "Catalina Foothills, United States": {
+    "lat": "32.3029775",
+    "lon": "-110.8905854"
+  },
   "Cebu City, Philippines": {
     "lat": "10.2934946",
     "lon": "123.9018183"
@@ -959,6 +979,10 @@
     "lat": "42.1026929",
     "lon": "14.4159053"
   },
+  "Chihuahua, Mexico": {
+    "lat": "28.5000001",
+    "lon": "-106.0000001"
+  },
   "Chile": {
     "lat": "-31.7613365",
     "lon": "-71.3187697"
@@ -1018,6 +1042,10 @@
   "City of Santa Rosa, Philippines": {
     "lat": "14.3146042",
     "lon": "121.1137004"
+  },
+  "Ciudad Hidalgo, Mexico": {
+    "lat": "14.6796753",
+    "lon": "-92.1523900"
   },
   "Ciudad Juarez, Mexico": {
     "lat": "31.7372575",
@@ -1130,6 +1158,10 @@
   "Cottonwood Heights, United States": {
     "lat": "40.6134740",
     "lon": "-111.8256464"
+  },
+  "Council Bluffs, United States": {
+    "lat": "41.2588410",
+    "lon": "-95.8519484"
   },
   "Coventry, United Kingdom": {
     "lat": "52.4081812",
@@ -1463,6 +1495,10 @@
     "lat": "15.9500319",
     "lon": "37.9999668"
   },
+  "Esch-sur-Alzette, Luxembourg": {
+    "lat": "49.4959628",
+    "lon": "5.9850306"
+  },
   "Eskilstuna, Sweden": {
     "lat": "59.3717379",
     "lon": "16.5051474"
@@ -1515,6 +1551,10 @@
     "lat": "43.7697955",
     "lon": "11.2556404"
   },
+  "Floresti, Romania": {
+    "lat": "46.2925090",
+    "lon": "23.1490826"
+  },
   "Florianopolis, Brazil": {
     "lat": "-27.5973002",
     "lon": "-48.5496098"
@@ -1562,6 +1602,10 @@
   "Frohnleiten, Austria": {
     "lat": "47.2715315",
     "lon": "15.3260206"
+  },
+  "Fuengirola, Spain": {
+    "lat": "36.5388398",
+    "lon": "-4.6233974"
   },
   "Fukuoka, Japan": {
     "lat": "33.6251241",
@@ -1943,6 +1987,10 @@
     "lat": "51.4790956",
     "lon": "5.6557686"
   },
+  "Helsingborg, Sweden": {
+    "lat": "56.0442098",
+    "lon": "12.7037060"
+  },
   "Helsinki, Finland": {
     "lat": "60.1666204",
     "lon": "24.9435408"
@@ -2055,6 +2103,10 @@
     "lat": "47.1817585",
     "lon": "19.5060937"
   },
+  "Hyde, United Kingdom": {
+    "lat": "53.4508687",
+    "lon": "-2.0782603"
+  },
   "Hyderabad, India": {
     "lat": "17.3605890",
     "lon": "78.4740613"
@@ -2138,6 +2190,10 @@
   "Isfahan, Iran": {
     "lat": "32.6707877",
     "lon": "51.6650002"
+  },
+  "Islamabad, Pakistan": {
+    "lat": "33.6938118",
+    "lon": "73.0651511"
   },
   "Isle of Man": {
     "lat": "54.1936805",
@@ -2839,6 +2895,10 @@
     "lat": "12.1544035",
     "lon": "-86.2737642"
   },
+  "Manaus, Brazil": {
+    "lat": "-3.1316333",
+    "lon": "-59.9825041"
+  },
   "Manchester, United Kingdom": {
     "lat": "53.4794892",
     "lon": "-2.2451148"
@@ -3307,6 +3367,10 @@
     "lat": "9.6000359",
     "lon": "7.9999721"
   },
+  "Nijlen, Belgium": {
+    "lat": "51.1610023",
+    "lon": "4.6702859"
+  },
   "Nijmegen, Netherlands": {
     "lat": "51.8474946",
     "lon": "5.8637771"
@@ -3659,6 +3723,10 @@
     "lat": "39.7561210",
     "lon": "-99.3239850"
   },
+  "Phnom Penh, Cambodia": {
+    "lat": "11.5730391",
+    "lon": "104.8578070"
+  },
   "Phoenix, United States": {
     "lat": "33.4484367",
     "lon": "-112.0741410"
@@ -3971,6 +4039,10 @@
     "lat": "37.2709730",
     "lon": "-79.9414313"
   },
+  "Rock Spring, United States": {
+    "lat": "34.8155945",
+    "lon": "-85.2374641"
+  },
   "Romania": {
     "lat": "45.9852129",
     "lon": "24.6859225"
@@ -3982,6 +4054,10 @@
   "Rondonopolis, Brazil": {
     "lat": "-16.4603533",
     "lon": "-54.6397099"
+  },
+  "Rosemount, United States": {
+    "lat": "44.7391873",
+    "lon": "-93.1261100"
   },
   "Rostov-on-Don, Russia": {
     "lat": "47.2610441",
@@ -4927,6 +5003,10 @@
     "lat": "54.3150278",
     "lon": "48.4033730"
   },
+  "Umka, Serbia": {
+    "lat": "44.6785303",
+    "lon": "20.3050863"
+  },
   "Ungaran, Indonesia": {
     "lat": "-7.1290892",
     "lon": "110.4038912"
@@ -5174,6 +5254,10 @@
   "Werther, Germany": {
     "lat": "51.4739645",
     "lon": "10.7418281"
+  },
+  "West Palm Beach, United States": {
+    "lat": "26.7153640",
+    "lon": "-80.0532942"
   },
   "West Vancouver, Canada": {
     "lat": "49.3311208",
