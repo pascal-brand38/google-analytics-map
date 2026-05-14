@@ -7,6 +7,7 @@ import 'dotenv/config';   // load environment variables from .env file
 import githubRepo from '../src/data/github-repo.json' with { type: 'json' };
 import candidates from '../src/data/candidates.json' with { type: 'json' };
 import candidatesFilter from '../src/data/candidates-filter.json' with { type: 'json' };
+import allFreeThemesUrls from '../src/data/all-free-themes-url.json' with { type: 'json' };
 import 'colors';
 
 const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
@@ -50,6 +51,46 @@ async function fetchAndRetry(url) {
   return null
 }
 
+async function getAllFreeThemesUrl() {
+  console.log('Getting all free themes from Astro portal...')
+  const allThemes = await fetch('https://portal.astro.build/api/themes').then(res => res.json());
+  const allFreeThemes = allThemes.filter(theme => theme.Theme.paid === false);
+  // console.log(stringify(allFreeThemes, { space: 2 }))
+  // fs.writeFileSync("src/data/all-themes.json", stringify(allFreeThemes, { space: 2 }))
+
+  for (const theme of allFreeThemes) {
+    if (allFreeThemesUrls[theme.Theme.slug]) {
+      // already found repo url for this theme, skip it
+      continue;
+    }
+    try {
+      console.log(`Getting repo url for theme ${theme.Theme.slug}...`)
+      const url = await fetch(`https://portal.astro.build/api/themes/details?slug=${theme.Theme.slug}`)
+        .then(res => res.json())
+        .then(res => res.Theme.repoUrl);
+
+      if (!url || !url.startsWith('https://github.com/')) {
+        console.warn(`Unsupported repo url for theme ${theme.Theme.slug}: ${url}`);
+        continue;
+      }
+      // https://raw.githubusercontent.com/web3templates/stablo-astro/refs/heads/main/package.json
+      // https://raw.githubusercontent.com/zeon-studio/astroplate/refs/heads/multilingual/package.json
+      const packageText = await fetch(`${url.replace('github.com', 'raw.githubusercontent.com')}/refs/heads/main/package.json`).then(res => res.ok ? res.text() : '') || '';
+      const includedPackages = packageNames.filter(name => packageText.includes(name));
+      allFreeThemesUrls[theme.Theme.slug] = {
+        url,
+      }
+      if (includedPackages.length > 0) {
+        allFreeThemesUrls[theme.Theme.slug].use = includedPackages
+      }
+    } catch (error) {
+      console.error(`Error occurred while processing theme ${theme.Theme.slug}:`, error);
+    }
+  }
+
+  fs.writeFileSync("src/data/all-free-themes-url.json", stringify(allFreeThemesUrls, { space: 2 }))
+}
+
 async function getRepo(user, repo) {
   return fetchAndRetry(`https://api.github.com/repos/${user}/${repo}`)
 }
@@ -89,6 +130,7 @@ if (!process.env.SECRET_GITHUB_TOKEN || !process.env.SECRET_GOOGLE_ANALYTICS_PRO
 }
 
 removeFilteredCandidates()
+await getAllFreeThemesUrl()
 
 for (const packageName of packageNames) {
   console.log(`---------- Getting candidates for package ${packageName}...`)

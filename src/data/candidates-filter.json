@@ -20,7 +20,9 @@
     "https://github.com/takram-design-engineering/three-geospatial",
     "https://github.com/hyperknot/openfreemap",
     "https://github.com/roblabs/maps-withastro",
-    "https://github.com/themefisher/pinwheel-astro"
+    "https://github.com/themefisher/pinwheel-astro",
+    "https://github.com/unitaryfoundation/unitary.foundation",
+    "https://github.com/nf-core/website"
   ],
   "lightgallery": [
   ],
@@ -28,6 +30,7 @@
     "https://github.com/MicroWebStacks/astro-examples"
   ],
   "swiper": [
+    "https://github.com/TailGrids/play-astro",
     "https://github.com/zeon-studio/astroplate",
     "https://github.com/hellotham/hello-astro",
     "https://github.com/getastrothemes/folex-lite-astro",
@@ -50,6 +53,12 @@
     "https://github.com/statichunt/hydrogen-astro",
     "https://github.com/minmatarfleet/minmatar.org",
     "https://github.com/airalab/robonomics.network",
-    "https://github.com/spicetify/docs"
+    "https://github.com/spicetify/docs",
+    "https://github.com/themefisher/bigspring-light-astro",
+    "https://github.com/TailGrids/play-astro",
+    "https://github.com/themefisher/pinwheel-astro",
+    "https://github.com/themefisher/bigspring-light-astro",
+    "https://github.com/unitaryfoundation/unitary.foundation",
+    "https://github.com/wpinfusion/AstroPie"
   ]
 }
