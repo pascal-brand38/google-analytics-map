@@ -30,11 +30,24 @@ async function fetchAndRetry(url) {
         }
       });
       if (!response.ok) {
-        console.log(`Too many requests for url ${url}, retrying in ${ms/1000} seconds...`)
+        let waitTime = ms;
+        if (response.headers.get('X-RateLimit-Remaining') === '0') {
+          // hit the rate limit, wait for the reset time
+          const resetTime = response.headers.get('X-RateLimit-Reset');
+          waitTime = (new Date(resetTime * 1000) - new Date()) / 1000;
+          if (waitTime <= 0) {
+            waitTime = ms; // if the reset time is in the past, use the default wait time
+          } else {
+            console.log(`Rate limit hit for url ${url}, waiting for ${waitTime} seconds...`);
+            waitTime *= 1000; // convert to milliseconds
+          }
+        }
+
+        console.log(`Too many requests for url ${url}, retrying in ${waitTime/1000} seconds...`)
         console.log(
           `Response status: ${response.status}, statusText: ${response.statusText}, url: ${response.url}, headers: ${JSON.stringify(response.headers)}`
         )
-        await sleep(ms)
+        await sleep(waitTime)
         continue;
       }
 
