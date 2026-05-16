@@ -981,6 +981,9 @@
   "project-board": {
     "url": "https://github.com/withstudiocms/project-board"
   },
+  "projects-portfolio": {
+    "url": "https://github.com/masoudsoleymani/projects-portfolio-template"
+  },
   "pure": {
     "url": "https://github.com/cworld1/astro-theme-pure"
   },

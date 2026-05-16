@@ -11,7 +11,7 @@ import allFreeThemesUrls from '../src/data/all-free-themes-url.json' with { type
 import 'colors';
 
 const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
-const minUpdatedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
+const minPushedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
 const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
 
 
@@ -97,9 +97,9 @@ async function getRepo(user, repo) {
 
 function removeFilteredCandidates() {
   for (const packageName in candidatesFilter) {
-    if (candidatesFilter[packageName] && candidatesFilter[packageName].length > 0) {
+    if (candidatesFilter[packageName] && candidatesFilter[packageName].length > 0 && candidates[packageName] && candidates[packageName].length > 0) {
       candidates[packageName] = candidates[packageName].filter(item =>
-        !candidatesFilter[packageName].includes(item.url) && item.updated_at >= minUpdatedAt && item.stargazers_count >= minStars)
+        !candidatesFilter[packageName].includes(item.url) && item.pushed_at >= minPushedAt && item.stargazers_count >= minStars)
     }
   }
 }
@@ -107,6 +107,9 @@ function removeFilteredCandidates() {
 function saveCandidates() {
   removeFilteredCandidates()
   packageNames.forEach((name) => {
+    if (!candidates[name]) {
+      candidates[name] = []
+    }
     candidates[name].sort((a, b) => (b.stargazers_count - a.stargazers_count) || (a.url.localeCompare(b.url)))
   })
   fs.writeFileSync("src/data/candidates.json", stringify(candidates, { space: 2 }))
@@ -133,6 +136,13 @@ removeFilteredCandidates()
 await getAllFreeThemesUrl()
 
 for (const packageName of packageNames) {
+    if (!candidatesFilter[packageName]) {
+    candidatesFilter[packageName] = []
+  }
+  if (!candidates[packageName]) {
+    candidates[packageName] = []
+  }
+
   console.log(`---------- Getting candidates for package ${packageName}...`)
   let specificRequests = []
   if (packageName === 'swiper') {
@@ -145,6 +155,9 @@ for (const packageName of packageNames) {
   const requests = [
     { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
     { req: `${packageName}+astro+react+language:json+size:<5000`, filterName: 'package.json' },
+    { req: `${packageName}+astro+not+react+language:json+size:<5000`, filterName: 'package.json' },
+    { req: `${packageName}+astro+svelte+language:json+size:<5000`, filterName: 'package.json' },
+    { req: `${packageName}+astro+not+svelte+language:json+size:<5000`, filterName: 'package.json' },
     { req: `script+${packageName}+language:astro`, },
     { req: `${packageName}+language:astro`, },
     ...specificRequests,
@@ -173,13 +186,13 @@ for (const packageName of packageNames) {
         const url = `https://github.com/${resultPackage.repository.full_name}`
 
         // do not add filtered candidates
-        if (candidatesFilter[packageName] && candidatesFilter[packageName].includes(url)) {
+        if (candidatesFilter[packageName].includes(url)) {
           console.log(`${packageName}: skip filtered candidate ${url}`)
           continue;
         }
 
         // do not add duplicates
-        if (candidates[packageName].some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
+        if (candidates[packageName] && candidates[packageName].some(item => item.url === `https://github.com/${resultPackage.repository.full_name}`)) {
           continue;
         }
 
@@ -194,20 +207,23 @@ for (const packageName of packageNames) {
             }
             githubRepo[url] = {
               stargazers_count: repo.stargazers_count,
-              updated_at: repo.updated_at,
+              pushed_at: repo.pushed_at,
             }
           } else {
             console.log(`${packageName}: failed to get repo info for ${url}, skip it.`)
             continue;
           }
+
+          // console.log(repo)
+          // throw new Error('Stop after the first repo for testing')
         }
 
         // add to candidates when recently updated and has at least 1 star, to make sure it is still maintained and popular
-        if (repo.updated_at >= minUpdatedAt && repo.stargazers_count >= minStars) {
+        if (repo.pushed_at >= minPushedAt && repo.stargazers_count >= minStars) {
           candidates[packageName].push({
             url: url,
             stargazers_count: repo.stargazers_count,
-            updated_at: repo.updated_at,
+            pushed_at: repo.pushed_at,
           })
         }
       }
