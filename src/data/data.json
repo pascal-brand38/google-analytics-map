@@ -467,7 +467,7 @@
   "Bath, United States": {
     "lat": "38.1245248",
     "lon": "-83.7249243",
-    "value": 1
+    "value": 2
   },
   "Bathurst, Australia": {
     "lat": "-33.4166378",
@@ -752,7 +752,7 @@
   "Brisbane, Australia": {
     "lat": "-27.4689623",
     "lon": "153.0235009",
-    "value": 7
+    "value": 8
   },
   "Bristol, United Kingdom": {
     "lat": "51.4538022",
@@ -1082,7 +1082,7 @@
   "China": {
     "lat": "35.0000663",
     "lon": "104.9999550",
-    "value": 52
+    "value": 53
   },
   "Chino, United States": {
     "lat": "34.0133561",
@@ -1722,7 +1722,7 @@
   "France": {
     "lat": "46.6033540",
     "lon": "1.8883335",
-    "value": 265
+    "value": 266
   },
   "Frankfurt am Main, Germany": {
     "lat": "50.1106444",
@@ -1917,7 +1917,7 @@
   "Glasgow, United Kingdom": {
     "lat": "55.8611550",
     "lon": "-4.2501687",
-    "value": 1
+    "value": 2
   },
   "Goiana, Brazil": {
     "lat": "-7.5606030",
@@ -2102,7 +2102,7 @@
   "Hamburg, Germany": {
     "lat": "53.5503410",
     "lon": "10.0006540",
-    "value": 3
+    "value": 4
   },
   "Hampton, United States": {
     "lat": "37.0264414",
@@ -2243,6 +2243,11 @@
     "lat": "10.7763897",
     "lon": "106.7011391",
     "value": 15
+  },
+  "Homestead, United States": {
+    "lat": "25.4718946",
+    "lon": "-80.4759905",
+    "value": 1
   },
   "Homiel, Belarus": {
     "lat": "52.4238936",
@@ -3272,7 +3277,7 @@
   "Merida, Mexico": {
     "lat": "20.9670759",
     "lon": "-89.6237402",
-    "value": 7
+    "value": 8
   },
   "Mertoyudan, Indonesia": {
     "lat": "-7.5108329",
@@ -3292,7 +3297,7 @@
   "Mexico": {
     "lat": "23.6585116",
     "lon": "-102.0077097",
-    "value": 2
+    "value": 3
   },
   "Mexico City, Mexico": {
     "lat": "19.3207722",
@@ -3377,7 +3382,7 @@
   "Mogilev, Belarus": {
     "lat": "53.9090245",
     "lon": "30.3429838",
-    "value": 1
+    "value": 2
   },
   "Molina de Segura, Spain": {
     "lat": "38.0572339",
@@ -3632,7 +3637,7 @@
   "New York, United States": {
     "lat": "40.7127281",
     "lon": "-74.0060152",
-    "value": 14
+    "value": 15
   },
   "Newark, United States": {
     "lat": "40.7356570",
@@ -4067,7 +4072,7 @@
   "Phnom Penh, Cambodia": {
     "lat": "11.5730391",
     "lon": "104.8578070",
-    "value": 1
+    "value": 2
   },
   "Phoenix, United States": {
     "lat": "33.4484367",
@@ -4737,7 +4742,7 @@
   "Schaffhausen, Switzerland": {
     "lat": "47.6960491",
     "lon": "8.6345130",
-    "value": 1
+    "value": 2
   },
   "Schemmerhofen, Germany": {
     "lat": "48.1715557",
@@ -4879,6 +4884,11 @@
     "lon": "139.7034472",
     "value": 4
   },
+  "Short Pump, United States": {
+    "lat": "37.6596065",
+    "lon": "-77.6238658",
+    "value": 1
+  },
   "Si Maha Phot, Thailand": {
     "lat": "13.8762297",
     "lon": "101.5341413",
@@ -4902,7 +4912,7 @@
   "Singapore, Singapore": {
     "lat": "1.3571070",
     "lon": "103.8194992",
-    "value": 157
+    "value": 160
   },
   "Singen, Germany": {
     "lat": "47.7617515",
@@ -5057,7 +5067,7 @@
   "Stralsund, Germany": {
     "lat": "54.3096314",
     "lon": "13.0820846",
-    "value": 1
+    "value": 2
   },
   "Strausberg, Germany": {
     "lat": "52.5588942",
@@ -5237,6 +5247,11 @@
   "Tampa, United States": {
     "lat": "27.9477595",
     "lon": "-82.4584440",
+    "value": 1
+  },
+  "Tampere, Finland": {
+    "lat": "61.4977929",
+    "lon": "23.7616372",
     "value": 1
   },
   "Tangail, Bangladesh": {
@@ -5702,7 +5717,7 @@
   "Warsaw, Poland": {
     "lat": "52.2333742",
     "lon": "21.0711489",
-    "value": 23
+    "value": 24
   },
   "Washington, United States": {
     "lat": "38.8950368",

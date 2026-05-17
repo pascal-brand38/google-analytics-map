@@ -1,5 +1,13 @@
 {
   "leaflet": [
+    "https://github.com/rodneylab/astro",
+    "https://github.com/owddm/owddm.github.io",
+    "https://github.com/osmberlin/parkraum.osm-verkehrswende.org",
+    "https://github.com/haetae-bit/fanfic-atproto",
+    "https://github.com/dr-harper/blog",
+    "https://github.com/ArtemioPadilla/watchboard",
+    "https://github.com/Yixuan-Wang/blog",
+    "https://github.com/pascal-brand38/astro-leaflet",
     "https://github.com/evidence-dev/evidence",
     "https://github.com/frank890417/taiwan-md",
     "https://github.com/codergautam/worldguessr",
@@ -40,10 +48,17 @@
   "lightgallery": [
   ],
   "splide": [
+    "https://github.com/educlopez/Polaris",
+    "https://github.com/pascal-brand38/astro-splide",
+    "https://github.com/pascal-brand38/astro-dev",
+    "https://github.com/Osnaider19/Portafolio",
+    "https://github.com/Osnaider19/Portafolio",
     "https://github.com/MicroWebStacks/astro-examples",
-    "https://github.com/yarnpkg/zpm"
+    "https://github.com/yarnpkg/zpm",
+    "https://github.com/Atyantik/flarekit"
   ],
   "swiper": [
+    "https://github.com/UGR-Lan-Party/ulp-website",
     "https://github.com/AzhaanGlitch/arvialo-web",
     "https://github.com/coollabsio/coolify.io",
     "https://github.com/TailGrids/play-astro",

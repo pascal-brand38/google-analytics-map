@@ -2047,6 +2047,10 @@
     "lat": "10.7763897",
     "lon": "106.7011391"
   },
+  "Homestead, United States": {
+    "lat": "25.4718946",
+    "lon": "-80.4759905"
+  },
   "Homiel, Belarus": {
     "lat": "52.4238936",
     "lon": "31.0131698"
@@ -4435,6 +4439,10 @@
     "lat": "35.6938602",
     "lon": "139.7034472"
   },
+  "Short Pump, United States": {
+    "lat": "37.6596065",
+    "lon": "-77.6238658"
+  },
   "Si Maha Phot, Thailand": {
     "lat": "13.8762297",
     "lon": "101.5341413"
@@ -4774,6 +4782,10 @@
   "Tampa, United States": {
     "lat": "27.9477595",
     "lon": "-82.4584440"
+  },
+  "Tampere, Finland": {
+    "lat": "61.4977929",
+    "lon": "23.7616372"
   },
   "Tangail, Bangladesh": {
     "lat": "24.2738513",
