@@ -1,5 +1,7 @@
 {
   "leaflet": [
+    "https://github.com/midudev/la-velada-web-oficial",
+    "https://github.com/habitat-network/habitat",
     "https://github.com/rodneylab/astro",
     "https://github.com/owddm/owddm.github.io",
     "https://github.com/osmberlin/parkraum.osm-verkehrswende.org",
@@ -46,8 +48,10 @@
     "https://github.com/pascal-brand38/astro-dev"
   ],
   "lightgallery": [
+    "https://github.com/fymmot/film-photography-archive"
   ],
   "splide": [
+    "https://github.com/habitat-network/habitat",
     "https://github.com/educlopez/Polaris",
     "https://github.com/pascal-brand38/astro-splide",
     "https://github.com/pascal-brand38/astro-dev",
@@ -58,6 +62,11 @@
     "https://github.com/Atyantik/flarekit"
   ],
   "swiper": [
+    "https://github.com/Athena-OS/athena-docs",
+    "https://github.com/astrogon/astrogon",
+    "https://github.com/dweam-team/world-arcade",
+    "https://github.com/martinmilani/rEFInd-theme-collection",
+    "https://github.com/fairsource/fair.io",
     "https://github.com/UGR-Lan-Party/ulp-website",
     "https://github.com/AzhaanGlitch/arvialo-web",
     "https://github.com/coollabsio/coolify.io",

@@ -127,6 +127,19 @@ async function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
+function saveAll(data, geo, githubUsers, stargazersByDate) {
+  console.log(`Writing src/data/data.json`)
+  fs.writeFileSync("src/data/data.json", stringify(data, { space: 2 }))
+  console.log(`Writing src/data/geo.json`)
+  fs.writeFileSync("src/data/geo.json", stringify(geo, { space: 2 }))
+  console.log(`Writing src/data/github-users.json`)
+  fs.writeFileSync("src/data/github-users.json", JSON.stringify(githubUsers, null, 2))
+  if (stargazersByDate) {
+    console.log(`Writing src/data/stargazers.json`)
+    fs.writeFileSync("src/data/stargazers.json", JSON.stringify(stargazersByDate, null, 2))
+  }
+}
+
 // Runs a simple report.
 async function runReport() {
   const [response] = await analyticsDataClient.runReport({
@@ -206,6 +219,7 @@ async function runReport() {
   }
   console.log(`Writing src/data/visited-countries.json`)
   fs.writeFileSync("src/data/visited-countries.json", stringify(visitedCountries, { space: 2 }))
+  saveAll(data, geo, githubUsers, undefined)
 
   // update countries location
   // const countriesKeys = Object.keys(countries)
@@ -275,15 +289,7 @@ async function runReport() {
   // }))
   // console.log(stargazersByDate)
 
-  console.log(`Writing src/data/data.json`)
-  fs.writeFileSync("src/data/data.json", stringify(data, { space: 2 }))
-  console.log(`Writing src/data/geo.json`)
-  fs.writeFileSync("src/data/geo.json", stringify(geo, { space: 2 }))
-  console.log(`Writing src/data/github-users.json`)
-  fs.writeFileSync("src/data/github-users.json", JSON.stringify(githubUsers, null, 2))
-  console.log(`Writing src/data/stargazers.json`)
-  fs.writeFileSync("src/data/stargazers.json", JSON.stringify(stargazersByDate, null, 2))
-
+  saveAll(data, geo, githubUsers, stargazersByDate)
   console.log('written completed')
 }
 

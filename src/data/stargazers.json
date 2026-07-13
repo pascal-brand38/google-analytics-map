@@ -558,5 +558,60 @@
     "starred_at": "2026-04-21T07:21:45Z",
     "repo": "astro-leaflet",
     "userLogin": "zionfuo"
+  },
+  {
+    "starred_at": "2026-05-22T21:53:27Z",
+    "repo": "astro-lightgallery",
+    "userLogin": "evelynluw"
+  },
+  {
+    "starred_at": "2026-06-01T01:21:30Z",
+    "repo": "astro-dev",
+    "userLogin": "andyluss"
+  },
+  {
+    "starred_at": "2026-06-11T01:25:48Z",
+    "repo": "astro-leaflet",
+    "userLogin": "Holo-cene"
+  },
+  {
+    "starred_at": "2026-06-11T01:26:59Z",
+    "repo": "astro-splide",
+    "userLogin": "Holo-cene"
+  },
+  {
+    "starred_at": "2026-06-11T01:27:32Z",
+    "repo": "astro-build-time-constants",
+    "userLogin": "Holo-cene"
+  },
+  {
+    "starred_at": "2026-06-11T01:28:00Z",
+    "repo": "astro-dev",
+    "userLogin": "Holo-cene"
+  },
+  {
+    "starred_at": "2026-06-12T12:33:45Z",
+    "repo": "astro-swiper",
+    "userLogin": "FujaTyping",
+    "userLocation": "Thailand",
+    "userLocationLatLng": {
+      "lat": "14.8971921",
+      "lon": "100.8327300"
+    }
+  },
+  {
+    "starred_at": "2026-07-02T07:29:06Z",
+    "repo": "astro-swiper",
+    "userLogin": "Taekema"
+  },
+  {
+    "starred_at": "2026-07-05T04:26:15Z",
+    "repo": "astro-swiper",
+    "userLogin": "njacob1001"
+  },
+  {
+    "starred_at": "2026-07-09T13:34:32Z",
+    "repo": "astro-swiper",
+    "userLogin": "Zosei"
   }
 ]

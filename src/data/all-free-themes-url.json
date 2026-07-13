@@ -38,6 +38,9 @@
   "aj": {
     "url": "https://github.com/Anmol-TheDev/potfolio2.0"
   },
+  "alba": {
+    "url": "https://github.com/andreialba/maria"
+  },
   "alexanders-astro-tailwind-daisyui-starter": {
     "url": "https://github.com/aholbreich/astro-tailwind-daisyui-starter"
   },
@@ -55,6 +58,9 @@
   },
   "antfustyle-theme": {
     "url": "https://github.com/lin-stephanie/astro-antfustyle-theme"
+  },
+  "aonote": {
+    "url": "https://github.com/runsli/astro-theme-aonote"
   },
   "apollo": {
     "url": "https://github.com/apostrophecms/apollo"
@@ -131,6 +137,9 @@
   "astro-citrus": {
     "url": "https://github.com/ArtemKutsan/astro-citrus"
   },
+  "astro-cloudflare-starter": {
+    "url": "https://github.com/milzamsz/astro-cloudflare-starter"
+  },
   "astro-component-starter": {
     "url": "https://github.com/CloudCannon/astro-component-starter"
   },
@@ -145,6 +154,9 @@
   },
   "astro-e-commerce": {
     "url": "https://github.com/creativetimofficial/astro-ecommerce"
+  },
+  "astro-emdash-starter": {
+    "url": "https://github.com/milzamsz/astro-emdash-sqlite-r2-starter"
   },
   "astro-erudite": {
     "url": "https://github.com/jktrn/astro-erudite"
@@ -164,6 +176,12 @@
   "astro-full-starter": {
     "url": "https://github.com/cokeposada/astro-full-starter"
   },
+  "astro-haze": {
+    "url": "https://github.com/kpab/astro-haze"
+  },
+  "astro-i18n": {
+    "url": "https://github.com/BracoZS/Astro-i18n"
+  },
   "astro-i18n-starter": {
     "url": "https://github.com/Scorpio3310/astro-i18n-starter"
   },
@@ -172,6 +190,9 @@
   },
   "astro-international-starter": {
     "url": "https://github.com/hdz-Mastery/astro_international_starter"
+  },
+  "astro-keel": {
+    "url": "https://github.com/kpab/astro-keel"
   },
   "astro-login-template": {
     "url": "https://github.com/Zastinian/Astro-Login"
@@ -194,6 +215,9 @@
   "astro-multiverse": {
     "url": "https://github.com/AREA44/astro-multiverse"
   },
+  "astro-narrow": {
+    "url": "https://github.com/tom2almighty/astro-narrow"
+  },
   "astro-neumorphismt": {
     "url": "https://github.com/paabloLC/astro-neumorphismt"
   },
@@ -202,6 +226,9 @@
   },
   "astro-persona-portfolio-blog": {
     "url": "https://github.com/bakate/astro-theme-starter"
+  },
+  "astro-photo-folio": {
+    "url": "https://github.com/XD-QIN/astro-photo-folio.git"
   },
   "astro-photo-grid": {
     "url": "https://github.com/evadecker/astro-photo-grid"
@@ -233,6 +260,9 @@
   "astro-scifi-ui": {
     "url": "https://github.com/jonnysmillie/astro-sci-fi-ui"
   },
+  "astro-services-marketing-sidebar-apex-theme": {
+    "url": "https://github.com/MarcusHoltz/astro-marketing-theme"
+  },
   "astro-shadcn-ui-template": {
     "url": "https://github.com/AREA44/astro-shadcn-ui-template"
   },
@@ -241,6 +271,12 @@
   },
   "astro-shopify-sanity": {
     "url": "https://github.com/jazsouf/astro-shopify-sanity"
+  },
+  "astro-sidey": {
+    "url": "https://github.com/odhyp/astro-sidey"
+  },
+  "astro-sienna": {
+    "url": "https://github.com/AnjayGoel/astro-sienna"
   },
   "astro-simple-portfolio": {
     "url": "https://github.com/saminnet/astro-simple-portfolio"
@@ -407,6 +443,9 @@
   "ataraxia-astro-theme": {
     "url": "https://github.com/inakicalvo/astro-ataraxia-theme"
   },
+  "atelier-k": {
+    "url": "https://github.com/andreialba/atelier-ko"
+  },
   "automark-astro": {
     "url": "https://github.com/themefisher/automark-astro"
   },
@@ -436,6 +475,9 @@
     "use": [
       "swiper"
     ]
+  },
+  "blast-blue-astro-theme": {
+    "url": "https://github.com/cjoyau/blast"
   },
   "blog": {
     "url": "https://github.com/withastro/astro/tree/main/examples/blog"
@@ -485,6 +527,9 @@
   "case-portfolio-theme-for-astro": {
     "url": "https://github.com/erlandv/case"
   },
+  "casper": {
+    "url": "https://github.com/AntonyLeons/casper"
+  },
   "cassidys-blog-template": {
     "url": "https://github.com/cassidoo/blahg"
   },
@@ -511,6 +556,9 @@
   },
   "codefolio": {
     "url": "https://github.com/danielunited/codefolio"
+  },
+  "compass": {
+    "url": "https://github.com/andreialba/compass"
   },
   "conference-website": {
     "url": "https://github.com/bcms/starters/tree/master/astro/conference"
@@ -587,6 +635,9 @@
   "energy-company-template": {
     "url": "https://github.com/vbartalis/energy-template"
   },
+  "entropic": {
+    "url": "https://github.com/CuB3y0nd/entropic"
+  },
   "esquelete-cv": {
     "url": "https://github.com/mmouzo/astro-cv-esquelete"
   },
@@ -635,6 +686,9 @@
   "fuwari": {
     "url": "https://github.com/saicaca/fuwari"
   },
+  "fyrre": {
+    "url": "https://github.com/anastasiiaxfr/fyrre.git"
+  },
   "gate": {
     "url": "https://github.com/sarasate/gate"
   },
@@ -652,6 +706,9 @@
   },
   "haiku-reels": {
     "url": "https://github.com/joackob/haiku-reels-astro"
+  },
+  "healnet": {
+    "url": "https://github.com/anastasiiaxfr/HealNet"
   },
   "hello-astro": {
     "url": "https://github.com/hellotham/hello-astro",
@@ -684,6 +741,9 @@
   "insightfull-ink-blog-website": {
     "url": "https://github.com/bcms/starters/tree/master/astro/blog"
   },
+  "intermediate-astro-decap-cms": {
+    "url": "https://github.com/CodeStitchOfficial/Intermediate-Astro-Decap-CMS"
+  },
   "ion": {
     "url": "https://github.com/louisescher/starlight-ion-theme"
   },
@@ -692,6 +752,9 @@
   },
   "jd-blog-astro": {
     "url": "https://github.com/jonadev-ok/astro-blog-template"
+  },
+  "jetstream": {
+    "url": "https://github.com/CloudCannon/jetstream-astro-template/"
   },
   "kaizen-minimal-portfolio": {
     "url": "https://github.com/bytekai/minimal-astro-portfolio"
@@ -723,11 +786,17 @@
   "linkytree": {
     "url": "https://github.com/gndx/linkytree"
   },
+  "lipi": {
+    "url": "https://github.com/thelocalhoststudio/lipi"
+  },
   "litefolio": {
     "url": "https://github.com/gonzalochale/litefolio"
   },
   "litos": {
     "url": "https://github.com/Dnzzk2/Litos"
+  },
+  "lonetrail": {
+    "url": "https://github.com/ChongxiSama/Lonetrail"
   },
   "low-power-blog": {
     "url": "https://github.com/temaprint/eco"
@@ -752,6 +821,9 @@
   },
   "mainline": {
     "url": "https://github.com/shadcnblocks/mainline-astro-template"
+  },
+  "manduca": {
+    "url": "https://github.com/jomorespi/manduca"
   },
   "marketing-developers-personal-blog": {
     "url": "https://github.com/guihubie/free-astro-template"
@@ -882,6 +954,9 @@
   "naid": {
     "url": "https://github.com/studiolumina/naid"
   },
+  "navfolio": {
+    "url": "https://github.com/dodolalorc/astro-navfolio"
+  },
   "newechoes": {
     "url": "https://github.com/lsy2246/newechoes"
   },
@@ -896,6 +971,12 @@
   },
   "northendlab-light-astro": {
     "url": "https://themefisher.com/products/northendlab-light-astro/?aff=ab"
+  },
+  "nulltrace": {
+    "url": "https://github.com/andreialba/nulltrace"
+  },
+  "ombra": {
+    "url": "https://github.com/andreialba/ombra"
   },
   "one-space-away": {
     "url": "https://github.com/truedaniyyel/one-space-away-html",
@@ -978,11 +1059,23 @@
   "print-friendly-portfolio-cv": {
     "url": "https://github.com/Smilesharks/dev-portfolio"
   },
+  "procleaning": {
+    "url": "https://github.com/anastasiiaxfr/ProCleaning",
+    "use": [
+      "swiper"
+    ]
+  },
   "project-board": {
     "url": "https://github.com/withstudiocms/project-board"
   },
   "projects-portfolio": {
     "url": "https://github.com/masoudsoleymani/projects-portfolio-template"
+  },
+  "pulsar": {
+    "url": "https://github.com/amirdaraee/astro-pulsar"
+  },
+  "pulsar-lite": {
+    "url": "https://github.com/cbetz/pulsar-lite"
   },
   "pure": {
     "url": "https://github.com/cworld1/astro-theme-pure"
@@ -999,6 +1092,9 @@
   "quiet-bar": {
     "url": "https://github.com/larry-xue/quiet-bar"
   },
+  "quietpages": {
+    "url": "https://github.com/andreialba/quietpages"
+  },
   "raccoon-links": {
     "url": "https://github.com/SofiDevO/raccoon-links",
     "use": [
@@ -1011,8 +1107,14 @@
   "retypeset": {
     "url": "https://github.com/radishzzz/astro-theme-retypeset"
   },
+  "ricoui-blog": {
+    "url": "https://github.com/ricocc/public-portfolio-site"
+  },
   "ricoui-portfilio": {
     "url": "https://github.com/ricocc/ricoui-portfolio"
+  },
+  "ricoui-saas-template": {
+    "url": "https://github.com/ricocc/ricoui-saas-template"
   },
   "ryze": {
     "url": "https://github.com/8366888C/Ryze"
@@ -1031,6 +1133,9 @@
   },
   "screwfast": {
     "url": "https://github.com/mearashadowfax/ScrewFast"
+  },
+  "self-esteem": {
+    "url": "https://github.com/m-durana/self-esteem-astro"
   },
   "semantic-docs": {
     "url": "https://github.com/llbbl/semantic-docs"
@@ -1055,6 +1160,9 @@
   },
   "shokax": {
     "url": "https://github.com/theme-shoka-x/astro-blog-shokax"
+  },
+  "sify": {
+    "url": "https://github.com/santisify/astro-theme-sify"
   },
   "simple-blog-codematrix44": {
     "url": "https://github.com/Devsebastian44/DevBlog"
@@ -1103,6 +1211,9 @@
   },
   "spectre": {
     "url": "https://github.com/louisescher/spectre"
+  },
+  "sr-stodio-movie-theme": {
+    "url": "https://github.com/ToggleKit/SR_Stodio"
   },
   "stablo-blog-template": {
     "url": "https://github.com/web3templates/stablo-astro"
@@ -1197,8 +1308,18 @@
   "token-template": {
     "url": "https://github.com/ArnavK-09/token-template"
   },
+  "tone": {
+    "url": "https://github.com/hanityx/astro-tone"
+  },
   "track-shadcn-ui-changelog-landing-page-template-free": {
     "url": "https://github.com/shadcnstudio/shadcn-astro-track-landing-page-free"
+  },
+  "travellian-travel-agency-landing-page": {
+    "url": "https://github.com/galawar/travellian-lp",
+    "use": [
+      "swiper",
+      "splide"
+    ]
   },
   "twilight": {
     "url": "https://github.com/Spr-Aachen/Twilight"
@@ -1268,5 +1389,20 @@
   },
   "zaggonaut": {
     "url": "https://github.com/RATIU5/zaggonaut"
+  },
+  "zahit": {
+    "url": "https://github.com/kuscadev/Zahit"
+  },
+  "zeepay": {
+    "url": "https://github.com/anastasiiaxfr/zeepay",
+    "use": [
+      "swiper"
+    ]
+  },
+  "zen": {
+    "url": "https://github.com/Secd0g/zen"
+  },
+  "zenix": {
+    "url": "https://github.com/farrosfr/zenix"
   }
 }
