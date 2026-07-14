@@ -290,6 +290,9 @@
   "astro-starter-blog": {
     "url": "https://github.com/wanoo21/tailwind-astro-starting-blog"
   },
+  "astro-starter-portfolio": {
+    "url": "https://github.com/BracoZS/astro-starter-portfolio"
+  },
   "astro-starter-pro": {
     "url": "https://github.com/devgelo-labs/astro-starter-pro"
   },
@@ -517,6 +520,9 @@
   },
   "buildmart-building-materials-e-commerce-theme": {
     "url": "https://github.com/helmibamualim/Kantong-Aplikasi-Tema-Astro-Js"
+  },
+  "capsulex": {
+    "url": "https://github.com/wangjacks/capsule-x"
   },
   "career-portfolio-data-driven-astro-ssg": {
     "url": "https://github.com/nbakh16/career-portfolio-template"
@@ -1341,6 +1347,9 @@
   },
   "vanguard-zen-military-security-template": {
     "url": "https://github.com/Zyrexnn/tempalate-militarywebsite"
+  },
+  "veka": {
+    "url": "https://github.com/masmuss/veka"
   },
   "velocity": {
     "url": "https://github.com/southwellmedia-dev/velocity"
