@@ -1,5 +1,10 @@
 {
   "leaflet": [
+    "https://github.com/GenSpectrum/dashboards",
+    "https://github.com/dmquant/vibe",
+    "https://github.com/AnnaBurd/web-real-estate",
+    "https://github.com/michiganrobotics/robotics-website",
+    "https://github.com/Orange-OpenSource/Orange-Boosted-Bootstrap",
     "https://github.com/midudev/la-velada-web-oficial",
     "https://github.com/habitat-network/habitat",
     "https://github.com/rodneylab/astro",
@@ -48,7 +53,8 @@
     "https://github.com/pascal-brand38/astro-dev"
   ],
   "lightgallery": [
-    "https://github.com/fymmot/film-photography-archive"
+    "https://github.com/fymmot/film-photography-archive",
+    "https://github.com/pascal-brand38/astro-lightGallery"
   ],
   "splide": [
     "https://github.com/habitat-network/habitat",
@@ -56,12 +62,23 @@
     "https://github.com/pascal-brand38/astro-splide",
     "https://github.com/pascal-brand38/astro-dev",
     "https://github.com/Osnaider19/Portafolio",
-    "https://github.com/Osnaider19/Portafolio",
     "https://github.com/MicroWebStacks/astro-examples",
     "https://github.com/yarnpkg/zpm",
     "https://github.com/Atyantik/flarekit"
   ],
   "swiper": [
+    "https://github.com/openlid/openlid",
+    "https://github.com/hummingbirdui/hummingbird",
+    "https://github.com/music-assistant/music-assistant.io",
+    "https://github.com/getplumber/getplumber.io",
+    "https://github.com/PaiJi/NetNewsWire-themes-collection",
+    "https://github.com/yousef-yaghoubi/tarkhineh",
+    "https://github.com/IEEE-ESTl/IEEE-ESTl-Student-Web-Hub",
+    "https://github.com/SanityGoneAK/sanity-gone",
+    "https://github.com/themefisher/automark-astro",
+    "https://github.com/manulthanura/Positivus",
+    "https://github.com/geeksblabla/geeksblabla.community",
+    "https://github.com/wanghaisheng/wanghaisheng.github.io",
     "https://github.com/Athena-OS/athena-docs",
     "https://github.com/astrogon/astrogon",
     "https://github.com/dweam-team/world-arcade",

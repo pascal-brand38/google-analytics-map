@@ -11,7 +11,7 @@ import allFreeThemesUrls from '../src/data/all-free-themes-url.json' with { type
 import 'colors';
 
 const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
-const minPushedAt = '2025-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
+const minPushedAt = '2026-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
 const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
 
 
@@ -159,6 +159,7 @@ for (const packageName of packageNames) {
   console.log(`---------- Getting candidates for package ${packageName}...`)
   let specificRequests = []
   if (packageName === 'swiper') {
+    specificRequests.push({ req: `swiper\\":\ \\"^14+language:astro`, })
     specificRequests.push({ req: `swiper-wrapper+language:astro`, })
     specificRequests.push({ req: `swiper-slide+language:astro`, })
   } else if (packageName === 'leaflet') {
@@ -166,6 +167,7 @@ for (const packageName of packageNames) {
   } else if (packageName === 'splide') {
   }
   const requests = [
+    ...specificRequests,
     { req: `${packageName}+astro+language:json+size:<5000`, filterName: 'package.json' },
     { req: `${packageName}+astro+react+language:json+size:<5000`, filterName: 'package.json' },
     { req: `${packageName}+astro+not+react+language:json+size:<5000`, filterName: 'package.json' },
@@ -173,7 +175,6 @@ for (const packageName of packageNames) {
     { req: `${packageName}+astro+not+svelte+language:json+size:<5000`, filterName: 'package.json' },
     { req: `script+${packageName}+language:astro`, },
     { req: `${packageName}+language:astro`, },
-    ...specificRequests,
   ]
 
   for (const request of requests) {

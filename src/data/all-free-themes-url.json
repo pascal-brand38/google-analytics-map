@@ -284,6 +284,9 @@
   "astro-spaceship": {
     "url": "https://github.com/aitorllj93/astro-theme-spaceship"
   },
+  "astro-star-scholar": {
+    "url": "https://github.com/mychiffonn/astro-scholar"
+  },
   "astro-starter": {
     "url": "https://github.com/CloudCannon/astro-minimal-starter"
   },
@@ -521,6 +524,9 @@
   "buildmart-building-materials-e-commerce-theme": {
     "url": "https://github.com/helmibamualim/Kantong-Aplikasi-Tema-Astro-Js"
   },
+  "c00d-astro-directory": {
+    "url": "https://github.com/alekblom/c00d-astro-directory"
+  },
   "capsulex": {
     "url": "https://github.com/wangjacks/capsule-x"
   },
@@ -544,6 +550,9 @@
   },
   "celestialdocs": {
     "url": "https://github.com/HYP3R00T/CelestialDocs"
+  },
+  "chalet": {
+    "url": "https://github.com/M4xKey/astro-chalet"
   },
   "chapterlog": {
     "url": "https://github.com/IMMINJU/astro-theme-chapterlog"
@@ -649,6 +658,9 @@
   },
   "estrocom": {
     "url": "https://github.com/VBproDev/estrocom"
+  },
+  "exquisitus-for-starlight": {
+    "url": "https://github.com/anaxite/starlight-theme-exquisitus"
   },
   "fintechpro": {
     "url": "https://github.com/Devsebastian44/FintechPro"
@@ -765,6 +777,9 @@
   "kaizen-minimal-portfolio": {
     "url": "https://github.com/bytekai/minimal-astro-portfolio"
   },
+  "kepler": {
+    "url": "https://github.com/kpab/astro-kepler"
+  },
   "kiri": {
     "url": "https://github.com/yogeshbhutkar/kiri"
   },
@@ -800,6 +815,9 @@
   },
   "litos": {
     "url": "https://github.com/Dnzzk2/Litos"
+  },
+  "logflow": {
+    "url": "https://github.com/kevynf/logflow-theme"
   },
   "lonetrail": {
     "url": "https://github.com/ChongxiSama/Lonetrail"
@@ -875,6 +893,9 @@
   },
   "minimal-blog": {
     "url": "https://github.com/LekoArts/astro-theme-minimal-blog"
+  },
+  "minimal-by-siteplayai": {
+    "url": "https://github.com/siteplay-ai/minimal"
   },
   "minimal-portfolio-template": {
     "url": "https://github.com/TimWitzdam/astro-minimal-portfolio-template"
@@ -1002,6 +1023,9 @@
   "paperastro": {
     "url": "https://github.com/fabformhub/paperastro"
   },
+  "patrika": {
+    "url": "https://github.com/thelocalhoststudio/patrika"
+  },
   "pawstronaut": {
     "url": "https://github.com/wpinfusion/pawstronaut"
   },
@@ -1107,6 +1131,12 @@
       "swiper"
     ]
   },
+  "recruit": {
+    "url": "https://github.com/anastasiiaxfr/Recruit"
+  },
+  "refined-x": {
+    "url": "https://github.com/tower1229/Refined-X"
+  },
   "reimu": {
     "url": "https://github.com/D-Sketon/astro-theme-reimu"
   },
@@ -1121,6 +1151,9 @@
   },
   "ricoui-saas-template": {
     "url": "https://github.com/ricocc/ricoui-saas-template"
+  },
+  "ricoui-starter": {
+    "url": "https://github.com/ricocc/ricoui-astro-starter/"
   },
   "ryze": {
     "url": "https://github.com/8366888C/Ryze"
@@ -1233,6 +1266,12 @@
   "starcard": {
     "url": "https://github.com/alexandr-studio/starcard"
   },
+  "stardrive": {
+    "url": "https://github.com/Peltmonger/stardrive",
+    "use": [
+      "leaflet"
+    ]
+  },
   "starfolio": {
     "url": "https://github.com/webrating/starfolio"
   },
@@ -1247,6 +1286,9 @@
   },
   "starlight-rapide": {
     "url": "https://github.com/HiDeoo/starlight-theme-rapide"
+  },
+  "starlight-theme-black": {
+    "url": "https://github.com/adrian-ub/starlight-theme-black"
   },
   "starlight-vintage": {
     "url": "https://github.com/HiDeoo/starlight-theme-vintage"
@@ -1296,6 +1338,9 @@
   "techstore-ecommers": {
     "url": "https://github.com/Lautaro-R-collins/E-commer-Astro.git"
   },
+  "terminal-astro": {
+    "url": "https://github.com/faizov/astro-terminal"
+  },
   "the-artham-summit": {
     "url": "https://github.com/RaikarPravin/artham-ai-summit"
   },
@@ -1339,6 +1384,9 @@
   "uinux-blog": {
     "url": "https://github.com/Get-UINUX/uinux-blog"
   },
+  "ulbo": {
+    "url": "https://github.com/xxy1103/ulbo-astro-theme-template"
+  },
   "ultimate-astro-theme-multiframework-heaven": {
     "url": "https://github.com/Marve10s/UltimateAstroTemplate"
   },
@@ -1362,6 +1410,9 @@
   },
   "vitesse-theme-for-astro": {
     "url": "https://github.com/kaivanwong/astro-theme-vitesse"
+  },
+  "viva-medical-healthcare-astro-theme": {
+    "url": "https://github.com/web-stacked/healthcare-astro-theme"
   },
   "void": {
     "url": "https://github.com/JorgeRosbel/void"
