@@ -10,7 +10,7 @@ import candidatesFilter from '../src/data/candidates-filter.json' with { type: '
 import allFreeThemesUrls from '../src/data/all-free-themes-url.json' with { type: 'json' };
 import 'colors';
 
-const packageNames = ['swiper', 'leaflet', 'lightgallery', 'splide']
+const packageNames = ['astro-flag', 'swiper', 'leaflet', 'lightgallery', 'splide']
 const minPushedAt = '2026-01-01'   // only keep repos that are updated after this date, to make sure they are still maintained
 const minStars = 1   // only keep repos that have at least this many stars, to make sure they are popular
 
